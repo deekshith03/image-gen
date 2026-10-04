@@ -1,0 +1,52 @@
+{
+  "item_id": "p30",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"ランニングセール\"",
+      "details": {
+        "transcription": "ランニングセール",
+        "legibility": "clear",
+        "judge_reason": "Text is sharp, bold black font with clear contrast against the light background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Shoe design, color, proportions, and logo match reference; only staging (outdoor scene, props) added.",
+      "details": {
+        "observations": {
+          "shape": "Same low-top silhouette, Flyknit upper, curved sole unit, and ankle collar shape as reference shoe",
+          "colour": "Matches white/grey Flyknit upper with black Swoosh and white Lunarlon midsole",
+          "logo": "Nike Swoosh present on lateral side in correct black color and placement",
+          "label_text": "Nike tongue tag not legible but consistent shape; Japanese ad text 'ランニングセール' is overlay text, not product label, reads clearly",
+          "parts_and_count": "Single shoe shown, consistent with reference single shoe image, no extra or missing parts",
+          "presence": "Actual product shoe is clearly depicted, not just packaging or icon"
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "market_fit: Skyline clearly shows New York (Empire State Building), not Tokyo, directly contradicting the target market setting.; no_cliche: Empire State Building is a forced foreign landmark cue, while Japanese text awkwardly overlays an unrelated US skyline."
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Clear sky, warm golden light, runner in shorts suggest warm weather consistent with Tokyo summer, though no vegetation shown."
+    },
+    "market_fit": {
+      "verdict": "fail",
+      "reason": "Skyline clearly shows New York (Empire State Building), not Tokyo, directly contradicting the target market setting."
+    },
+    "no_cliche": {
+      "verdict": "fail",
+      "reason": "Empire State Building is a forced foreign landmark cue, while Japanese text awkwardly overlays an unrelated US skyline."
+    }
+  },
+  "cost_usd": 0.02436
+}

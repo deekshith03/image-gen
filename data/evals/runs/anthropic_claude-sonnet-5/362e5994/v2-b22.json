@@ -1,0 +1,52 @@
+{
+  "item_id": "v2-b22",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"€79 LIMITED EDITION\"",
+      "details": {
+        "transcription": "€79 LIMITED EDITION",
+        "legibility": "clear",
+        "judge_reason": "Text is sharply rendered, high contrast, and easily readable against the marble background."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Reference shows a bracelet-style charm with threaded core hole; ad depicts it converted into a necklace pendant, altering product identity/form.",
+      "details": {
+        "observations": {
+          "shape": "Same tree-of-life openwork circular motif, consistent design and proportions as reference charm",
+          "colour": "Sterling silver tone matches reference; consistent material appearance",
+          "logo": "No visible logo/brand marking in either image",
+          "label_text": "Price and 'LIMITED EDITION' text added as ad overlay, not on product itself; no garbled text",
+          "parts_and_count": "Product shown as pendant on chain necklace, not a bracelet charm with core hole as in reference",
+          "presence": "Product itself is shown, worn as pendant, not just pictured on packaging"
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Snowy outdoor scene, warm indoor lighting, frosted window view suggest cold winter atmosphere consistent with Vienna winters."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Cozy wood-paneled interior, warm lamps, and snowy European street scene feel plausible for Vienna without contradicting the setting."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No landmarks, flags, or forced national symbols; décor and jewelry focus on mood and product rather than stereotypes."
+    }
+  },
+  "cost_usd": 0.02622
+}

@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b25",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"BEACH BODY SEASON\"",
+      "details": {
+        "transcription": "BEACH BODY SEASON",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp, bold, and fully legible with no distortion or overlapping elements."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product identity, shape, colors, and legible text match reference; only staging (lighting, background, distance) differs, which is permitted.",
+      "details": {
+        "observations": {
+          "presence": "The product container appears in the ad, staged on a ledge with a beach background.",
+          "shape": "Cylindrical tub with black lid matches reference proportions.",
+          "colour": "Black container with dark label, consistent with reference; smaller text details less legible due to distance/lighting.",
+          "logo": "OWN PWR logo visible in white/gray lettering, consistent placement with reference.",
+          "prominent_text": "ELITE SERIES and PRE WORKOUT text visible and legible, matches reference; small stat callouts (300mg, 6g, etc.) appear present but blurred/unreadable at this scale, which is acceptable.",
+          "counts": "reference: one tub with 5 listed ingredient stats (300mg, 6g, 2g, 5g, 100mg) / ad: same tub shown, same number of stat lines visible though blurred.",
+          "parts": "No missing or added components; label layout, lid, and container shape all consistent."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Sunny sky, coastal beach view, and clear weather align with typical Los Angeles summer conditions."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Palm tree, ocean coastline, and hillside match Southern California's geography and culture authentically."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "Palm tree and beach fit naturally as a coastal setting, not forced as a token landmark or prop."
+    }
+  },
+  "cost_usd": 0.02909
+}

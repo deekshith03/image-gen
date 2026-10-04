@@ -1,0 +1,52 @@
+{
+  "item_id": "d-b08",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"DULCE OTOÑO\"",
+      "details": {
+        "transcription": "DULCE OTOÑO",
+        "legibility": "clear",
+        "judge_reason": "Bold red uppercase text clearly visible against light background with no distortion or obstruction."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Mug cake appearance matches, but advertisement omits all Duncan Hines branding/logo, failing brand identity requirement.",
+      "details": {
+        "observations": {
+          "shape": "Mug matches reference shape and size; cake fills mug similarly with domed top",
+          "colour": "White mug with teal/blue floral pattern matches reference; cake color and chocolate chips consistent",
+          "logo": "No Duncan Hines logo or branding visible anywhere in the advertisement image",
+          "label_text": "Only text present is 'DULCE OTOÑO' (Spanish ad copy); no product packaging or brand text shown",
+          "parts_and_count": "Single mug cake shown, consistent with one serving; no extra/missing parts",
+          "presence": "Product shown is a mug cake, but no packaging, brand name, or logo identifies it as Duncan Hines specifically"
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Warm golden light, autumn-toned leaves outside, cozy blanket and hot drinks suggest a mild transitional season consistent with Mexico City's autumn."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic warm interior, neutral decor and Spanish text fit Mexico City without contradicting its culture or climate."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No landmarks, flags, or forced national symbols; scene relies on mood and food styling rather than stereotypes."
+    }
+  },
+  "cost_usd": 0.02678
+}

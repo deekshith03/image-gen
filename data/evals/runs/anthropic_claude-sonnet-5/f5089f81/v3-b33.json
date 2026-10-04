@@ -1,0 +1,54 @@
+{
+  "item_id": "v3-b33",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "reads \"SEE THE SUMMER.\" instead of \"SEE THE SUMMER\"",
+      "details": {
+        "transcription": "SEE THE SUMMER.",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharp, well-rendered, and unambiguous against the plain wall background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product shape, color, material, and construction match reference; only staging context differs, which is allowed.",
+      "details": {
+        "observations": {
+          "presence": "Product (Ray-Ban RB3447 Round sunglasses) is clearly shown in the ad, staged on a ledge.",
+          "shape": "Round metal frame shape matches reference; thin wire temples and double bridge consistent.",
+          "colour": "Gold metal frame with green/blue mirrored lenses matches reference colours and materials.",
+          "logo": "Ray-Ban logo visible on lens in reference; too small/unclear to confirm in ad but no conflicting logo seen.",
+          "prominent_text": "No readable text differences; branding consistent with reference.",
+          "counts": "reference: 2 lenses, 2 temples / ad: 2 lenses, 2 temples",
+          "parts": "No missing or added parts; temple tips, bridge, and hinges all present in both."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Bright sunlight, strong shadows, clear blue sky and sea, iced coffee drink all consistent with warm Santorini summer weather."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Whitewashed pergola, sea view and backgammon board reflect authentic Greek/Santorini coastal setting, no foreign culture intrusion."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "Backgammon board functions as a natural leisure prop, not forced flag/souvenir; no stereotyped color filter used."
+    }
+  },
+  "cost_usd": 0.02534
+}

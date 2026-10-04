@@ -1,0 +1,52 @@
+{
+  "item_id": "d2-b01",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"WINTER-PROOF YOUR SKIN\"",
+      "details": {
+        "transcription": "WINTER-PROOF YOUR SKIN",
+        "legibility": "clear",
+        "judge_reason": "Headline text is sharp, high-contrast, and easily readable against the blurred window background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product shape, color, logo, and packaging match reference; staging (blur, setting) is within allowed variations.",
+      "details": {
+        "observations": {
+          "shape": "Cylindrical jar with flat lid, matches reference proportions and form",
+          "colour": "White jar and lid, black/red text, consistent with reference colours and materials",
+          "logo": "KIEHL'S since 1851 logo present, correct font, form, and placement on front label",
+          "label_text": "Text appears consistent with reference but is blurred/illegible at this resolution; no clear garbled characters visible",
+          "parts_and_count": "Single jar with lid, no missing or added parts, correct count of one item",
+          "presence": "Actual physical jar is shown staged on a windowsill, not just a graphic representation"
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Snow on windowsills and fire escape, frosty window, cozy knit sweater all signal cold winter weather consistent with New York."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Brick building with fire escape is a classic, believable NYC residential architectural style, fitting naturally without forcing recognition."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No landmarks, flags, or forced souvenirs; the fire escape and brick building are authentic environmental details, not token props."
+    }
+  },
+  "cost_usd": 0.02462
+}

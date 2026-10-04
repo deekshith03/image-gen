@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b11",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"POUR SLOWLY. SIP SPRING.\"",
+      "details": {
+        "transcription": "POUR SLOWLY. SIP SPRING.",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharp, high-contrast, and clearly legible against the light background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Kettle design, color, proportions, and branding in the ad match the reference product with only staging differences.",
+      "details": {
+        "observations": {
+          "presence": "The kettle is shown in the ad, matching the reference product.",
+          "shape": "Gooseneck spout, cylindrical body, and handle shape match the reference.",
+          "colour": "Chrome/stainless steel body with black handle and knob, consistent with reference.",
+          "logo": "Bodum logo visible on the body, matches placement and style of reference.",
+          "prominent_text": "Ad text 'POUR SLOWLY. SIP SPRING.' is marketing copy, not product text; no conflicts with product labeling.",
+          "counts": "reference: 1 kettle / ad: 1 kettle",
+          "parts": "No missing or added parts; spout, handle, lid knob all present as in reference."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Fresh green new leaves on tree and lush green moss/grass visible outside match spring in Kyoto."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Shoji screens, wooden engawa, and Japanese garden setting are authentic to Kyoto culture and architecture."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or token souvenir props; the teahouse setting genuinely fits the pour-over ritual."
+    }
+  },
+  "cost_usd": 0.02562
+}

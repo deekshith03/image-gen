@@ -1,0 +1,52 @@
+{
+  "item_id": "p10",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"FRESH LIKE THE OCEAN\"",
+      "details": {
+        "transcription": "FRESH LIKE THE OCEAN",
+        "legibility": "clear",
+        "judge_reason": "Text is sharply rendered in a clean serif font with good contrast against the ocean background."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "The advertised bottle is green instead of the reference's signature blue, altering product identity/color fidelity.",
+      "details": {
+        "observations": {
+          "shape": "Bottle shape, cap, nozzle, and metal plate proportions match the reference bottle.",
+          "colour": "Reference bottle is blue-toned glass; advertisement shows green-toned glass liquid and bottle body, a clear color deviation.",
+          "logo": "VERSACE MAN logo on metal plate consistent in placement and form, though partially obscured by angle.",
+          "label_text": "EAU FRAÎCHE text present and legible in both images, correctly spelled.",
+          "parts_and_count": "Single bottle shown in both images, cap and sprayer parts consistent in count.",
+          "presence": "Actual product bottle is shown in the advertisement, not just packaging imagery."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Bright sun, clear blue ocean, rocky coastline, and poolside setting align well with warm, sunny Rio summer conditions."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic rocky coastline and infinity pool could be anywhere; nothing explicitly contradicts Rio, but nothing confirms it either."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No landmarks, flags, or stereotypical props used; relies on mood and product styling rather than forced nationality cues."
+    }
+  },
+  "cost_usd": 0.02421
+}

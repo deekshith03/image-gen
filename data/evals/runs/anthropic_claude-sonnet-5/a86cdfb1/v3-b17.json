@@ -1,0 +1,54 @@
+{
+  "item_id": "v3-b17",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "prominent garbled scene text: \"市別離 4.2km\"",
+      "details": {
+        "transcription": "ランニングセール",
+        "legibility": "clear",
+        "scene_garble": "市別離 4.2km",
+        "judge_reason": "Headline is crisp and bold; road stencil text uses incorrect/nonsensical kanji combination instead of likely intended '距離'."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "The shoe in the ad matches the reference in shape, color, and branding without alterations.",
+      "details": {
+        "observations": {
+          "presence": "The product, a Nike LunarEpic Low Flyknit 2 shoe, is shown in the advertisement.",
+          "shape": "Shape and proportions match the reference shoe, including the low-top silhouette and sole structure.",
+          "colour": "Colours are consistent - white/grey knit upper with white sole, matching the reference.",
+          "logo": "Nike Swoosh logo is present and correctly placed on the side of the shoe.",
+          "prominent_text": "'NIKE' text visible on the tongue, consistent with reference.",
+          "counts": "reference: 1 shoe shown / ad: 1 shoe shown",
+          "parts": "No missing or added parts; the shoe appears complete and consistent with the reference image."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Bright sunny sky, lush green grass, clear conditions consistent with Tokyo summer weather."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Japanese text, Pocari Sweat (Japanese brand), road markers—all authentically Japanese, no foreign culture intrusion."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "Pocari Sweat and towel genuinely fit running/hydration context, not forced token props for signaling location."
+    }
+  },
+  "cost_usd": 0.02899
+}

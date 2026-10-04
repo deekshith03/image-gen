@@ -1,0 +1,52 @@
+{
+  "item_id": "d2-b06",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"BUY 2 GET 1 FREE\"",
+      "details": {
+        "transcription": "BUY 2 GET 1 FREE",
+        "legibility": "clear",
+        "judge_reason": "Text is sharply rendered, bold, high contrast against green grass background, fully legible."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Bags match reference in shape, color, logo, and text; no identity alterations detected despite staged outdoor scene.",
+      "details": {
+        "observations": {
+          "shape": "Bag shape and proportions match reference; same pillow-pack chip bag silhouette.",
+          "colour": "Consistent tan/kraft paper pattern, green organic band, maroon bottom, and orange chip imagery match reference.",
+          "logo": "365 Everyday Value logo present with correct color blocks and text placement, consistent with reference.",
+          "label_text": "'Organic Barbeque Potato Chips' text legible and correctly spelled; fine print on bag appears consistent though partially obscured by angle.",
+          "parts_and_count": "Two bags shown, both intact with no missing or extra elements; USDA Organic and GF seals appear present though partially cropped.",
+          "presence": "Actual physical product bags are shown, not just an image of packaging on another surface."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Golden ginkgo leaves, fallen foliage, soft warm light, and a picnic blanket all match a mild Seoul autumn scene convincingly."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "No foreign landmarks, script, or clashing climate; generic park setting with English product packaging doesn't contradict Seoul context."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No flags, landmarks, or forced national symbols; ginkgo leaves are a natural seasonal element, not a token souvenir prop."
+    }
+  },
+  "cost_usd": 0.02509
+}

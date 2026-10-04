@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b16",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "reads \"LAGOS LAGOS MOVES\" instead of \"LAGOS MOVES\"",
+      "details": {
+        "transcription": "LAGOS LAGOS MOVES",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Bold white sans-serif text is sharply rendered against the background, easy to read with no distortion."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Sneaker design, colourway, stripe count, and branding are consistent with reference photo; only staging (worn, angle, lighting) differs.",
+      "details": {
+        "observations": {
+          "presence": "The product (adidas Grand Court sneaker) is shown worn on a foot in the ad, matching the reference product photo.",
+          "shape": "Same low-top sneaker silhouette, rounded toe, lace-up design consistent with reference.",
+          "colour": "Grey suede upper with white 3-stripes and white midsole/outsole matches reference colourway.",
+          "logo": "adidas logo on tongue label visible in both; trefoil/logo styling consistent.",
+          "prominent_text": "No garbled text on product itself; overlay text 'LAGOS LAGOS MOVES' is marketing copy, not product text.",
+          "counts": "reference: 3 stripes per side / ad: 3 stripes visible on shown side - matches.",
+          "parts": "No missing or added parts; laces, tongue, heel tab all present as in reference."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Sunny, dry pavement, bright hard light and no rain or wet cues consistent with Lagos dry season."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic urban architecture and paved walkway plausibly represent Lagos without contradicting landmarks or culture."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, stereotyped filters, or token cultural props; just product, model, and neutral city setting."
+    }
+  },
+  "cost_usd": 0.02526
+}

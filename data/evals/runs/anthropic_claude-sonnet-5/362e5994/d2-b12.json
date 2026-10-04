@@ -1,0 +1,52 @@
+{
+  "item_id": "d2-b12",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"HYGGE HOURS 20% OFF\"",
+      "details": {
+        "transcription": "HYGGE HOURS 20% OFF",
+        "legibility": "clear",
+        "judge_reason": "Text is sharply rendered in a clean sans-serif font with high contrast against the wall."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product shape, color, branding, and parts all consistent with reference; staging (steam, setting) is permissible context.",
+      "details": {
+        "observations": {
+          "shape": "Gooseneck kettle shape, spout curve, handle, and lid knob match reference proportions closely",
+          "colour": "Chrome/stainless steel body with black handle and lid knob matches reference exactly",
+          "logo": "Bodum logo visible on body in same placement and font as reference",
+          "label_text": "No garbled text; only brand name visible, consistent with reference",
+          "parts_and_count": "Single kettle with lid, handle, spout - matches reference, no missing or added parts",
+          "presence": "Actual product is shown in use on table, not just packaging imagery"
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Yellow autumn leaves on bare-ish tree branches, soft overcast light through window, cozy warm kettle scene matches Danish autumn."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Minimalist Scandinavian interior, neutral tones, hygge concept, oak table and ceramic mug feel authentically Danish without contradictions."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No flags, landmarks, or forced national symbols; props like kettle and mug serve the cozy mood naturally."
+    }
+  },
+  "cost_usd": 0.02431
+}

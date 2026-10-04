@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b20",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"SPRING LAYERS FROM $59\"",
+      "details": {
+        "transcription": "SPRING LAYERS FROM $59",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharply rendered in bold, high-contrast cream font against the brick background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Shirt in ad matches reference in pattern, color, logo placement, and construction; only styling/open collar differs, which is allowed staging.",
+      "details": {
+        "observations": {
+          "presence": "The product (plaid short-sleeve work shirt with chest pocket) is shown worn by a model in both images.",
+          "shape": "Same button-down collar, short sleeves, button front, chest pocket shape consistent in both.",
+          "colour": "Same navy/white plaid pattern and color scheme in both images.",
+          "logo": "Carhartt leather/fabric patch logo visible on chest pocket in both images, consistent placement.",
+          "prominent_text": "No readable brand text beyond the small pocket logo patch in either image; ad overlay text 'SPRING LAYERS FROM $59' is marketing copy, not product text.",
+          "counts": "reference: 7 visible buttons down placket, 1 chest pocket / ad: appears to be 7 buttons down placket, 1 chest pocket (consistent, though shirt is open/unbuttoned at collar in ad)",
+          "parts": "Chest pocket, button placket, collar, short sleeves all present in both; no added or missing components."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Short-sleeve layered shirt over tee, sitting outdoors in sunny weather fits Melbourne spring temperatures reasonably well."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "No landmarks, text, or cultural markers suggest a different country; scene is generic and plausible for Melbourne."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or stereotyped props; brick wall and casual pose feel natural, not a token cultural signal."
+    }
+  },
+  "cost_usd": 0.02453
+}

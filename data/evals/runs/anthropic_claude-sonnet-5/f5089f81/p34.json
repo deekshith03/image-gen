@@ -1,0 +1,54 @@
+{
+  "item_id": "p34",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"TREINO DE INVERNO\"",
+      "details": {
+        "transcription": "TREINO DE INVERNO",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is large, bold, and clearly legible against the background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product shape, logo, and branding remain consistent with reference despite minor blur in fine text; staging differences are allowed.",
+      "details": {
+        "observations": {
+          "presence": "Product container is shown in the ad, consistent with reference.",
+          "shape": "Cylindrical tub with black lid matches reference shape and proportions.",
+          "colour": "Black container with similar label color scheme (dark background, blue/white text) retained.",
+          "logo": "OWN PWR logo present and legible, matching reference styling and placement.",
+          "prominent_text": "ELITE SERIES and PRE WORKOUT text visible and legible, matches reference; small stat numbers (300mg, 6g, etc.) appear blurred/illegible but layout consistent.",
+          "counts": "reference: 5 listed ingredient stats (300mg, 6g, 2g, 5g, 100mg) / ad: same 5 stat lines visible, though text blurred",
+          "parts": "No missing or added parts; scoop/shaker shown separately as staging prop, consistent with typical product ads."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "no_cliche: Entire city skyline is covered in a dusty orange/sepia haze, a stereotyped color filter over the whole scene."
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "No snow or cold-contradicting cues shown; São Paulo winter is mild/dry, consistent with indoor sunny scene."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic skyline with no wrong-country landmarks, scripts, or festivals; nothing contradicts São Paulo setting."
+    },
+    "no_cliche": {
+      "verdict": "fail",
+      "reason": "Entire city skyline is covered in a dusty orange/sepia haze, a stereotyped color filter over the whole scene."
+    }
+  },
+  "cost_usd": 0.02989
+}

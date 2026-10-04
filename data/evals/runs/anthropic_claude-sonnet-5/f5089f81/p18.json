@@ -1,0 +1,54 @@
+{
+  "item_id": "p18",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"SHINE ALL SUMMER\"",
+      "details": {
+        "transcription": "SHINE ALL SUMMER",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharply rendered with clean typography and high contrast against the table surface."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "The advertised case is a solid pink opaque case, not the iridescent 'Soap Bubble' translucent design shown in the reference image.",
+      "details": {
+        "observations": {
+          "presence": "Product case is shown on an iPhone in image 2, matching the reference product category.",
+          "shape": "Same rectangular case shape with cutout for triple-lens camera module; proportions consistent with reference.",
+          "colour": "Reference is an iridescent 'Soap Bubble' clear case with holographic swirls; ad shows an opaque solid pink case with no holographic pattern.",
+          "logo": "Case-Mate logo mark visible at bottom of case in both images, placement consistent.",
+          "prominent_text": "No readable brand text on case itself in either image aside from small logo; consistent.",
+          "counts": "reference: 3 camera lenses visible / ad: 3 camera lenses visible - counts match.",
+          "parts": "No extra or missing parts; case fully covers phone with camera cutout in both."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Bright sunlight, strong shadows, iced drink and outdoor café seating all align naturally with a warm Berlin summer day."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic outdoor café table scene with no conflicting landmarks, scripts, or foreign cultural markers present."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or stereotypical props; the drink and setting fit naturally without signaling 'Germany' artificially."
+    }
+  },
+  "cost_usd": 0.025
+}

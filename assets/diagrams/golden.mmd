@@ -1,0 +1,9 @@
+flowchart LR
+  PRD["23 real products<br/>chosen for known failure modes<br/>(label text, glass, watches,<br/>jewellery, illusions…)"] --> BR["46 briefs<br/>coverage grid: hemisphere,<br/>stereotype risk, subtle seasons,<br/>currency, non-Latin, conflicts"]
+  BR --> NA["46 final ads (D2)<br/>+ 24 earlier-strategy failures"]
+  NA --> PL["39 planted edits<br/>one change each<br/>blatant · moderate · subtle"]
+  NA --> LB
+  PL --> LB["Tiered human labels<br/>T1/T2: one yes/no question<br/>T3: confirm/flip panel pre-fill<br/>10 blind · India cultural = human"]
+  PN["Expert panel<br/>Claude Opus + GPT"] -.-> LB
+  LB --> GT["Ground truth<br/>gold · silver · inherited"]
+  GT --> SP["Split by product<br/>dev 56 · test 53"]

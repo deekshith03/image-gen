@@ -1,0 +1,54 @@
+{
+  "item_id": "p03",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "reads \"TIME TO EXPLORE $89\" instead of \"TIME TO EXPLORE $99\"",
+      "details": {
+        "transcription": "TIME TO EXPLORE $89",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharply rendered in bold tan font against a blurred background, fully legible."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Watch design, color, strap, and sub-dial layout match reference; only staging (worn on wrist, outdoor lighting) differs.",
+      "details": {
+        "observations": {
+          "presence": "The watch is shown worn on a wrist in the ad, consistent with product presence.",
+          "shape": "Round case shape and proportions match the reference photo.",
+          "colour": "Black case/dial with brown leather strap matches reference colours and materials.",
+          "logo": "Timex brand text is visible on dial, though small/blurred due to angle; appears consistent.",
+          "prominent_text": "Dial numerals and chronograph sub-dials appear consistent with reference, though small details are blurred from distance/angle.",
+          "counts": "reference: 3 sub-dials, 2 crown/pushers / ad: 3 sub-dials, 2 crown/pushers visible - counts match.",
+          "parts": "No missing or added components; strap, case, crown, and pushers all present as in reference."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Snow on ground, bare trees, cold-weather sweater and winter scene align with Toronto winter."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "No conflicting landmarks, scripts, or festivals from another culture; generic snowy scene is plausible for Toronto."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmark, flag, or token props used to signal location; scene reads as authentic winter moment."
+    }
+  },
+  "cost_usd": 0.02538
+}

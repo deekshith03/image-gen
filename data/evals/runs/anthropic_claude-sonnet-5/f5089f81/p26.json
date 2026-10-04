@@ -1,0 +1,54 @@
+{
+  "item_id": "p26",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"COLOUR YOUR SPRING\"",
+      "details": {
+        "transcription": "COLOUR YOUR SPRING",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharply rendered in solid dark gray sans-serif font with no distortion or overlap."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product shown in ad matches reference in shape, color pattern, logo placement, and camera cutout count.",
+      "details": {
+        "observations": {
+          "presence": "The product (iridescent Soap Bubble case) is clearly shown in both images.",
+          "shape": "Same case shape, cutouts, and button placement in both images.",
+          "colour": "Same holographic/iridescent swirl pattern and clear edges match in both images.",
+          "logo": "Apple logo and Case-Mate 'OM' logo appear in same positions in both images.",
+          "prominent_text": "No distorted or incorrect text; brand marks consistent with reference.",
+          "counts": "reference: 3 camera lenses, 1 flash, 1 mic hole / ad: 3 camera lenses, 1 flash, 1 mic hole - matches.",
+          "parts": "No missing or added parts; same case design and cutouts in both images."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "no_cliche: Taj Mahal used as an obvious landmark stand-in for 'India', a classic location-signaling cliché."
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Pink Holi powder and blooming bougainvillea align well with Mumbai's spring/Holi season; no contradiction."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Taj Mahal and flora are Indian, consistent with the country; no foreign culture or festival intrudes."
+    },
+    "no_cliche": {
+      "verdict": "fail",
+      "reason": "Taj Mahal used as an obvious landmark stand-in for 'India', a classic location-signaling cliché."
+    }
+  },
+  "cost_usd": 0.02749
+}

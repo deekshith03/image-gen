@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b17",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"ランニングセール\"",
+      "details": {
+        "transcription": "ランニングセール",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Japanese text is crisp, high-contrast black lettering clearly rendered against the light pavement background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Shoe design, colour, logo, and text all consistent with reference product; only staging (background, angle) differs.",
+      "details": {
+        "observations": {
+          "presence": "The product (Nike LunarEpic Low Flyknit 2 shoe) is shown in the ad image.",
+          "shape": "Shoe shape and proportions match the reference: low-top silhouette, knit upper, curved sole.",
+          "colour": "Colours match - white/grey Flyknit upper with black Nike swoosh and white Lunarlon sole.",
+          "logo": "Nike swoosh logo present on side, correctly shaped and placed; 'NIKE' text on heel tab matches.",
+          "prominent_text": "NIKE text on heel tab visible and correctly spelled; 'LUNARLON' text on sole present and legible.",
+          "counts": "reference: 1 shoe shown / ad: 1 shoe shown - matches.",
+          "parts": "All parts present - laces, swoosh, heel tab, sole unit; nothing missing or added."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Bright sunny day, clear sky, runner in shorts and t-shirt, consistent with Tokyo summer weather."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic waterfront promenade with skyline and jogger plausibly fits a Tokyo riverside setting without contradicting the culture."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, stereotypes, or token cultural props; scene is a believable generic urban running path."
+    }
+  },
+  "cost_usd": 0.02625
+}

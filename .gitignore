@@ -1,0 +1,41 @@
+# Environment and tooling
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.promptfoo/
+node_modules/
+.claude/
+.DS_Store
+
+# Local-only working data
+data/archive/
+
+# Images: nothing under data/ is committed unless it is openly licensed (see docs/data_sources.md).
+data/**/*.png
+data/**/*.jpg
+data/**/*.jpeg
+
+# Openly licensed exceptions — 3 reference photos (ABO: CC BY 4.0, Open Food Facts: CC BY-SA 3.0)
+!data/products/images/bbq_chips_365.jpg
+!data/products/images/nutella_biscuits.jpg
+!data/products/images/ownpwr_preworkout.jpg
+
+# ...and the 15 golden ads derived from them
+!data/ads/natural/d/b05.png
+!data/ads/natural/d2/b05.png
+!data/ads/natural/d2/b06.png
+!data/ads/natural/d2/b25.png
+!data/ads/natural/d2/b26.png
+!data/ads/natural/d2/b27.png
+!data/ads/natural/d2/b28.png
+!data/ads/natural/v1/b28.png
+!data/ads/natural/v2/b26.png
+!data/ads/planted/p04.png
+!data/ads/planted/p09.png
+!data/ads/planted/p15.png
+!data/ads/planted/p19.png
+!data/ads/planted/p25.png
+!data/ads/planted/p34.png

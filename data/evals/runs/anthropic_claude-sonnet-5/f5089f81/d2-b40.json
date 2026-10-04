@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b40",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"COOL NIGHTS, WARM FLANNEL\"",
+      "details": {
+        "transcription": "COOL NIGHTS, WARM FLANNEL",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp, high-contrast, and clearly legible against the dark background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Shirt pattern, color, pocket count, and structure match reference despite different model and staging.",
+      "details": {
+        "observations": {
+          "presence": "The flannel shirt is shown in the ad, worn by a different model in a different setting.",
+          "shape": "Collared button-up flannel shirt with long sleeves and two chest pockets, consistent with reference.",
+          "colour": "Same cream/peach plaid pattern with black and white windowpane stripes matches reference.",
+          "logo": "No visible logo on either image.",
+          "prominent_text": "Ad includes overlay text 'COOL NIGHTS, WARM FLANNEL' which is marketing copy, not product text.",
+          "counts": "reference: 2 chest pockets, 7 visible buttons / ad: 2 chest pockets, buttons consistent though partially obscured by pose.",
+          "parts": "Both show two chest pockets, button placket, collar; no missing or added parts."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "season_fit: Dubai summer nights stay hot and humid (30°C+); 'cool nights' and flannel layering contradict actual climate."
+    },
+    "season_fit": {
+      "verdict": "fail",
+      "reason": "Dubai summer nights stay hot and humid (30°C+); 'cool nights' and flannel layering contradict actual climate."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Skyline resembles Dubai's real towers and skyline; no foreign landmarks, scripts, or culture misplacement present."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "City view is a natural blurred backdrop, not a forced landmark prop; no stereotype filter or token cultural objects used."
+    }
+  },
+  "cost_usd": 0.02957
+}

@@ -1,0 +1,54 @@
+{
+  "item_id": "v1-b17",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"ランニングセール\"",
+      "details": {
+        "transcription": "ランニングセール",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharp, high-contrast, and clearly legible against the plain background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "The shoe in the ad matches the reference in shape, color, logo, and text; only staging (background, props) differs.",
+      "details": {
+        "observations": {
+          "presence": "Product (Nike LunarEpic Low Flyknit 2 shoe) is clearly shown in both images.",
+          "shape": "Same low-top knit sneaker silhouette, same sole unit shape with LUNARLON branding visible on both.",
+          "colour": "Consistent white/grey/platinum Flyknit upper with black Swoosh and white midsole/outsole in both images.",
+          "logo": "Nike Swoosh logo present in same position and black color on both; 'NIKE' text tag at heel visible in both.",
+          "prominent_text": "Heel tag reads 'NIKE' and 'LUNAREPIC FLYKNIT 2' in reference; same tag appears in ad image, consistent placement and legibility.",
+          "counts": "reference: 1 shoe shown / ad: 1 shoe shown - matches.",
+          "parts": "No missing or added components; laces, Swoosh, heel tab, and sole details all present in both."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Light summer clothing on pedestrians, bright sunlight, short shadows, and fallen leaves are consistent with Tokyo's late summer/early autumn transition."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Scene shows plausible Japanese streetscape with Aquarius bottle (popular Japanese drink brand), casual pedestrians, and Japanese text, nothing contradicts Tokyo setting."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or stereotyped filters; the Aquarius drink and setting feel natural rather than token souvenir placement."
+    }
+  },
+  "cost_usd": 0.02676
+}

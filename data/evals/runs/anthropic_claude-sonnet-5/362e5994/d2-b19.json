@@ -1,0 +1,52 @@
+{
+  "item_id": "d2-b19",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"BUILT FOR FALL WORK\"",
+      "details": {
+        "transcription": "BUILT FOR FALL WORK",
+        "legibility": "clear",
+        "judge_reason": "Text is sharp, high-contrast, and easily readable against the wooden background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Shirt pattern, logo, pocket, and construction match reference; only staging (lighting, angle, cropping) differs.",
+      "details": {
+        "observations": {
+          "shape": "Same short-sleeve button-down shirt shape with chest pocket and button-down collar, consistent proportions in both images.",
+          "colour": "Same navy/white plaid pattern and material appearance in both images; lighting in ad image is warmer but pattern and colorway match.",
+          "logo": "Carhartt leather-like patch logo visible on chest pocket in both images, consistent placement and form.",
+          "label_text": "No readable fine print text visible in either image; nothing garbled or inconsistent.",
+          "parts_and_count": "Single shirt, one chest pocket, button closures consistent in count and placement across both images.",
+          "presence": "Actual garment is shown worn by a model in both images, not just packaging."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Golden fall foliage, warm low-angle light, and layered workwear with short sleeves match a mild autumn day in Montana."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Rustic wooden barn, open fields, and rugged workwear convincingly evoke rural Montana without contradicting the setting."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No landmarks, flags, or forced souvenirs; gloves and plaid shirt function naturally as authentic workwear props."
+    }
+  },
+  "cost_usd": 0.02221
+}

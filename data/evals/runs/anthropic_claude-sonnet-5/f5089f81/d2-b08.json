@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b08",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"DULCE OTOÑO\"",
+      "details": {
+        "transcription": "DULCE OTOÑO",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharply rendered in bold red letters with clear legibility against the wall."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "The mug in the ad differs from the reference (plain terracotta mug vs. blue polka-dot mug), but this is acceptable staging since product packaging itself is unchanged.",
+      "details": {
+        "observations": {
+          "presence": "The product box is shown in the advertisement alongside a mug cake, consistent with the reference.",
+          "shape": "Box shape and proportions match the reference packaging.",
+          "colour": "Red, white, and blue color scheme matches the reference packaging.",
+          "logo": "Duncan Hines logo correctly spelled and placed on the badge, matching reference.",
+          "prominent_text": "'MUG CAKES' and 'chocolate chip cookie cake MIX' text matches reference, correctly spelled.",
+          "counts": "reference: 1 box, 1 mug shown / ad: 1 box, 1 mug shown - counts match.",
+          "parts": "All packaging elements (badge, text bands, microwave icon, chocolate chips graphic) appear present and unaltered."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Green trees visible through window match Mexico City's autumn, which stays green after the rainy season; no contradicting cues present."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Spanish text and generic urban balcony scene with street/car visible are consistent with Mexico City; nothing contradicts this market."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or stereotyped color filters; the mug and setting feel like a genuine home scene, not token signaling."
+    }
+  },
+  "cost_usd": 0.02831
+}

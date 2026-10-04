@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b41",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"TRAVEL IN STYLE\"",
+      "details": {
+        "transcription": "TRAVEL IN STYLE",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharp, well-formed, and clearly legible against the plain wall background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product identity, shape, color, logo, and text all match the reference image; only angle and background staging differ.",
+      "details": {
+        "observations": {
+          "presence": "The product (houndstooth carry-on suitcase) is shown in the advertisement image.",
+          "shape": "Same boxy carry-on shape with telescoping handle, consistent proportions in both images.",
+          "colour": "Same black and white houndstooth pattern with black trim in both images.",
+          "logo": "London Fog logo badge visible on front pocket in both images; consistent placement and form.",
+          "prominent_text": "'LONDON FOG' text visible on handle in both images; text appears consistent and legible.",
+          "counts": "reference: 8 spinner wheels (4 dual-wheel casters), 1 front pocket, 1 side pocket / ad: same 8 wheels, 1 front pocket, 1 side pocket visible",
+          "parts": "All parts consistent - handle, wheels, zippers, front pocket, logo badge all present in both images."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Fallen yellow leaves on wet pavement match Parisian autumn weather with recent rain, consistent with the actual season there."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Ornate stone wall and wrought-iron gate plausibly suggest Parisian architecture without contradicting the culture or location."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or token props; scene is a subtle architectural backdrop, not an overt stereotype."
+    }
+  },
+  "cost_usd": 0.0257
+}

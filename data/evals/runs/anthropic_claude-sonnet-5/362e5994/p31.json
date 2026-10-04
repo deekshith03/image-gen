@@ -1,0 +1,52 @@
+{
+  "item_id": "p31",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"SPRING LAYERS FROM $59\"",
+      "details": {
+        "transcription": "SPRING LAYERS FROM $59",
+        "legibility": "clear",
+        "judge_reason": "Text is sharp, high-contrast cream lettering against the brick wall, fully legible."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Same plaid pattern, button placement, pocket design, and brand patch; worn open vs buttoned is normal staging variation.",
+      "details": {
+        "observations": {
+          "shape": "Same short-sleeve button-down shirt shape, button-down collar, chest pocket with button flap, consistent proportions",
+          "colour": "Same navy/white plaid pattern and color scheme, worn open over a white t-shirt in ad image",
+          "logo": "Small orange/tan leather-style Carhartt patch visible on chest pocket in both images, consistent placement",
+          "label_text": "No readable fine print text visible in either image to compare; ad text 'SPRING LAYERS FROM $59' is overlay marketing text, not product label",
+          "parts_and_count": "Same number of buttons, single chest pocket, consistent collar buttons - one shirt shown in each image",
+          "presence": "Actual physical product is shown being worn in both images, not just packaging"
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "season_fit: Snow, frost-covered branches, and heavy layering depict winter, not Melbourne's spring (Sept-Nov), which is mild with no snow.; market_fit: Melbourne rarely sees snow even in winter; this wintry, frosty scene doesn't plausibly represent the Australian market's climate."
+    },
+    "season_fit": {
+      "verdict": "fail",
+      "reason": "Snow, frost-covered branches, and heavy layering depict winter, not Melbourne's spring (Sept-Nov), which is mild with no snow."
+    },
+    "market_fit": {
+      "verdict": "fail",
+      "reason": "Melbourne rarely sees snow even in winter; this wintry, frosty scene doesn't plausibly represent the Australian market's climate."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No landmarks, flags, or national stereotypes used; scene is generic rather than relying on obvious national signifiers."
+    }
+  },
+  "cost_usd": 0.02441
+}

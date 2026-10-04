@@ -1,0 +1,2 @@
+Edit the attached advertisement image. Make exactly this one change: {edit}
+Do not change anything else — same composition, framing, lighting, product, and headline unless the change says otherwise. Return the full edited advertisement.

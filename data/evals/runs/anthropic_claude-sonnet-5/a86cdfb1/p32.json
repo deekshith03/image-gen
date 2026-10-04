@@ -1,0 +1,54 @@
+{
+  "item_id": "p32",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"€79 LIMITED EDITION\"",
+      "details": {
+        "transcription": "€79 LIMITED EDITION",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp, well-spaced, and high-contrast against the dark wood background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "The charm's design, shape, color, and structural details match the reference exactly; only staging context differs.",
+      "details": {
+        "observations": {
+          "presence": "The charm is clearly shown in the advertisement, staged on a marble table next to cake and coffee.",
+          "shape": "Round bead charm with tree of life design matches reference shape and proportions.",
+          "colour": "Same oxidized sterling silver tone with blackened background contrast in both images.",
+          "logo": "No visible Pandora logo text in either image; consistent with reference.",
+          "prominent_text": "No product text on the charm itself; ad text '€79 LIMITED EDITION' is separate marketing text, not altering product identity.",
+          "counts": "reference: one tree design with symmetrical branch/root swirl pattern and two side holes / ad: same single tree design and two side holes visible.",
+          "parts": "No missing or added parts; charm appears unthreaded/not on a bracelet in both images."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "no_cliche: Austrian flag toothpick stuck in Sacher torte beside the jewelry is a token prop explicitly flagging 'Austria' for the product."
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Evening street view shows no contradicting weather; dim lighting and dusk sky are consistent with Vienna winter evenings."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Viennese coffeehouse interior, Sacher torte, and city street view through window all authentically represent Vienna's culture."
+    },
+    "no_cliche": {
+      "verdict": "fail",
+      "reason": "Austrian flag toothpick stuck in Sacher torte beside the jewelry is a token prop explicitly flagging 'Austria' for the product."
+    }
+  },
+  "cost_usd": 0.03121
+}

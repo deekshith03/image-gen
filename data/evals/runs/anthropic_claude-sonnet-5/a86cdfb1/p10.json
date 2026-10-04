@@ -1,0 +1,54 @@
+{
+  "item_id": "p10",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"FRESH LIKE THE OCEAN\"",
+      "details": {
+        "transcription": "FRESH LIKE THE OCEAN",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp, well-spaced, and clearly legible against the blurred ocean background."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "The liquid and glass colour changed from blue to green, altering product identity despite matching shape and text.",
+      "details": {
+        "observations": {
+          "presence": "Product bottle is shown in both images",
+          "shape": "Same bottle shape, cap, and faceted glass design in both images",
+          "colour": "Reference bottle is blue/aqua; ad bottle is green - colour does not match",
+          "logo": "Versace Man logo present in reference; brand plate visible in ad but obscured by lighting",
+          "prominent_text": "'EAU FRAICHE' text present in both images, correctly spelled",
+          "counts": "reference: 1 bottle / ad: 1 bottle",
+          "parts": "No parts missing or added, same cap and sprayer structure"
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Sunny ocean scene with bright light and clear skies matches Rio's summer; no contradicting weather cues present."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic ocean, rocks, and pool scene could plausibly be coastal Rio; no conflicting landmarks or foreign cultural markers."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or token props; scene relies on genuine coastal/pool setting fitting the product naturally."
+    }
+  },
+  "cost_usd": 0.02499
+}

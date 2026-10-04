@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b31",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"Wood Sage & Sea Salt\"",
+      "details": {
+        "transcription": "Wood Sage & Sea Salt",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharply rendered in clean serif font with high contrast against the blurred background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "All elements (box, bottle, label text, colors, logo) match the reference product exactly; only staging (background, lighting) differs.",
+      "details": {
+        "observations": {
+          "presence": "Product bottle and matching box are both present in the advertisement, consistent with reference.",
+          "shape": "Bottle shape (rectangular, tall, silver cap) and box shape (tall rectangular with black border) match reference.",
+          "colour": "Beige/cream box with black trim, clear glass bottle with silver cap, cream label — matches reference colours.",
+          "logo": "Jo Malone London logo present on both box and bottle label, correctly spelled and styled.",
+          "prominent_text": "Box reads 'Jo Malone London'; bottle label reads 'Jo Malone London', 'Wood Sage & Sea Salt', 'Cologne' — all correct and legible.",
+          "counts": "reference: 1 box + 1 bottle / ad: 1 box + 1 bottle — counts match.",
+          "parts": "No missing or added components; cap, label, and box all present as in reference."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Magnolia blossoms and fresh green leaves on bare branches match London's spring bloom accurately."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Georgian terrace architecture is authentically London, consistent with the UK setting, no conflicting culture."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmark, flag, or token prop; architecture and blossoms naturally fit the scene and product."
+    }
+  },
+  "cost_usd": 0.02855
+}

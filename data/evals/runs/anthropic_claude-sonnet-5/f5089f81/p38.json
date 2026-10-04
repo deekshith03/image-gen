@@ -1,0 +1,54 @@
+{
+  "item_id": "p38",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"PEAK FLANNEL SEASON\"",
+      "details": {
+        "transcription": "PEAK FLANNEL SEASON",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharp, well-contrasted, and legible against the background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Shirt pattern, color, cut, and details (pockets, buttons, collar) consistent across both images; only pose and lighting differ.",
+      "details": {
+        "observations": {
+          "presence": "The same plaid flannel shirt is shown worn by a model in both images.",
+          "shape": "Collared button-up shirt with chest pockets and long sleeves, same cut and fit in both.",
+          "colour": "Cream/peach plaid with dark thin stripe pattern matches in both images.",
+          "logo": "No visible brand logo in either image.",
+          "prominent_text": "No product text on garment; ad text 'PEAK FLANNEL SEASON' is marketing overlay, not product text.",
+          "counts": "reference: 2 chest pockets, 7 visible buttons / ad: 2 chest pockets, visible buttons consistent though partially obscured by pose",
+          "parts": "No parts missing or added; pockets, buttons, collar all present in both."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Green foliage, flannel shirt, and soft light are consistent with early autumn in Vermont; no contradiction to the season."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Rural porch, hills, and casual flannel/jeans styling align naturally with Vermont's cultural and geographic setting."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or stereotypical props; mug and porch feel authentic, not staged as tokens."
+    }
+  },
+  "cost_usd": 0.02477
+}

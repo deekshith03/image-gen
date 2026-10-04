@@ -1,0 +1,54 @@
+{
+  "item_id": "v1-b16",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "prominent garbled scene text: \"LAGOS RIDE\"",
+      "details": {
+        "transcription": "LAGOS MOVES",
+        "legibility": "clear",
+        "scene_garble": "LAGOS RIDE",
+        "judge_reason": "Headline text is sharply rendered in bold gray letters against a plain background, fully legible."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Minor color tone shift (gray vs beige suede) but shape, logo, stripe count, and parts match reference.",
+      "details": {
+        "observations": {
+          "presence": "Product (adidas Grand Court sneaker) is clearly shown in the advertisement.",
+          "shape": "Same low-top court sneaker silhouette, rounded toe, same sole profile as reference.",
+          "colour": "Reference shoe is gray suede with white stripes/sole; ad shoe is lighter taupe/beige suede with white stripes/sole. Slight color shift.",
+          "logo": "adidas logo present on tongue label, consistent placement and form in both images.",
+          "prominent_text": "No garbled text; 'adidas' brand name correctly spelled on tongue and sole in both images.",
+          "counts": "reference: 3 side stripes / ad: 3 side stripes - matches.",
+          "parts": "All parts present: laces, tongue, heel tab, sole, stripes; nothing missing or added."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Dusty hazy atmosphere matches Harmattan dry season conditions typical in Lagos during Nov-March."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Lagos BRT buses, danfo-style minibus, and African print fabric stalls authentically represent Nigerian market."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "Haze reflects real Harmattan dust, not an artificial filter; market stalls are natural street context, not forced props."
+    }
+  },
+  "cost_usd": 0.02945
+}

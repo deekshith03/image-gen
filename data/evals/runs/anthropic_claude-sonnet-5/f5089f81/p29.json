@@ -1,0 +1,54 @@
+{
+  "item_id": "p29",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"ONLY AED 299\"",
+      "details": {
+        "transcription": "ONLY AED 299",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharply rendered in clean serif font with no distortion or artifacts."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Bottle shape, text, and branding match reference; only staging differences (lighting, background) are present.",
+      "details": {
+        "observations": {
+          "presence": "The Versace Man Eau Fraîche bottle is present in the advertisement, matching the reference product.",
+          "shape": "Bottle shape, cap, and nozzle proportions match the reference image.",
+          "colour": "Blue-tinted glass and silver cap/sprayer match reference; ad has warmer lighting but same material and color scheme.",
+          "logo": "Versace Man logo plate present on the neck, consistent placement and form.",
+          "prominent_text": "'Versace Man' and 'Eau Fraîche' text correctly spelled and placed; ad text color appears gold instead of silver due to lighting/stylization.",
+          "counts": "reference: 1 bottle / ad: 1 bottle — consistent.",
+          "parts": "No missing or added parts; cap, sprayer, and label plate all present as in reference."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "market_fit: Sydney Harbour Bridge is a clear Australian landmark, contradicting the Dubai, UAE target market setting."
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Poolside winter scene with mild sunny skies matches Dubai's pleasant, warm winter climate; no contradiction present."
+    },
+    "market_fit": {
+      "verdict": "fail",
+      "reason": "Sydney Harbour Bridge is a clear Australian landmark, contradicting the Dubai, UAE target market setting."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No Dubai-specific stereotypes, token props, or dusty color filters used; poolside setting feels natural, not clichéd."
+    }
+  },
+  "cost_usd": 0.02793
+}

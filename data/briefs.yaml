@@ -1,0 +1,59 @@
+# Ad briefs: one row = one generation request.
+# split is assigned by product (all briefs for a product share a split) to avoid dev→test leakage.
+# tags record which hard case each brief covers:
+#   hemi:south      southern hemisphere, so the season is inverted vs. the northern default
+#   culture:risk    location prone to stereotyped imagery
+#   cue:subtle      season not signalled by snow/beach (monsoon, dry season, mild winter…)
+#   text:*          long | number | currency | punctuation | accent | non-latin | dup-on-product
+#   fit:conflict    product and context pull in opposite directions
+
+briefs:
+  # ---------------- DEV ----------------
+  - {id: b01, product: kiehls_ultra_facial_cream,   split: dev,  geo: "New York, USA",          season: winter,         text: "WINTER-PROOF YOUR SKIN",       tags: [text:punctuation]}
+  - {id: b02, product: kiehls_ultra_facial_cream,   split: dev,  geo: "Sydney, Australia",      season: summer,         text: "SUMMER GLOW 25% OFF",          tags: [hemi:south, text:number]}
+  - {id: b03, product: cerave_moisturising_lotion,  split: dev,  geo: "Mumbai, India",          season: monsoon,        text: "HYDRATION THAT LASTS",         tags: [culture:risk, cue:subtle]}
+  - {id: b04, product: cerave_moisturising_lotion,  split: dev,  geo: "Stockholm, Sweden",      season: winter,         text: "FOR DRY WINTER SKIN",          tags: []}
+  - {id: b05, product: bbq_chips_365,               split: dev,  geo: "Austin, Texas, USA",     season: summer,         text: "BBQ SEASON IS HERE",           tags: []}
+  - {id: b06, product: bbq_chips_365,               split: dev,  geo: "Seoul, South Korea",     season: autumn,         text: "BUY 2 GET 1 FREE",             tags: [text:number]}
+  - {id: b07, product: duncanhines_mugcake,         split: dev,  geo: "London, UK",             season: winter,         text: "COSY MUG CAKE IN 1 MINUTE",    tags: [text:long, text:number]}
+  - {id: b08, product: duncanhines_mugcake,         split: dev,  geo: "Mexico City, Mexico",    season: autumn,         text: "DULCE OTOÑO",                  tags: [culture:risk, text:accent]}
+  - {id: b09, product: versace_eau_fraiche,         split: dev,  geo: "Rio de Janeiro, Brazil", season: summer,         text: "FRESH LIKE THE OCEAN",         tags: [hemi:south, culture:risk]}
+  - {id: b10, product: versace_eau_fraiche,         split: dev,  geo: "Dubai, UAE",             season: winter,         text: "ONLY AED 299",                 tags: [cue:subtle, text:currency]}
+  - {id: b11, product: bodum_chrome_kettle,         split: dev,  geo: "Kyoto, Japan",           season: spring,         text: "POUR SLOWLY. SIP SPRING.",     tags: [culture:risk, text:punctuation]}
+  - {id: b12, product: bodum_chrome_kettle,         split: dev,  geo: "Copenhagen, Denmark",    season: autumn,         text: "HYGGE HOURS 20% OFF",          tags: [text:number]}
+  - {id: b13, product: timex_expedition_chrono,     split: dev,  geo: "Patagonia, Argentina",   season: autumn,         text: "BUILT FOR THE TRAIL",          tags: [hemi:south]}
+  - {id: b14, product: timex_expedition_chrono,     split: dev,  geo: "Toronto, Canada",        season: winter,         text: "TIME TO EXPLORE $99",          tags: [text:currency]}
+  - {id: b15, product: adidas_grand_court,          split: dev,  geo: "Paris, France",          season: spring,         text: "STREET CLASSICS",              tags: []}
+  - {id: b16, product: adidas_grand_court,          split: dev,  geo: "Lagos, Nigeria",         season: "dry season",   text: "LAGOS MOVES",                  tags: [culture:risk, cue:subtle]}
+  - {id: b17, product: nike_lunarepic_flyknit,      split: dev,  geo: "Tokyo, Japan",           season: summer,         text: "ランニングセール",               tags: [text:non-latin]}
+  - {id: b18, product: nike_lunarepic_flyknit,      split: dev,  geo: "Cape Town, South Africa", season: winter,        text: "WINTER MILES 30% OFF",         tags: [hemi:south, text:number]}
+  - {id: b19, product: carhartt_plaid_shirt,        split: dev,  geo: "Montana, USA",           season: autumn,         text: "BUILT FOR FALL WORK",          tags: []}
+  - {id: b20, product: carhartt_plaid_shirt,        split: dev,  geo: "Melbourne, Australia",   season: spring,         text: "SPRING LAYERS FROM $59",       tags: [hemi:south, text:currency]}
+  - {id: b21, product: pandora_family_roots,        split: dev,  geo: "Delhi, India",           season: "Diwali / autumn", text: "A GIFT OF ROOTS",           tags: [culture:risk]}
+  - {id: b22, product: pandora_family_roots,        split: dev,  geo: "Vienna, Austria",        season: winter,         text: "€79 LIMITED EDITION",          tags: [text:currency]}
+
+  # ---------------- TEST ----------------
+  - {id: b23, product: neutrogena_hydro_boost,      split: test, geo: "Singapore",              season: monsoon,        text: "BEAT THE HUMIDITY",            tags: [cue:subtle]}
+  - {id: b24, product: neutrogena_hydro_boost,      split: test, geo: "Chicago, USA",           season: winter,         text: "48-HOUR HYDRATION",            tags: [text:number, text:punctuation]}
+  - {id: b25, product: ownpwr_preworkout,           split: test, geo: "Los Angeles, USA",       season: summer,         text: "BEACH BODY SEASON",            tags: []}
+  - {id: b26, product: ownpwr_preworkout,           split: test, geo: "São Paulo, Brazil",      season: winter,         text: "TREINO DE INVERNO",            tags: [hemi:south, cue:subtle]}
+  - {id: b27, product: nutella_biscuits,            split: test, geo: "Milan, Italy",           season: autumn,         text: "MERENDA D'AUTUNNO",            tags: [text:punctuation]}
+  - {id: b28, product: nutella_biscuits,            split: test, geo: "Istanbul, Turkey",       season: winter,         text: "SHARE THE WARMTH",             tags: [culture:risk]}
+  - {id: b29, product: quaker_oats,                 split: test, geo: "Edinburgh, Scotland",    season: winter,         text: "WARM STARTS AT 6AM",           tags: [text:number]}
+  - {id: b30, product: quaker_oats,                 split: test, geo: "Cairo, Egypt",           season: "spring / Ramadan", text: "SUHOOR READY",             tags: [culture:risk, cue:subtle]}
+  - {id: b31, product: jomalone_wood_sage,          split: test, geo: "London, UK",             season: spring,         text: "WOOD SAGE & SEA SALT",         tags: [text:punctuation, text:dup-on-product]}
+  - {id: b32, product: jomalone_wood_sage,          split: test, geo: "Seoul, South Korea",     season: winter,         text: "선물 같은 겨울",                  tags: [text:non-latin]}
+  - {id: b33, product: rayban_rb3447_mirror,        split: test, geo: "Santorini, Greece",      season: summer,         text: "SEE THE SUMMER",               tags: []}
+  - {id: b34, product: rayban_rb3447_mirror,        split: test, geo: "Buenos Aires, Argentina", season: summer,        text: "VERANO -40%",                  tags: [hemi:south, text:number, text:accent]}
+  - {id: b35, product: casio_gshock_mtg,            split: test, geo: "Reykjavik, Iceland",     season: winter,         text: "TOUGHER THAN WINTER",          tags: []}
+  - {id: b36, product: casio_gshock_mtg,            split: test, geo: "Jakarta, Indonesia",     season: "rainy season", text: "WATER RESIST 200M",            tags: [cue:subtle, text:dup-on-product]}
+  - {id: b37, product: newbalance_515,              split: test, geo: "Boston, USA",            season: autumn,         text: "FALL INTO 515",                tags: [text:number]}
+  - {id: b38, product: newbalance_515,              split: test, geo: "Auckland, New Zealand",  season: summer,         text: "SUMMER STRIDES NZ$129",        tags: [hemi:south, text:currency]}
+  - {id: b39, product: legendary_whitetails_flannel, split: test, geo: "Vermont, USA",          season: autumn,         text: "PEAK FLANNEL SEASON",          tags: []}
+  - {id: b40, product: legendary_whitetails_flannel, split: test, geo: "Dubai, UAE",            season: summer,         text: "COOL NIGHTS, WARM FLANNEL",    tags: [fit:conflict, text:punctuation]}
+  - {id: b41, product: londonfog_houndstooth_luggage, split: test, geo: "Paris, France",        season: autumn,         text: "TRAVEL IN STYLE",              tags: []}
+  - {id: b42, product: londonfog_houndstooth_luggage, split: test, geo: "Bali, Indonesia",      season: "dry season",   text: "PACK FOR PARADISE",            tags: [fit:conflict, cue:subtle]}
+  - {id: b43, product: pandora_sister_heart,        split: test, geo: "Manila, Philippines",    season: "Christmas season", text: "FOR MY SISTER, WITH LOVE", tags: [cue:subtle, text:long, text:dup-on-product]}
+  - {id: b44, product: pandora_sister_heart,        split: test, geo: "New York, USA",          season: spring,         text: "CELEBRATE SISTERHOOD",         tags: []}
+  - {id: b45, product: casemate_soap_bubble,        split: test, geo: "Berlin, Germany",        season: summer,         text: "SHINE ALL SUMMER",             tags: []}
+  - {id: b46, product: casemate_soap_bubble,        split: test, geo: "Mumbai, India",          season: "spring / Holi", text: "COLOUR YOUR SPRING",          tags: [culture:risk, fit:conflict]}

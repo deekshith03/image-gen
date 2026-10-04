@@ -1,0 +1,52 @@
+{
+  "item_id": "d2-b08",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"DULCE OTOÑO\"",
+      "details": {
+        "transcription": "DULCE OTOÑO",
+        "legibility": "clear",
+        "judge_reason": "Bold red text on light background, sharply rendered with clear letterforms and no distortion."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Mug design changed from reference (blue dots to terracotta pattern), but this falls under allowed staging variation since it's a different serving vessel.",
+      "details": {
+        "observations": {
+          "shape": "Box shape and proportions match reference; mug shown matches cylindrical form with handle",
+          "colour": "Red and blue packaging colors consistent; mug design differs (blue floral dots vs. terracotta triangle pattern) but this is acceptable as staging variation",
+          "logo": "Duncan Hines logo correctly displayed on box, matches reference spelling and placement",
+          "label_text": "Box text 'MUG CAKES chocolate chip cookie cake MIX' and '4 INDIVIDUAL POUCHES' matches reference; readable and consistent",
+          "parts_and_count": "Single box shown, consistent with reference; one mug cake displayed",
+          "presence": "Product (box and mug cake) clearly shown in staged lifestyle setting, not just referenced on packaging"
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "season_fit: Lush green foliage visible through window suggests warm/humid conditions, not typical cooler, drier autumn in Mexico City."
+    },
+    "season_fit": {
+      "verdict": "fail",
+      "reason": "Lush green foliage visible through window suggests warm/humid conditions, not typical cooler, drier autumn in Mexico City."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Spanish-language text and neutral urban balcony scene fit Mexico City plausibly; no contradicting elements present."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or stereotypical props; scene relies on product and cozy mood, not nationality signals."
+    }
+  },
+  "cost_usd": 0.02706
+}

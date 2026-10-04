@@ -1,0 +1,54 @@
+{
+  "item_id": "d-b31",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "reads \"WOOD SAGE & & SEA SALT\" instead of \"WOOD SAGE & SEA SALT\"; garbled text near headline: \"repeated ampersand (&) before SEA SALT\"",
+      "details": {
+        "transcription": "WOOD SAGE & & SEA SALT",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp and legible, but contains a duplicated '&' symbol, an apparent typo."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Bottle cap shape changed from tall cylindrical (reference) to rounded dome (ad), altering product identity.",
+      "details": {
+        "observations": {
+          "presence": "Product bottle and box both present in ad, consistent with reference.",
+          "shape": "Bottle body shape matches, but cap differs: reference has tall cylindrical cap, ad shows a rounded dome-style cap.",
+          "colour": "Cream/beige box and clear glass bottle with silver cap match in both images.",
+          "logo": "Jo Malone London logo present and correctly spelled on both box and bottle.",
+          "prominent_text": "'Wood Sage & Sea Salt Cologne' text matches in both images, correctly spelled.",
+          "counts": "reference: 1 bottle, 1 box / ad: 1 bottle, 1 box — counts match.",
+          "parts": "Cap style altered from cylindrical to rounded dome shape; no other parts missing or added."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Green lush foliage visible through window, bright natural light consistent with London spring conditions."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Neutral interior scene with window and greenery; nothing contradicts UK setting or culture."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, stereotypes, or token cultural props; natural light and genuine product styling used."
+    }
+  },
+  "cost_usd": 0.03013
+}

@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b28",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"SHARE THE WARMTH\"",
+      "details": {
+        "transcription": "SHARE THE WARMTH",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline is large, bold, and clearly legible against the light background with no distortion."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Package design, branding, text, and count all match reference; only staging (background, lighting) differs.",
+      "details": {
+        "observations": {
+          "presence": "Product package shown in ad, consistent with reference",
+          "shape": "Pouch shape and proportions match reference",
+          "colour": "White/brown/red color scheme consistent with reference",
+          "logo": "Nutella heart logo with 'n' present and matches reference",
+          "prominent_text": "Brand name 'nutella' and 'biscuits' spelled correctly, x22 count matches",
+          "counts": "reference: x22 / ad: x22",
+          "parts": "No missing or added parts; biscuits shown outside pouch match reference style"
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Foggy, rainy, grey Bosphorus scene with cozy blanket and tea matches Istanbul's damp, cool winter accurately."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Bosphorus ferry, wooden window, and Turkish tea glass authentically represent Istanbul without any contradicting culture."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "Tea pairs naturally with biscuits as a genuine snack moment; ferry view is subtle backdrop, not forced landmark."
+    }
+  },
+  "cost_usd": 0.0298
+}

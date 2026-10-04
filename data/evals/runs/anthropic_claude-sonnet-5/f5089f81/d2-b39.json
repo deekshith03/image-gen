@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b39",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"PEAK FLANNEL SEASON\"",
+      "details": {
+        "transcription": "PEAK FLANNEL SEASON",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharply rendered in solid dark font with clean letterforms, no distortion or overlap issues."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "The plaid pattern, color scheme, pocket design, and overall construction match consistently between reference and ad images.",
+      "details": {
+        "observations": {
+          "presence": "The flannel shirt is present in both images, worn by a model.",
+          "shape": "Same collared, button-up shirt shape with long sleeves and chest pockets in both images.",
+          "colour": "Same cream/peach plaid pattern with black and tan stripe accents in both images.",
+          "logo": "No visible logo or brand marking on the garment in either image.",
+          "prominent_text": "No product text on the garment itself; ad overlay text 'PEAK FLANNEL SEASON' is marketing copy, not product text.",
+          "counts": "reference: 2 chest pockets, 7 visible buttons / ad: 2 chest pockets, visible buttons consistent (partial view due to angle)",
+          "parts": "All parts match - collar, two chest pockets with button flaps, button placket, long sleeves with cuffs."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Fall foliage, soft golden light, fallen leaves on porch, and flannel wear all align with Vermont's actual autumn conditions."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Rural farmhouse porch, open fields, and casual American flannel style plausibly fit Vermont without contradicting culture or geography."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or token props; scene uses natural setting and genuine seasonal clothing, not stereotype signaling."
+    }
+  },
+  "cost_usd": 0.02514
+}

@@ -1,0 +1,54 @@
+{
+  "item_id": "v1-b40",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"COOL NIGHTS, WARM FLANNEL\"",
+      "details": {
+        "transcription": "COOL NIGHTS, WARM FLANNEL",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp, well-rendered, and easily readable against the night sky background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Shirt matches reference in design, color, and pattern; minor button count discrepancy noted but overall identity consistent.",
+      "details": {
+        "observations": {
+          "presence": "The flannel shirt is present in the ad, shown laid flat on a ledge rather than worn.",
+          "shape": "Shape and proportions of the shirt (collar, sleeves, button placket, two chest pockets) match the reference.",
+          "colour": "Cream/peach plaid pattern with dark thin stripes matches the reference fairly closely.",
+          "logo": "A small neck label is visible but text is not legible enough to confirm brand name accuracy.",
+          "prominent_text": "No readable brand/product text appears directly on the shirt itself aside from the unreadable tag.",
+          "counts": "reference: 2 chest pockets, 7 visible buttons / ad: 2 chest pockets, 6 visible buttons (one pocket area appears button-less at bottom)",
+          "parts": "All major parts (collar, sleeves, pockets, buttons) appear present; no extra or missing design elements beyond slight button count difference."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "season_fit: Flannel shirt and 'Cool Nights' claim contradict Dubai's real summer, where nights stay extremely hot, rarely cool.; no_cliche: Burj Khalifa is forced in purely as a location signal, the classic Dubai landmark cliché."
+    },
+    "season_fit": {
+      "verdict": "fail",
+      "reason": "Flannel shirt and 'Cool Nights' claim contradict Dubai's real summer, where nights stay extremely hot, rarely cool."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Skyline shows genuine Dubai landmarks (Burj Khalifa, fountain, Ain Dubai), consistent with the actual market."
+    },
+    "no_cliche": {
+      "verdict": "fail",
+      "reason": "Burj Khalifa is forced in purely as a location signal, the classic Dubai landmark cliché."
+    }
+  },
+  "cost_usd": 0.02899
+}

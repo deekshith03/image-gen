@@ -1,0 +1,21 @@
+name: image-gen
+
+services:
+  app:
+    build: .
+    image: image-gen:latest
+    env_file:
+      - path: .env
+        required: false
+    ports:
+      # Local only by default (the apps have no login); APP_BIND=0.0.0.0 shares it on the network.
+      - "${APP_BIND:-127.0.0.1}:${APP_PORT:-8501}:8501"
+    volumes:
+      - models:/models                              # rembg background-removal model (~1 GB, first fallback only)
+      - products:/app/data/products/images          # reference photos, fetched on first start
+      - runs:/app/data/runs                         # pipeline traces and attempt images
+
+volumes:
+  models:
+  products:
+  runs:

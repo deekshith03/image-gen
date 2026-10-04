@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b33",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"SEE THE SUMMER\"",
+      "details": {
+        "transcription": "SEE THE SUMMER",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is bold, well-rendered, and clearly legible with no distortions or errors."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product shape, color, materials, and branding in ad match reference exactly; only staging (setting, angle) differs.",
+      "details": {
+        "observations": {
+          "presence": "The product (Ray-Ban RB3447 Round sunglasses) is clearly shown in the advertisement image.",
+          "shape": "Round metal frame shape matches reference, including thin temple arms and bridge design.",
+          "colour": "Gold metal frame with green mirror lenses matches reference exactly.",
+          "logo": "Ray-Ban logo visible on lens in ad image, consistent with reference placement.",
+          "prominent_text": "No large text on product itself; ad overlay text 'SEE THE SUMMER' is marketing copy, not product text.",
+          "counts": "reference: 2 lenses, 2 temple arms / ad: 2 lenses, 2 temple arms - matches.",
+          "parts": "All parts present: frame, both lenses, nose pads, temple tips with clear end pieces - nothing missing or added."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Bright sunny sky, clear blue sea, and sunglasses/cold drink fit Santorini's hot, dry summer climate perfectly."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Whitewashed architecture and Aegean caldera view are authentic to Santorini, no conflicting culture or landmark present."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "Scene uses genuine Santorini whitewashed wall and caldera view naturally, not as forced tourist landmark or token prop."
+    }
+  },
+  "cost_usd": 0.0255
+}

@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b30",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"SUHOOR READY\"",
+      "details": {
+        "transcription": "SUHOOR READY",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp, white, and legible against the dark background with no distortion."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Package shape/colors match, but brand logo and product text are visibly blurred/garbled, altering legibility and identity fidelity.",
+      "details": {
+        "observations": {
+          "presence": "Product package is shown clearly on the table in the ad, consistent with reference.",
+          "shape": "Cylindrical container shape matches reference proportions.",
+          "colour": "Overall colour scheme (red, navy, white, yellow) matches, though slightly dimmer due to lighting.",
+          "logo": "Quaker Oats logo present but text is blurred/garbled - 'QUAKER OATS' lettering is distorted and illegible compared to crisp reference.",
+          "prominent_text": "Text is warped/garbled - 'OLD FASHIONED' and '100% WHOLE GRAIN OATS' are blurry and not clearly legible; net weight '42 Oz' is readable.",
+          "counts": "reference: 1 container / ad: 1 container - counts match.",
+          "parts": "No extra or missing parts; heart graphic and Quaker man illustration present but facial features and text are distorted."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Dark nighttime scene fits pre-dawn suhoor timing; no weather cues contradict Cairo's spring Ramadan season."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Clay jug, dates, and suhoor setup align with regional Ramadan culture; no wrong-country elements present."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "Dates and clay pitcher are functional suhoor items, not token souvenirs; warm lamp light suits the moment, not a stereotype filter."
+    }
+  },
+  "cost_usd": 0.03105
+}

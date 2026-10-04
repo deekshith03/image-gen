@@ -1,0 +1,52 @@
+{
+  "item_id": "d2-b15",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"STREET CLASSICS\"",
+      "details": {
+        "transcription": "STREET CLASSICS",
+        "legibility": "clear",
+        "judge_reason": "Bold, high-contrast dark text clearly legible against the light blurred background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Shoe matches reference in shape, color, logo, and construction; only staging (angle, background) differs.",
+      "details": {
+        "observations": {
+          "shape": "Same low-top lace-up sneaker silhouette, rounded toe, consistent proportions as reference.",
+          "colour": "Grey suede upper with white 3-stripes and white outsole, matching reference colourway.",
+          "logo": "Adidas trefoil/wordmark tab on tongue and small logo on heel, consistent placement and form.",
+          "label_text": "No garbled text; 'STREET CLASSICS' is ad copy, not product label, appears clean and legible.",
+          "parts_and_count": "Single shoe shown, correct number of stripes (3), laces, tongue, and sole components present.",
+          "presence": "Actual product shoe is shown, not just packaging or an icon."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Bright sunlight, budding tree branch with new green leaves, and clear skies all suggest spring conditions appropriately."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Classic European stone architecture, cobblestone streets, and cafe furniture feel authentically Parisian without contradiction."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or souvenirs; the street scene and cafe setting feel natural and unforced."
+    }
+  },
+  "cost_usd": 0.02334
+}

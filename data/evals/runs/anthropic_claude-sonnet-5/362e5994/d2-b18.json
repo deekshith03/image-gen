@@ -1,0 +1,52 @@
+{
+  "item_id": "d2-b18",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"WINTER MILES 30% OFF\"",
+      "details": {
+        "transcription": "WINTER MILES 30% OFF",
+        "legibility": "clear",
+        "judge_reason": "Text is bold, high-contrast white against dark background, and clearly readable."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "All key design, color, and branding elements match the reference product; only staging (angle, background) differs.",
+      "details": {
+        "observations": {
+          "shape": "Same low-top silhouette, Flyknit upper, curved sole profile, and heel/tongue shape as reference.",
+          "colour": "Consistent white/light grey Flyknit with black Swoosh and white Lunarlon midsole, matching reference colourway.",
+          "logo": "Nike logo and Swoosh correctly placed on tongue and lateral side, matching reference.",
+          "label_text": "Tongue text appears to read 'NIKE' and partial model text, consistent with reference; no garbled text visible.",
+          "parts_and_count": "Single shoe shown, same as reference count/style, no added or missing parts.",
+          "presence": "Actual product (shoe) is shown, not just packaging or logo art."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Cool misty beach, wet dark sand, overcast sky match Cape Town's winter (June-Aug), consistent with Southern Hemisphere seasonal timing."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Moody coastal scene with distant mountain peak plausibly evokes Cape Town's Atlantic coastline without contradicting local climate or culture."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmark, flag, or national stereotype; scene relies on natural coastal mood rather than token signifiers."
+    }
+  },
+  "cost_usd": 0.02458
+}

@@ -1,0 +1,54 @@
+{
+  "item_id": "p22",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"POUR SLOWLY. SIP SPRING.\"",
+      "details": {
+        "transcription": "POUR SLOWLY. SIP SPRING.",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp, high-contrast, and clearly rendered against the light background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "The kettle in the ad matches the reference in shape, color, branding, and components; only staging differs.",
+      "details": {
+        "observations": {
+          "presence": "The kettle is clearly shown in the advertisement, matching the reference product.",
+          "shape": "Gooseneck spout, cylindrical body, and tapered base match the reference proportions closely.",
+          "colour": "Chrome/stainless steel body with black handle and lid knob, consistent with reference.",
+          "logo": "Bodum logo visible on the body in both images, correctly spelled and placed.",
+          "prominent_text": "No additional misleading text on the product itself; ad text ('Pour Slowly. Sip Spring.') is separate marketing copy, not on product.",
+          "counts": "reference: 1 kettle / ad: 1 kettle",
+          "parts": "All parts present—spout, handle, lid knob, base—no additions or omissions."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "market_fit: The Eiffel Tower appears through the window, placing Paris, France as the backdrop instead of Kyoto, Japan."
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Fresh green leaves and spring-like foliage visible through the window support a spring scene."
+    },
+    "market_fit": {
+      "verdict": "fail",
+      "reason": "The Eiffel Tower appears through the window, placing Paris, France as the backdrop instead of Kyoto, Japan."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "Shoji screens and wooden interior suit the scene naturally; no forced landmark, stereotype, or color filter used here."
+    }
+  },
+  "cost_usd": 0.02883
+}

@@ -1,0 +1,54 @@
+{
+  "item_id": "v3-b22",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "reads \"€79 EDITION\" instead of \"€79 LIMITED EDITION\"",
+      "details": {
+        "transcription": "€79 EDITION",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharply rendered in simple sans-serif font with clear spacing and high contrast against background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product matches reference in shape, design, material, and all visible details; only staging differs.",
+      "details": {
+        "observations": {
+          "presence": "The charm is shown resting on a table in the ad, matching the reference product",
+          "shape": "Round bead charm with tree of life design, same silhouette and openwork pattern as reference",
+          "colour": "Silver/sterling silver tone matches reference exactly",
+          "logo": "No visible Pandora logo in either image at this angle",
+          "prominent_text": "No text on product itself; '€79 EDITION' is ad overlay text, not product text",
+          "counts": "reference: single tree design on round charm / ad: same single tree design on round charm",
+          "parts": "All design elements present - tree branches, swirls, leaf cutouts on sides, core holes for threading"
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Rainy window, warm coat/scarf draped on chair, indoor café warmth all align with cold, wet Viennese winter."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "German 'Zeitungshalter' newspaper holder, classic Viennese coffeehouse interior and Melange-style cup all fit Austria."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "Authentic Viennese coffeehouse ambiance (newspaper holder, coffee ritual) is contextually genuine, not a forced tourist token prop."
+    }
+  },
+  "cost_usd": 0.03067
+}

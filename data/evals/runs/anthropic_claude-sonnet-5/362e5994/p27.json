@@ -1,0 +1,52 @@
+{
+  "item_id": "p27",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"A GIFT OF ROOTS\"",
+      "details": {
+        "transcription": "A GIFT OF ROOTS",
+        "legibility": "clear",
+        "judge_reason": "Text is sharp, high-contrast, and legible against the plain background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Charm design, shape, and finish match reference; no identity changes beyond allowed staging elements.",
+      "details": {
+        "observations": {
+          "shape": "Round openwork charm with Tree of Life design matches reference; same circular silhouette and swirling branch pattern",
+          "colour": "Sterling silver tone consistent with reference image, same oxidized antique finish in recessed areas",
+          "logo": "No visible logo in either image to compare",
+          "label_text": "Text present is marketing copy 'A GIFT OF ROOTS', not product packaging text; no garbled fine print on product itself",
+          "parts_and_count": "Single charm shown, matches single item in reference, no chain or additional parts added",
+          "presence": "Actual product charm is physically shown in the advertisement, not just depicted on packaging"
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "season_fit: Imagery shows a Christmas tree and Santa figurine, signaling winter holiday season, not Diwali/autumn in Delhi.; market_fit: Christmas theming and Western decor elements don't align with Diwali festival context for Delhi consumers.; no_cliche: Santa and Christmas tree are generic holiday props unrelated to the charm's tree-of-life design or Diwali."
+    },
+    "season_fit": {
+      "verdict": "fail",
+      "reason": "Imagery shows a Christmas tree and Santa figurine, signaling winter holiday season, not Diwali/autumn in Delhi."
+    },
+    "market_fit": {
+      "verdict": "fail",
+      "reason": "Christmas theming and Western decor elements don't align with Diwali festival context for Delhi consumers."
+    },
+    "no_cliche": {
+      "verdict": "fail",
+      "reason": "Santa and Christmas tree are generic holiday props unrelated to the charm's tree-of-life design or Diwali."
+    }
+  },
+  "cost_usd": 0.02612
+}

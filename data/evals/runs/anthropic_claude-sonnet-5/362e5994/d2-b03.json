@@ -1,0 +1,52 @@
+{
+  "item_id": "d2-b03",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"HYDRATION THAT LASTS\"",
+      "details": {
+        "transcription": "HYDRATION THAT LASTS",
+        "legibility": "clear",
+        "judge_reason": "Text is sharply rendered in bold, high-contrast dark blue font against a light window background."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Label text contains garbled/misspelled words and missing 'NEW' tag, indicating altered packaging fidelity.",
+      "details": {
+        "observations": {
+          "shape": "Bottle shape and pump dispenser proportions match the reference, consistent silhouette.",
+          "colour": "White bottle with blue pump cap and blue diagonal label band consistent with reference.",
+          "logo": "CeraVe logo present, correct font and placement, but missing the pink 'NEW/NOUVEAU' tag.",
+          "label_text": "Text is distorted/garbled in several areas - 'Moisturises aod helps' and other words show letter errors, slightly nonsensical phrasing compared to crisp reference text.",
+          "parts_and_count": "Single bottle shown, correct single pump component, no extra or missing parts.",
+          "presence": "Actual product bottle is shown, not just a graphic representation."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "market_fit: French label text ('Lait Hydratant') is inconsistent with Indian market; no Indian context, script, or signage present."
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Rain-streaked window, grey overcast sky, and misty coastal view align well with Mumbai's monsoon season."
+    },
+    "market_fit": {
+      "verdict": "fail",
+      "reason": "French label text ('Lait Hydratant') is inconsistent with Indian market; no Indian context, script, or signage present."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No landmarks or flags; scene relies on neutral rainy window motif rather than forced national symbols."
+    }
+  },
+  "cost_usd": 0.02794
+}

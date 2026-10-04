@@ -1,0 +1,52 @@
+{
+  "item_id": "p19",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"BUY 2 GET 1 FREE\"",
+      "details": {
+        "transcription": "BUY 2 GET 1 FREE",
+        "legibility": "clear",
+        "judge_reason": "Bold, high-contrast text with clear, well-formed letters against a light background."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Fine print on ad packaging (certifications, net weight) appears as blurred/garbled nonsense text compared to crisp reference label.",
+      "details": {
+        "observations": {
+          "shape": "Bag shape and proportions match - standard chip bag silhouette with crimped top seal, consistent in both images.",
+          "colour": "Kraft paper tan/brown background with green organic banner and maroon bottom band match in both images.",
+          "logo": "365 Everyday Value logo present but text appears blurred/illegible in ad version at this scale; color blocks visible.",
+          "label_text": "In the ad, text on bags reads 'Barbeque Potato Chips' correctly, but fine print (net weight, certifications) is garbled/illegible pixelated text, not matching clean reference text.",
+          "parts_and_count": "Two bags shown in ad, consistent with 'Buy 2 Get 1 Free' messaging; no extra or missing bag parts.",
+          "presence": "Product bags are clearly shown, not just an image of chips without packaging."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "season_fit: Snow-covered ground, frosted branches, and winter imagery depict winter, not autumn weather, foliage, or seasonal light expected in Seoul.; market_fit: No Korean script, landmarks, or cultural markers; generic snowy scene could be anywhere, lacking specific Seoul identity or context."
+    },
+    "season_fit": {
+      "verdict": "fail",
+      "reason": "Snow-covered ground, frosted branches, and winter imagery depict winter, not autumn weather, foliage, or seasonal light expected in Seoul."
+    },
+    "market_fit": {
+      "verdict": "fail",
+      "reason": "No Korean script, landmarks, or cultural markers; generic snowy scene could be anywhere, lacking specific Seoul identity or context."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or national stereotypes; props (chips, mug) relate naturally to product without cultural tokenism."
+    }
+  },
+  "cost_usd": 0.02563
+}

@@ -1,0 +1,54 @@
+{
+  "item_id": "v4.1-b45",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"SHINE ALL SUMMER\"",
+      "details": {
+        "transcription": "SHINE ALL SUMMER",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharp, high-contrast, and clearly legible against the light pavement background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Case design, pattern, logo, lens count, and structure match reference exactly under different staging/lighting.",
+      "details": {
+        "observations": {
+          "presence": "Product case is shown in the ad, held in hand near camera cutout, consistent with reference.",
+          "shape": "Same rectangular case shape with raised camera bump and rounded edges matching reference.",
+          "colour": "Same iridescent holographic swirl pattern in pink, blue, green, and silver tones on clear base.",
+          "logo": "Case-Mate 'oM' logo visible at bottom center in both images, same placement and style.",
+          "prominent_text": "No additional text on the case itself; ad overlay text 'SHINE ALL SUMMER' is marketing copy, not product text.",
+          "counts": "reference: 3 camera lenses / ad: 3 camera lenses visible through cutout.",
+          "parts": "All case parts present: camera cutout, side buttons, logo cutout for Apple logo, no missing or added elements."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Bright sunlight, short sleeves, bare arm, outdoor stone steps all match a typical Berlin summer day."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic sidewalk, no foreign landmarks, scripts, or festivals; nothing contradicts a Berlin setting."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "Club-Mate bottle fits naturally as a casual drink, not forced as a flag-like national signal; no filters or landmarks."
+    }
+  },
+  "cost_usd": 0.02826
+}

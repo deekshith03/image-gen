@@ -1,0 +1,52 @@
+{
+  "item_id": "d2-b02",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"SUMMER GLOW 25% OFF\"",
+      "details": {
+        "transcription": "SUMMER GLOW 25% OFF",
+        "legibility": "clear",
+        "judge_reason": "Headline text is sharp, high-contrast, and easily readable against the sky background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product jar matches reference in shape, color, logo, and label text; staged outdoor setting is permissible variation.",
+      "details": {
+        "observations": {
+          "shape": "Same cylindrical jar with flat lid, consistent proportions with reference image.",
+          "colour": "Same white jar body and cap, matching material and finish as reference.",
+          "logo": "Kiehl's logo correctly spelled and placed, consistent serif font with 'SINCE 1851' text intact.",
+          "label_text": "Text matches reference, including 'ULTRA FACIAL CREAM' and descriptive copy, though partially shadowed/soft.",
+          "parts_and_count": "Single jar shown, same as reference, no added or missing components.",
+          "presence": "Actual product jar is shown, not just a graphic representation."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Bright sunny sky, beach sand, calm turquoise water, and greenery all align with a warm Sydney summer setting."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic beach scene with no conflicting cultural or geographic markers; plausibly fits Sydney's coastal summer environment."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No landmarks, flags, or national symbols used; beach setting serves mood and product context naturally, not as a forced signal."
+    }
+  },
+  "cost_usd": 0.02473
+}

@@ -1,0 +1,52 @@
+{
+  "item_id": "d2-b14",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"TIME TO EXPLORE $99\"",
+      "details": {
+        "transcription": "TIME TO EXPLORE $99",
+        "legibility": "clear",
+        "judge_reason": "Text is sharply rendered with high contrast against the blurred background, making it easy to read."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Watch design, color, strap, and case shape appear consistent with reference; no visible identity changes despite small scale.",
+      "details": {
+        "observations": {
+          "shape": "Round case, chronograph subdials consistent with reference watch",
+          "colour": "Black case/dial with brown leather strap, matches reference",
+          "logo": "Too small/angled to confirm text, but position looks consistent",
+          "label_text": "Dial text not legible at this distance, no obvious garbling visible",
+          "parts_and_count": "Single watch shown, strap and case intact, no added/missing parts",
+          "presence": "Actual product is shown worn on wrist, not just packaging"
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Snow-covered ground, bare trees, frosty fence post, and a heavy knit sweater all align with a cold Toronto winter scene."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic snowy, wooded setting with plain architecture in background plausibly fits a Canadian winter city without contradicting it."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No landmarks, flags, or forced national symbols; scene relies on natural winter elements and product focus."
+    }
+  },
+  "cost_usd": 0.02429
+}

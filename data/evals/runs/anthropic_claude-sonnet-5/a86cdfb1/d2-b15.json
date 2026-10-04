@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b15",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"STREET CLASSICS\"",
+      "details": {
+        "transcription": "STREET CLASSICS",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is bold, crisp, and clearly legible against the blurred background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product shape, color, branding, and stripe count all match reference; only staging/background differs.",
+      "details": {
+        "observations": {
+          "presence": "The adidas Grand Court shoe is clearly shown in the advertisement image.",
+          "shape": "Same low-top sneaker silhouette, toe shape, and proportions as reference.",
+          "colour": "Matches reference: grey suede upper, white stripes and sole, grey heel tab.",
+          "logo": "adidas branding visible on tongue label and heel, consistent placement with reference.",
+          "prominent_text": "adidas wordmark present; 'STREET CLASSICS' is ad copy, not product text, acceptable.",
+          "counts": "reference: 3 side stripes / ad: 3 side stripes - matches",
+          "parts": "All components present - laces, tongue, heel tab, sole, stripes; nothing missing or added."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Budding green leaves, bright sunlight, and clear sky align with Parisian spring; no contradicting weather cues present."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic European stone street and architecture plausibly fit Paris; no conflicting foreign landmarks or cultural markers."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or token props; scene relies on believable streetscape rather than stereotypical signifiers."
+    }
+  },
+  "cost_usd": 0.02465
+}

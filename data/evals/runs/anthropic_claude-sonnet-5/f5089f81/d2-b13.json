@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b13",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"BUILT FOR THE TRAIL\"",
+      "details": {
+        "transcription": "BUILT FOR THE TRAIL",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline is crisp, bold, high-contrast sans-serif text clearly legible against the blurred background."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Dial text is garbled ('CORONOOGRAPH', 'WN NIOM', '1/0GS'), altering prominent product text from the reference.",
+      "details": {
+        "observations": {
+          "presence": "Watch is present in both images, shown resting on rock in ad.",
+          "shape": "Round case, chronograph sub-dials, and crown/pushers shape are consistent with reference.",
+          "colour": "Black dial, tan markers, brown leather strap all match reference.",
+          "logo": "TIMEX logo present and correctly spelled in ad.",
+          "prominent_text": "Dial text is garbled in ad: 'CORONOOGRAPH' instead of 'CHRONOGRAPH', 'WN NIOM' instead of 'WR 100M', and '1/0GS' instead of '1/20S'.",
+          "counts": "reference: 3 sub-dials, 2 crowns/pushers / ad: 3 sub-dials, 2 crowns/pushers (matches)",
+          "parts": "No missing or added parts; strap, crown, pushers all present."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Golden autumn leaves, cool muted mountain forest backdrop align well with Patagonian fall; no contradicting cues present."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic mountain/forest rock scene with no foreign landmarks, scripts, or festivals that contradict Patagonia, Argentina."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or token souvenir props; natural lighting and leaves fit the scene authentically."
+    }
+  },
+  "cost_usd": 0.02968
+}

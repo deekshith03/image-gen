@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b10",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"ONLY AED 299\"",
+      "details": {
+        "transcription": "ONLY AED 299",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharp, high-contrast, and clearly rendered against the blurred background."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Metallic trim and text color changed from silver (reference) to gold (ad), altering material identity of the product.",
+      "details": {
+        "observations": {
+          "presence": "Product bottle is shown in both images.",
+          "shape": "Same rectangular faceted bottle shape and proportions in both.",
+          "colour": "Reference has silver cap band and silver text; ad shows dark/black cap band and gold-colored brand plate and text, inconsistent with reference's silver tone.",
+          "logo": "VERSACE MAN logo present in both, but color changed from silver (ref) to gold (ad).",
+          "prominent_text": "'EAU FRAÎCHE' text present in both; reference is silver, ad is gold - color/material inconsistency.",
+          "counts": "reference: 1 bottle / ad: 1 bottle - counts match.",
+          "parts": "No parts missing or added; cap, sprayer, and bottle all present in both."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Sunny poolside scene with clear skies matches Dubai's mild, pleasant winter weather; no contradiction present."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Neutral luxury poolside setting is plausible for UAE; no wrong-country landmarks, scripts, or festivals shown."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, stereotypes, token props, or sepia/dusty filter; clean, genuine product-focused scene."
+    }
+  },
+  "cost_usd": 0.02827
+}

@@ -1,0 +1,54 @@
+{
+  "item_id": "p24",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"PACK FOR PARADISE\"",
+      "details": {
+        "transcription": "PACK FOR PARADISE",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline is crisply rendered in a serif font with even spacing and no distortion."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Suitcase shape, pattern, color, and components match reference; differences are due to angle and lighting only.",
+      "details": {
+        "observations": {
+          "presence": "Product (carry-on suitcase) is clearly shown in both images.",
+          "shape": "Same rectangular soft-side carry-on silhouette with telescoping handle and top/side handles.",
+          "colour": "Both show black-and-white houndstooth fabric with black trim and black wheels.",
+          "logo": "Front badge shape present in both; logo detail not legible in ad due to scale/angle, but placement matches.",
+          "prominent_text": "No readable brand text differences; 'LONDON FOG' not clearly visible in ad due to distance, but no garbled text present.",
+          "counts": "reference: 4 spinner wheels, 1 front zip pocket, 1 side pocket / ad: same wheel cluster and pocket layout visible from different angle.",
+          "parts": "All components (handle, wheels, zippers, pockets) appear present in both; no added or missing parts."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "season_fit: Scene shows heavy snow and winter alpine conditions, completely contradicting Bali's dry season, which is warm and sunny year-round.; market_fit: Snowy Alpine chalet village is a European mountain setting, entirely inconsistent with Bali's tropical landscape and culture."
+    },
+    "season_fit": {
+      "verdict": "fail",
+      "reason": "Scene shows heavy snow and winter alpine conditions, completely contradicting Bali's dry season, which is warm and sunny year-round."
+    },
+    "market_fit": {
+      "verdict": "fail",
+      "reason": "Snowy Alpine chalet village is a European mountain setting, entirely inconsistent with Bali's tropical landscape and culture."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No Balinese landmarks, stereotypes, token props or color filtering are used; the failure here is geographic, not clichéd representation."
+    }
+  },
+  "cost_usd": 0.02992
+}

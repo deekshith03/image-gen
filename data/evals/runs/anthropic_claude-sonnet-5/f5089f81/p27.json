@@ -1,0 +1,54 @@
+{
+  "item_id": "p27",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"A GIFT OF ROOTS\"",
+      "details": {
+        "transcription": "A GIFT OF ROOTS",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharply rendered in a clean serif font with high contrast against the background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Charm design, shape, and color match reference exactly; only staging (table, props) differs.",
+      "details": {
+        "observations": {
+          "presence": "The charm is shown in the ad, placed on a table surface.",
+          "shape": "Same round openwork charm shape with tree of life design, consistent with reference.",
+          "colour": "Same silver-tone metal matching reference.",
+          "logo": "No visible branding in ad image; reference also has no visible logo in frame.",
+          "prominent_text": "No product text on the charm itself; ad includes unrelated text 'A GIFT OF ROOTS'.",
+          "counts": "reference: 1 charm / ad: 1 charm — consistent count.",
+          "parts": "No added or missing parts; design elements (tree, swirls, cut-outs) match reference."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "season_fit: Christmas tree and Santa imagery evoke December winter, not Diwali's autumn timing in Delhi (October/November).; market_fit: Christmas/Santa theming is culturally mismatched with Diwali, a Hindu festival, creating a festival-identity contradiction."
+    },
+    "season_fit": {
+      "verdict": "fail",
+      "reason": "Christmas tree and Santa imagery evoke December winter, not Diwali's autumn timing in Delhi (October/November)."
+    },
+    "market_fit": {
+      "verdict": "fail",
+      "reason": "Christmas/Santa theming is culturally mismatched with Diwali, a Hindu festival, creating a festival-identity contradiction."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No stereotyped color filters, forced landmarks, or token souvenir props; charm and setting feel natural and tasteful."
+    }
+  },
+  "cost_usd": 0.02758
+}

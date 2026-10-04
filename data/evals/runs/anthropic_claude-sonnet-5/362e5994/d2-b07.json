@@ -1,0 +1,52 @@
+{
+  "item_id": "d2-b07",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"COSY MUG CAKE IN 1 MINUTE\"",
+      "details": {
+        "transcription": "COSY MUG CAKE IN 1 MINUTE",
+        "legibility": "clear",
+        "judge_reason": "Text is sharp, well-contrasted against the window background, and fully legible."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Packaging fine print is distorted into illegible/garbled text, differing from clean original label.",
+      "details": {
+        "observations": {
+          "shape": "Box proportions and mug shape match reference closely",
+          "colour": "Red/blue packaging colors and mug's blue floral pattern consistent with original",
+          "logo": "Duncan Hines logo correctly spelled and placed on shield emblem",
+          "label_text": "Fine print on box appears blurred/garbled, unlike crisp original text",
+          "parts_and_count": "Single box and mug shown, consistent with one product set",
+          "presence": "Product (box and mug cake) is clearly depicted, not just referenced"
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Rainy, overcast window, bare winter trees, warm interior lighting, and cozy knit sweater all align with a UK winter scene."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Chimney pots and rooftop silhouettes suggest British architecture; cozy, rainy mood feels authentic to London winter life."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmark, flag, or overt national symbol; chimney rooftops read as atmospheric, not a token signal."
+    }
+  },
+  "cost_usd": 0.02771
+}

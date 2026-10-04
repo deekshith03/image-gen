@@ -1,0 +1,52 @@
+{
+  "item_id": "p32",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"€79 LIMITED EDITION\"",
+      "details": {
+        "transcription": "€79 LIMITED EDITION",
+        "legibility": "clear",
+        "judge_reason": "Text is sharply rendered in a clean font with high contrast against the dark wood background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Charm design, shape, and silver tone match reference; staged with props but product identity unchanged.",
+      "details": {
+        "observations": {
+          "shape": "Round openwork charm with tree of life design matches reference proportions",
+          "colour": "Sterling silver tone consistent with reference image",
+          "logo": "No visible brand text on charm itself, consistent with reference",
+          "label_text": "No garbled text; only promotional text '€79 LIMITED EDITION' and Austrian flag, no product label text present",
+          "parts_and_count": "Single charm shown, matches single item in reference, no chain or extra parts added",
+          "presence": "Actual physical charm is shown on table, not just depicted on packaging"
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "no_cliche: Austrian flag toothpick in cake is a token nationality signal with no functional role, and cake resembles touristic Sachertorte cliché."
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Dusky blue winter sky, warm interior lighting, wool scarf draped on table all suggest a cold Vienna evening."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Viennese architecture visible through window, elegant café interior, and Sachertorte-style cake fit Vienna's coffeehouse culture authentically."
+    },
+    "no_cliche": {
+      "verdict": "fail",
+      "reason": "Austrian flag toothpick in cake is a token nationality signal with no functional role, and cake resembles touristic Sachertorte cliché."
+    }
+  },
+  "cost_usd": 0.02604
+}

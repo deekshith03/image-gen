@@ -1,0 +1,54 @@
+{
+  "item_id": "p12",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "prominent garbled scene text: \"TIMEZ EXPEDITION CHRONOCGSAPH WOM WOM INETICLO\"",
+      "details": {
+        "transcription": "BUILT FOR THE TRAIL",
+        "legibility": "clear",
+        "scene_garble": "TIMEZ EXPEDITION CHRONOCGSAPH WOM WOM INETICLO",
+        "judge_reason": "Headline is crisp and bold; watch face text is garbled/misspelled branding typical of AI-generated imagery."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Brand name misspelled as 'TIMEZ' and dial text garbled ('CHRONOCOSAPH', 'UGGS'), altering product identity.",
+      "details": {
+        "observations": {
+          "presence": "Watch with brown leather strap and black chronograph dial present in both images.",
+          "shape": "Round case, three sub-dials, overall proportions match reference.",
+          "colour": "Black dial, tan/cream accents, brown leather strap consistent with reference.",
+          "logo": "Brand text reads 'TIMEZ' instead of 'TIMEX' - misspelled.",
+          "prominent_text": "'CHRONOCOSAPH' replaces 'CHRONOGRAPH'; sub-dial numerals garbled ('UGGS' instead of numbers); 'WM WOM' instead of 'WR 100M'.",
+          "counts": "reference: 3 sub-dials / ad: 3 sub-dials - matches",
+          "parts": "No missing or added parts, but text elements are altered/nonsensical."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Fallen golden autumn leaves on rock align with Patagonia's autumn foliage; no contradicting weather or seasonal cues present."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic rocky terrain with forested mountains plausibly fits Patagonian landscape; no conflicting cultural or geographic markers shown."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or token souvenirs; natural rock and leaves relate organically to the trail theme."
+    }
+  },
+  "cost_usd": 0.02777
+}

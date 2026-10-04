@@ -1,0 +1,54 @@
+{
+  "item_id": "p37",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"선물 같은 겨울\"",
+      "details": {
+        "transcription": "선물 같은 겨울",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Korean headline text is sharply rendered and clearly legible against the light background."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Bottle cap shape changed from flat cylindrical to rounded dome, and label text is garbled, not matching 'Wood Sage & Sea Salt'.",
+      "details": {
+        "observations": {
+          "presence": "Product bottle and box both present in ad, consistent with reference",
+          "shape": "Ad bottle has a rounded dome-style cap, while reference shows a tall flat-top cylindrical cap; bottle proportions also differ slightly",
+          "colour": "Ad box is a warmer gold tone vs reference's beige/cream; cap material also appears glossier/rounder in ad",
+          "logo": "JO MALONE LONDON logo appears correctly spelled on both box and bottle",
+          "prominent_text": "Reference label clearly reads 'Wood Sage & Sea Salt Cologne'; ad label text is garbled/altered, not clearly matching product name",
+          "counts": "reference: 1 box + 1 bottle / ad: 1 box + 1 bottle — counts match",
+          "parts": "No extra or missing parts, but cap design altered and label text corrupted"
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "market_fit: Mount Fuji and a torii gate are iconic Japanese symbols, contradicting the South Korea target market."
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Snow-capped mountain and cozy wool blanket align with cold winter weather typical in Seoul."
+    },
+    "market_fit": {
+      "verdict": "fail",
+      "reason": "Mount Fuji and a torii gate are iconic Japanese symbols, contradicting the South Korea target market."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No Korean stereotypes, filters, or token props present; issue is wrong-country imagery, not cliché."
+    }
+  },
+  "cost_usd": 0.03503
+}

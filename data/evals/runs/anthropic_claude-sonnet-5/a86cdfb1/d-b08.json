@@ -1,0 +1,54 @@
+{
+  "item_id": "d-b08",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"DULCE OTOÑO\"",
+      "details": {
+        "transcription": "DULCE OTOÑO",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharp, well-rendered, and easily legible against the background."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Advertisement shows only the baked cake in a mug without any Duncan Hines packaging, logo, or brand text—product identity/branding is absent.",
+      "details": {
+        "observations": {
+          "presence": "Only the baked mug cake (food item) from the package is shown in the ad; the actual Duncan Hines box/package is not present.",
+          "shape": "Mug shape and cake dome shape are consistent with reference.",
+          "colour": "Mug color/pattern (white with teal/blue dot pattern) matches reference closely.",
+          "logo": "No Duncan Hines logo or branding appears anywhere in the ad image.",
+          "prominent_text": "Ad text reads 'DULCE OTOÑO' - a seasonal marketing phrase, not product packaging text. No 'Duncan Hines' or 'Mug Cakes' text visible.",
+          "counts": "reference: 1 box + 1 mug cake / ad: 1 mug cake only, no box or packaging",
+          "parts": "Missing the product packaging entirely (box with brand name, logo, product description, net weight, cooking instructions icon)."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Golden autumn light, trees with warm foliage visible through window, cozy blanket and hot drinks fit Mexico City's mild, dry autumn."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "No wrong-country landmarks, scripts, or festivals present; scene is generic and plausible for Mexico City."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or token souvenir props; warm tones feel like natural sunlight, not a stereotyped filter."
+    }
+  },
+  "cost_usd": 0.02869
+}

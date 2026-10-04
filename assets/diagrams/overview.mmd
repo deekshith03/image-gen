@@ -1,0 +1,9 @@
+flowchart TD
+  B["<b>Brief</b><br/>product photo · geography · season · headline"] --> PL["<b>Planner</b> · Gemini 3.8 Flash<br/>reads the brand's type off the packaging,<br/>plans scene, composition, headline placement"]
+  PL --> G["<b>Generator</b> · Gemini 3.1 Flash Image<br/>1024 × 1024 ad"]
+  G --> J{"<b>Judge</b> · Claude Sonnet 5<br/>size · text · product · context"}
+  J -- "all pass" --> OUT["<b>Final ad</b> + trace"]
+  J -- "fail · retry ≤ 2× with the judge's critique" --> G
+  J -- "still failing" --> F["<b>Deterministic fallback</b><br/>text → headline set in a real font<br/>product → real product cutout composited"]
+  F -- "re-judged" --> OUT
+  GS["<b>Golden set</b> · 109 human-labelled ads<br/>46 final · 24 earlier · 39 planted<br/>promptfoo: dev to tune, test once"] -. "measures the judge<br/>(catch / pass rates)" .-> J

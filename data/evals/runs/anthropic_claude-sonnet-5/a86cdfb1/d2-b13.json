@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b13",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "prominent garbled scene text: \"Watch dial text is garbled/nonsensical: 'CORONOOGRAPH', 'INCHOLO OTYHNO', 'U3GS', 'WOIN WN' appear as distorted fake watch labeling\"",
+      "details": {
+        "transcription": "BUILT FOR THE TRAIL",
+        "legibility": "clear",
+        "scene_garble": "Watch dial text is garbled/nonsensical: 'CORONOOGRAPH', 'INCHOLO OTYHNO', 'U3GS', 'WOIN WN' appear as distorted fake watch labeling",
+        "judge_reason": "Headline text is crisp and bold against background; watch dial text is intentionally stylized but nonsensical upon inspection."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Dial text is garbled ('CORONOOGRAPH', 'WN NIOM', '1/0GS'), altering prominent product text from the reference.",
+      "details": {
+        "observations": {
+          "presence": "Watch is present in both images, shown resting on rock in ad.",
+          "shape": "Round case, chronograph sub-dials, and crown/pushers shape are consistent with reference.",
+          "colour": "Black dial, tan markers, brown leather strap all match reference.",
+          "logo": "TIMEX logo present and correctly spelled in ad.",
+          "prominent_text": "Dial text is garbled in ad: 'CORONOOGRAPH' instead of 'CHRONOGRAPH', 'WN NIOM' instead of 'WR 100M', and '1/0GS' instead of '1/20S'.",
+          "counts": "reference: 3 sub-dials, 2 crowns/pushers / ad: 3 sub-dials, 2 crowns/pushers (matches)",
+          "parts": "No missing or added parts; strap, crown, pushers all present."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Fallen autumn leaves, muted forest tones, and overcast light align with Patagonian autumn; no contradictory cues present."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic rocky, forested mountain terrain is plausible for Patagonia; no conflicting foreign landmarks or culture shown."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No national flags, stereotypes, or forced souvenirs; scene uses natural rock and leaves relevant to product styling."
+    }
+  },
+  "cost_usd": 0.02933
+}

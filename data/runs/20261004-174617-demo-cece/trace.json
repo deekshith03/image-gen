@@ -1,0 +1,69 @@
+{
+  "run_id": "20261004-174617-demo-cece",
+  "brief": {
+    "id": "demo",
+    "product": "timex_expedition_chrono",
+    "geo": "Bengaluru. India",
+    "season": "Summer",
+    "text": "GET GOING"
+  },
+  "outcome": "passed",
+  "final": "00_generate.png",
+  "cost_usd": 0.0998,
+  "attempts": [
+    {
+      "label": "generate",
+      "image": "00_generate.png",
+      "failures": [],
+      "cost_usd": 0.02544,
+      "passed": true,
+      "checks": {
+        "size": {
+          "verdict": "pass",
+          "reason": "1024×1024, long edge ≤ 1024px"
+        },
+        "text": {
+          "verdict": "pass",
+          "reason": "reads exactly \"GET GOING\"",
+          "details": {
+            "transcription": "GET GOING",
+            "legibility": "clear",
+            "scene_garble": "",
+            "judge_reason": "Headline text is crisp, well-contrasted, and easily readable against the background."
+          }
+        },
+        "product": {
+          "verdict": "pass",
+          "reason": "All design, color, text, and structural elements match the reference product accurately despite different staging and lighting.",
+          "details": {
+            "observations": {
+              "presence": "The watch is clearly shown in the ad, resting on a stone surface.",
+              "shape": "Round case shape, proportions, and leather strap style match the reference product.",
+              "colour": "Black case/dial with tan accents and brown leather strap match the reference exactly.",
+              "logo": "TIMEX logo is visible and correctly spelled/placed on the dial, consistent with reference.",
+              "prominent_text": "EXPEDITION, CHRONOGRAPH, MIN, SEC, INDIGLO, WR 100M text all appear correctly as in reference.",
+              "counts": "reference: 3 sub-dials, 2 crown/pushers / ad: 3 sub-dials, 2 crown/pushers - matches.",
+              "parts": "No missing or added components; strap, case, crown, and sub-dials all present as in reference."
+            }
+          }
+        },
+        "context": {
+          "verdict": "pass",
+          "reason": "all context checks pass"
+        },
+        "season_fit": {
+          "verdict": "pass",
+          "reason": "Sunny outdoor scene with warm light plausibly fits Bengaluru summer; no cold-weather or contradictory climate cues present."
+        },
+        "market_fit": {
+          "verdict": "pass",
+          "reason": "No landmarks, scripts, or cultural markers suggesting another country; scene is neutral and could plausibly be Bengaluru."
+        },
+        "no_cliche": {
+          "verdict": "pass",
+          "reason": "No token cultural props, stereotypes, or forced landmark; just watch, cup, and key in natural light."
+        }
+      }
+    }
+  ]
+}

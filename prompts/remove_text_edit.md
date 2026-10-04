@@ -1,0 +1,1 @@
+Edit the attached advertisement: remove all headline and slogan text, filling those areas naturally with the surrounding background. Keep the product, its packaging and label text, and everything else identical.

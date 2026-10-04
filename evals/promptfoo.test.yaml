@@ -1,0 +1,9 @@
+description: Ad evaluator vs golden labels (test split)
+prompts:
+  - "{{item_id}}"
+providers:
+  - id: file://provider.py
+    label: claude-sonnet-5 judge
+    config:
+      model: anthropic/claude-sonnet-5
+tests: file://tests/test.yaml

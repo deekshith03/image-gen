@@ -1,0 +1,54 @@
+{
+  "item_id": "p16",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"TOUGHER THAN WINTER\"",
+      "details": {
+        "transcription": "TOUGHER THAN WINTER",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharply rendered in bold white sans-serif font with high contrast against dark background."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "The advertised watch is a completely different analog dress watch, lacking G-Shock's digital display, branding, buttons, and bracelet.",
+      "details": {
+        "observations": {
+          "presence": "A wristwatch is shown in the ad, but it is an analog dress watch, not the reference G-Shock MT-G digital watch.",
+          "shape": "Reference has a bulky, angular digital watch case with rotated bezel buttons; ad shows a thin, round, minimalist analog case.",
+          "colour": "Reference is silver/titanium with gray resin bezel; ad watch is gold-toned metal with a brown leather strap, no resin bezel.",
+          "logo": "Reference clearly shows 'G-SHOCK' and 'CASIO' branding; ad watch has no visible brand text, only a tiny unreadable emblem.",
+          "prominent_text": "Reference has digital display with day/date, 'WAVE CEPTOR/TOUGH SOLAR', 'MT-G', 'WATER 200M RESIST'; ad watch has a blank analog dial with no text at all.",
+          "counts": "reference: 1 digital display with multiple sub-indicators (battery, receiving indicator, day/date) / ad: 1 plain analog dial with hour markers only, no sub-dials",
+          "parts": "Reference has metal bracelet band with multiple buttons (Adjust, Mode, Receive, Time Memo); ad watch has a leather strap and a single crown, no buttons."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Dark evening sky, icy wet rocks, and moody blue tones are consistent with Reykjavik's winter climate."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Coastal rocky scene with distant harbor lights plausibly fits Reykjavik; no wrong-country elements present."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or token souvenirs; natural coastal rock and lighting feel authentic, not stereotyped."
+    }
+  },
+  "cost_usd": 0.02708
+}

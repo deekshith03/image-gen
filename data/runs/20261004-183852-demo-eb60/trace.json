@@ -1,0 +1,69 @@
+{
+  "run_id": "20261004-183852-demo-eb60",
+  "brief": {
+    "id": "demo",
+    "product": "bbq_chips_365",
+    "geo": "Austin, Texas, USA",
+    "season": "summer",
+    "text": "BBQ SEASON IS HERE"
+  },
+  "outcome": "passed",
+  "final": "00_generate.png",
+  "cost_usd": 0.098,
+  "attempts": [
+    {
+      "label": "generate",
+      "image": "00_generate.png",
+      "failures": [],
+      "cost_usd": 0.02613,
+      "passed": true,
+      "checks": {
+        "size": {
+          "verdict": "pass",
+          "reason": "1024×1024, long edge ≤ 1024px"
+        },
+        "text": {
+          "verdict": "pass",
+          "reason": "reads exactly \"BBQ SEASON IS HERE\"",
+          "details": {
+            "transcription": "BBQ SEASON IS HERE",
+            "legibility": "clear",
+            "scene_garble": "",
+            "judge_reason": "Headline text is sharp, bold, and clearly legible with no distortion or extra characters."
+          }
+        },
+        "product": {
+          "verdict": "pass",
+          "reason": "Product packaging in the ad matches the reference in shape, color, text, and branding with only staging differences.",
+          "details": {
+            "observations": {
+              "presence": "The product package is clearly shown in the advertisement, matching the reference product.",
+              "shape": "Bag shape and proportions are consistent with the reference image.",
+              "colour": "Colors match - tan/kraft top with green organic band, cream body, maroon bottom, orange chips visible.",
+              "logo": "365 Everyday Value logo present in correct position and form.",
+              "prominent_text": "Barbeque' and 'Potato Chips' text matches in style, color, and placement; 'Organic' band matches.",
+              "counts": "reference: one bag shown / ad: one bag shown - counts match.",
+              "parts": "All visible package elements (logo, text, chip basket image, certification badges) are present and consistent."
+            }
+          }
+        },
+        "context": {
+          "verdict": "pass",
+          "reason": "all context checks pass"
+        },
+        "season_fit": {
+          "verdict": "pass",
+          "reason": "Sunny wooden deck, iced tea with lemon, bright natural light consistent with hot Austin summer; no contradicting weather cues present."
+        },
+        "market_fit": {
+          "verdict": "pass",
+          "reason": "Generic backyard BBQ setting with no foreign landmarks, scripts, or festivals conflicting with a US/Austin setting."
+        },
+        "no_cliche": {
+          "verdict": "pass",
+          "reason": "No forced landmarks, stereotypes, or token cultural props; iced tea and chips naturally fit a casual BBQ scene."
+        }
+      }
+    }
+  ]
+}

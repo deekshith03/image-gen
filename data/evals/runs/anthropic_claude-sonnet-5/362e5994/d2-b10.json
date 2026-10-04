@@ -1,0 +1,52 @@
+{
+  "item_id": "d2-b10",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"ONLY AED 299\"",
+      "details": {
+        "transcription": "ONLY AED 299",
+        "legibility": "clear",
+        "judge_reason": "Text is sharply rendered in a clean serif font with good contrast against the background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Bottle shape, color, logo, and label text are consistent between reference and advertisement; only staging differs.",
+      "details": {
+        "observations": {
+          "shape": "Same rectangular bottle shape with scalloped cap edges and cylindrical spray nozzle, consistent proportions",
+          "colour": "Same blue-toned glass bottle with silver/chrome cap details in both images",
+          "logo": "VERSACE MAN logo present on plaque in both; matches in form and placement",
+          "label_text": "EAU FRAÎCHE text visible on both, correctly spelled with proper accent",
+          "parts_and_count": "Single bottle shown in both images, cap and spray nozzle intact, no missing or added parts",
+          "presence": "Actual physical product (bottle) is shown in the advertisement, not just packaging imagery"
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Bright sun, clear sky, and poolside setting suit Dubai's mild, sunny winter weather, which remains warm and dry rather than cold."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Poolside luxury setting, neutral stone architecture, and AED currency align naturally with Dubai's upscale lifestyle and climate."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No landmarks, flags, or forced cultural props; scene relies on product and ambiance rather than national symbols."
+    }
+  },
+  "cost_usd": 0.02399
+}

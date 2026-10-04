@@ -1,0 +1,54 @@
+{
+  "item_id": "p08",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "reads \"SUMMER STRIDES NZ$192\" instead of \"SUMMER STRIDES NZ$129\"",
+      "details": {
+        "transcription": "SUMMER STRIDES NZ$192",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp, bold, and clearly legible against the sky background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "All design elements, colors, logo, and proportions consistent with reference product; only staging differs.",
+      "details": {
+        "observations": {
+          "presence": "The product (New Balance 515 sneaker) is shown in the ad, staged on a wooden dock with water background.",
+          "shape": "Shape and proportions match the reference: same silhouette, toe shape, heel height, and sole profile.",
+          "colour": "Colours and materials match: black mesh/suede upper, grey/silver 'N' logo, black-and-white textured heel panel, white midsole, black outsole.",
+          "logo": "The 'N' logo is present in the same style, placement, and outline color (grey outline, black fill) on the lateral side.",
+          "prominent_text": "No readable brand/product text beyond the 'N' logo; ad overlay text 'SUMMER STRIDES NZ$192' is marketing copy, not part of product.",
+          "counts": "reference: 1 shoe shown / ad: 1 shoe shown — counts match.",
+          "parts": "No parts missing or added; laces, eyelets, heel pull tab, and sole tread all consistent with reference."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Bright sunny waterfront scene with warm golden light and people walking outdoors fits a typical Auckland summer day."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic pier and harbor scene with no conflicting cultural, script, or landmark elements from another country."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, stereotypes, or token props; natural waterfront setting suits the product without artificial cultural signaling."
+    }
+  },
+  "cost_usd": 0.02496
+}

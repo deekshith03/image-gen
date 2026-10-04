@@ -1,0 +1,52 @@
+{
+  "item_id": "d-b10",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "reads \"ONLY AED 299 ONLY AED 299\" instead of \"ONLY AED 299\"",
+      "details": {
+        "transcription": "ONLY AED 299 ONLY AED 299",
+        "legibility": "clear",
+        "judge_reason": "Headline duplicated in two overlapping sizes but each instance is clearly legible silver text."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Bottle shape, color, logo, and text all match reference; only staging (background, lighting) differs.",
+      "details": {
+        "observations": {
+          "shape": "Rectangular bottle with jagged/crenellated edges and blue cap matches reference",
+          "colour": "Blue-tinted glass, silver cap top, and clear cap section consistent with original",
+          "logo": "VERSACE MAN logo present on silver plate, correctly spelled and placed",
+          "label_text": "EAU FRAÎCHE text visible on bottle front, legible and accurate",
+          "parts_and_count": "Single bottle, cap and sprayer intact, no extra or missing parts",
+          "presence": "Actual product bottle shown, not just packaging imagery"
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "no_cliche: Burj Al Arab appears purely as a background location signal, not interacting with product or mood."
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Clear bright sky, calm sea, sunny light match Dubai's mild dry winter; no incongruous snow or rain."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Coastal infinity-pool scene with Burj Al Arab silhouette feels authentically Dubai, no foreign cues present."
+    },
+    "no_cliche": {
+      "verdict": "fail",
+      "reason": "Burj Al Arab appears purely as a background location signal, not interacting with product or mood."
+    }
+  },
+  "cost_usd": 0.03015
+}

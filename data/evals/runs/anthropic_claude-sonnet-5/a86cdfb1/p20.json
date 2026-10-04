@@ -1,0 +1,54 @@
+{
+  "item_id": "p20",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "prominent garbled scene text: \"NIKE LUNAREPIC FLYKNIT S\"",
+      "details": {
+        "transcription": "WINTER MILES 30% OFF",
+        "legibility": "hard",
+        "scene_garble": "NIKE LUNAREPIC FLYKNIT S",
+        "judge_reason": "Shoe tongue text is small, blurry and inconsistent, making exact letters difficult to confirm."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Tongue label text is altered/garbled compared to reference, constituting a product identity change in prominent text.",
+      "details": {
+        "observations": {
+          "presence": "Shoe is present in both images",
+          "shape": "Same overall silhouette, sole, and knit upper shape",
+          "colour": "Same white/grey Flyknit with black swoosh and white Lunarlon sole",
+          "logo": "Nike swoosh and 'NIKE' tongue tag present in both, correctly placed",
+          "prominent_text": "Reference tongue reads 'LUNAREPIC FLYKNIT 2'; ad tongue text is garbled/altered, reading something like 'LUNAREPIC PLANETS'",
+          "counts": "reference: 1 shoe / ad: 1 shoe",
+          "parts": "No added or missing parts, but tongue label text differs"
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "season_fit: Sunny tropical beach with palm trees and bright sun directly contradicts Cape Town's winter, which is cold, rainy, and windy."
+    },
+    "season_fit": {
+      "verdict": "fail",
+      "reason": "Sunny tropical beach with palm trees and bright sun directly contradicts Cape Town's winter, which is cold, rainy, and windy."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic tropical beach/palm setting doesn't signal a specific wrong country or culture; no conflicting landmarks or scripts shown."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or token cultural props; scene is generic rather than stereotyping Cape Town specifically."
+    }
+  },
+  "cost_usd": 0.03271
+}

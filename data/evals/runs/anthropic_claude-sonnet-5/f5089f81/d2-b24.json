@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b24",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"48-HOUR HYDRATION\"",
+      "details": {
+        "transcription": "48-HOUR HYDRATION",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp, high-contrast white lettering against sky background, easily legible."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product jar design, text, logo, and colors match reference exactly; only staging (window, scarf, frost) differs.",
+      "details": {
+        "observations": {
+          "presence": "Product jar is clearly shown in both images",
+          "shape": "Same cylindrical jar with white lid and blue body, consistent proportions",
+          "colour": "Matching white lid, black/gray label band, light blue translucent body",
+          "logo": "Neutrogena logo present, correct spelling and placement in both images",
+          "prominent_text": "Hydro Boost, whipped body balm, Hyaluronic Acid, Dry to Extra Dry Skin all present and correctly spelled in both",
+          "counts": "reference: 1 jar / ad: 1 jar",
+          "parts": "No missing or added components; label layout and text consistent"
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Snow-covered ground, frosted window edges, and icy lake match Chicago's winter climate accurately."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Recognizable Chicago skyline and lakefront align authentically with the stated geographic market."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "Skyline is a genuine backdrop, not forced; no stereotypes, filters, or token props used."
+    }
+  },
+  "cost_usd": 0.02761
+}

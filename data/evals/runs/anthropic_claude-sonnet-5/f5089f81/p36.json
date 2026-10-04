@@ -1,0 +1,54 @@
+{
+  "item_id": "p36",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"Wood Sage & Sea Salt\"",
+      "details": {
+        "transcription": "Wood Sage & Sea Salt",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharply rendered in bold serif font, clearly legible against the blurred background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product, packaging, text, and branding all match reference; only staging (outdoor background, added leaf) differs.",
+      "details": {
+        "observations": {
+          "presence": "Both box and bottle are shown in the ad, matching the reference product.",
+          "shape": "Box and bottle shape/proportions match reference (tall rectangular box, slim rectangular bottle with silver cap).",
+          "colour": "Cream/beige box with black trim, clear glass bottle with silver cap and cream label — consistent with reference.",
+          "logo": "Jo Malone London logo present on both box and bottle, matching font and placement.",
+          "prominent_text": "Box text 'JO MALONE LONDON' and bottle label 'Wood Sage & Sea Salt Cologne' match reference exactly.",
+          "counts": "reference: 1 box + 1 bottle / ad: 1 box + 1 bottle",
+          "parts": "No missing or added components; cap, label, and box flap all present as in reference."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "no_cliche: Big Ben is used as a forced landmark signal, combined with Union Jack bunting as token flag props."
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Blooming magnolia, fresh green birch leaves, and bright soft light all match London spring accurately."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Big Ben, Westminster architecture, and Union Jack bunting all authentically represent London/UK culture."
+    },
+    "no_cliche": {
+      "verdict": "fail",
+      "reason": "Big Ben is used as a forced landmark signal, combined with Union Jack bunting as token flag props."
+    }
+  },
+  "cost_usd": 0.02822
+}

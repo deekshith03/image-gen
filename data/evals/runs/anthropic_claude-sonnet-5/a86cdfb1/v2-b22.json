@@ -1,0 +1,54 @@
+{
+  "item_id": "v2-b22",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"€79 LIMITED EDITION\"",
+      "details": {
+        "transcription": "€79 LIMITED EDITION",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Text is sharp, well-lit, and legible against the plain background with no distortion."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Reference is a two-hole bracelet charm; ad shows it fitted with an added pavé bail and chain, an extra part not in the original product.",
+      "details": {
+        "observations": {
+          "presence": "Product (tree of life charm) is present in both images",
+          "shape": "Core charm shape/design matches; ad version adds a decorative bail/loop with pavé stones not present in reference",
+          "colour": "Both are silver-tone metal, consistent material appearance",
+          "logo": "No visible brand logo/text in either image",
+          "prominent_text": "None present in either image",
+          "counts": "reference: 1 charm, standard double-hole bead design / ad: 1 charm, same tree design but with added pavé bail and chain",
+          "parts": "Ad version has an added pavé-set bail/loop and chain, converting the bracelet charm into a necklace pendant — this part is not present in the reference image"
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Snowy outdoor scene through window, warm cozy indoor lighting, fits Vienna winter weather authentically."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "No specific cultural or national markers shown that contradict Austrian/Viennese setting; generic cozy interior."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or stereotypical props; elegant jewelry and decor feel natural, not token signifiers."
+    }
+  },
+  "cost_usd": 0.02899
+}

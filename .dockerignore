@@ -1,0 +1,14 @@
+.git
+.venv
+.env
+.env.*
+.claude
+.cache
+.pytest_cache
+.ruff_cache
+.promptfoo
+**/__pycache__
+**/*.pyc
+node_modules
+data/archive/
+data/runs/

@@ -1,0 +1,54 @@
+{
+  "item_id": "v1-b41",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"TRAVEL IN STYLE\"",
+      "details": {
+        "transcription": "TRAVEL IN STYLE",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp, well-rendered, and clearly legible against the sky background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "All key design elements, pattern, color, logo placement, and structural parts match between reference and ad image.",
+      "details": {
+        "observations": {
+          "presence": "Product (houndstooth carry-on suitcase) is clearly shown in both images.",
+          "shape": "Same boxy upright shape, telescoping handle, front zip pocket, side pocket - consistent proportions.",
+          "colour": "Same black and white houndstooth pattern with black trim in both images.",
+          "logo": "Brand plate/logo visible on front pocket in both; same rectangular tag placement.",
+          "prominent_text": "No readable large text differences; logo plate style consistent.",
+          "counts": "reference: 8 wheels (4 spinner wheel clusters, 2 wheels each) / ad: 4 wheels visible (consistent with angle, same spinner design)",
+          "parts": "Handle, top grab handle, front pocket, side pocket, wheels all present in both; no added or missing parts."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "no_cliche: Louvre pyramid is used purely as an iconic backdrop to signal 'Paris,' a classic landmark cliché."
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Wet pavement, fallen autumn leaves, and coats/trench attire align with real Parisian autumn weather."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Louvre pyramid, European architecture, and bike-share bicycle are authentic to Paris with no conflicting culture."
+    },
+    "no_cliche": {
+      "verdict": "fail",
+      "reason": "Louvre pyramid is used purely as an iconic backdrop to signal 'Paris,' a classic landmark cliché."
+    }
+  },
+  "cost_usd": 0.02751
+}

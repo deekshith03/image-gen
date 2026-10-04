@@ -1,0 +1,54 @@
+{
+  "item_id": "p20",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"WINTER MILES 30% OFF\"",
+      "details": {
+        "transcription": "WINTER MILES 30% OFF",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp, bold, white, and clearly legible against the blue sky background."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Tongue label text is altered/garbled compared to reference, constituting a product identity change in prominent text.",
+      "details": {
+        "observations": {
+          "presence": "Shoe is present in both images",
+          "shape": "Same overall silhouette, sole, and knit upper shape",
+          "colour": "Same white/grey Flyknit with black swoosh and white Lunarlon sole",
+          "logo": "Nike swoosh and 'NIKE' tongue tag present in both, correctly placed",
+          "prominent_text": "Reference tongue reads 'LUNAREPIC FLYKNIT 2'; ad tongue text is garbled/altered, reading something like 'LUNAREPIC PLANETS'",
+          "counts": "reference: 1 shoe / ad: 1 shoe",
+          "parts": "No added or missing parts, but tongue label text differs"
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "season_fit: Bright sun, clear sky, and tropical warmth directly contradict Cape Town's cold, rainy, overcast winter season."
+    },
+    "season_fit": {
+      "verdict": "fail",
+      "reason": "Bright sun, clear sky, and tropical warmth directly contradict Cape Town's cold, rainy, overcast winter season."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic tropical beach doesn't misrepresent South African culture or insert a wrong country's landmark or festival."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmark, stereotype, color-filtered scene, or token national props used to signal location."
+    }
+  },
+  "cost_usd": 0.0335
+}

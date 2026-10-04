@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b45",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"SHINE ALL SUMMER\"",
+      "details": {
+        "transcription": "SHINE ALL SUMMER",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharp, high-contrast, and clearly legible against the light table surface."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product case matches reference in shape, color pattern, logo placement, and camera cutout details; only staging differs (outdoor setting).",
+      "details": {
+        "observations": {
+          "presence": "The product case is clearly shown on a table in the advertisement image, matching the reference product.",
+          "shape": "Same rectangular phone case shape with cutout for triple-lens camera module in upper left corner, consistent proportions.",
+          "colour": "Same iridescent soap bubble holographic swirl pattern with pink, blue, green, and purple tones on clear background.",
+          "logo": "Apple logo visible in same position; Case-Mate 'oM' logo present near bottom of case in both images.",
+          "prominent_text": "No garbled text on product itself; ad overlay text 'SHINE ALL SUMMER' is marketing copy, not product text.",
+          "counts": "reference: 3 camera lenses, 1 flash, 1 microphone dot / ad: 3 camera lenses, 1 flash, 1 microphone dot - matches",
+          "parts": "All case features present: side buttons, camera cutout, clear sides, no added or missing components."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Bright sunshine, iced drink with lemon, outdoor café seating all align with a typical Berlin summer day."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic outdoor café scene with no conflicting cultural, festival, or landmark elements from another country."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, stereotypes, or token national props; lemon drink fits the moment naturally."
+    }
+  },
+  "cost_usd": 0.02525
+}

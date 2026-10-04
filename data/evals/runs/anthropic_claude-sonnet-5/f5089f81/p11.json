@@ -1,0 +1,54 @@
+{
+  "item_id": "p11",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"STREET CLASSICS\"",
+      "details": {
+        "transcription": "STREET CLASSICS",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline is large, bold, and sharply rendered against a blurred background, making it easily legible."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "The advertisement shoe shows 5 side stripes instead of the brand's signature 3-stripe design seen in the reference.",
+      "details": {
+        "observations": {
+          "presence": "Product (adidas Grand Court sneaker) is shown in both images.",
+          "shape": "Overall sneaker silhouette, toe shape, and sole profile match between reference and ad.",
+          "colour": "Both show grey suede upper with white stripes and white midsole/outsole; colours match.",
+          "logo": "Adidas wordmark on tongue label present in both; heel logo tab visible in both, consistent placement.",
+          "prominent_text": "No readable text issues; 'adidas' branding consistent in both images.",
+          "counts": "reference: 3 side stripes / ad: 5 side stripes",
+          "parts": "No extra or missing components aside from stripe count difference."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Budding green leaves on branch, bright daylight, no heavy clothing or snow—consistent with spring in Paris."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic European stone street and architecture plausible for Paris; no conflicting foreign landmarks or culture shown."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmark, flag, or stereotypical token props; natural daylight, not an artificial color filter."
+    }
+  },
+  "cost_usd": 0.02586
+}

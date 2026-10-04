@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b46",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"COLOUR YOUR SPRING\"",
+      "details": {
+        "transcription": "COLOUR YOUR SPRING",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharply rendered in solid dark gray sans-serif font, fully legible against the light stone background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "All key design, color, and branding elements match between reference and ad; only staging (background, lighting) differs.",
+      "details": {
+        "observations": {
+          "presence": "The product (Case-Mate Soap Bubble iPhone case) is clearly shown in both images.",
+          "shape": "Consistent case shape, camera cutout, and button placements in both images.",
+          "colour": "Same iridescent, soap-bubble swirl pattern with pink, blue, and clear tones in both images.",
+          "logo": "Case-Mate 'oM' logo visible at bottom of case in both images, correctly placed and styled.",
+          "prominent_text": "No readable prominent product text other than the small Case-Mate logo, consistent in both.",
+          "counts": "reference: 3 camera lenses visible / ad: 3 camera lenses visible — match.",
+          "parts": "No added or missing components; case design and camera cutout details match."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Bright sun, blooming bougainvillea, and warm coastal light match Mumbai's spring/Holi season accurately."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "No landmarks, scripts, or festivals from another country; generic coastal scene doesn't contradict Mumbai."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "Pink powder ties naturally to Holi and the product's color theme, not a forced token prop."
+    }
+  },
+  "cost_usd": 0.02809
+}

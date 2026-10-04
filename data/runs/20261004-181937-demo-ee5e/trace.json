@@ -1,0 +1,69 @@
+{
+  "run_id": "20261004-181937-demo-ee5e",
+  "brief": {
+    "id": "demo",
+    "product": "versace_eau_fraiche",
+    "geo": "Mumbai, India",
+    "season": "monsoon",
+    "text": "HYDRATION THAT LASTS"
+  },
+  "outcome": "passed",
+  "final": "00_generate.png",
+  "cost_usd": 0.1004,
+  "attempts": [
+    {
+      "label": "generate",
+      "image": "00_generate.png",
+      "failures": [],
+      "cost_usd": 0.02597,
+      "passed": true,
+      "checks": {
+        "size": {
+          "verdict": "pass",
+          "reason": "1024×1024, long edge ≤ 1024px"
+        },
+        "text": {
+          "verdict": "pass",
+          "reason": "reads exactly \"HYDRATION THAT LASTS\"",
+          "details": {
+            "transcription": "HYDRATION THAT LASTS",
+            "legibility": "clear",
+            "scene_garble": "",
+            "judge_reason": "Headline text is sharply rendered in clean metallic lettering against the rainy window backdrop."
+          }
+        },
+        "product": {
+          "verdict": "pass",
+          "reason": "Bottle shape, color, logo, and text match reference; only staging (window, rain, overlay text) differs, which is allowed.",
+          "details": {
+            "observations": {
+              "presence": "Product bottle is shown in the advertisement, matching the reference photo.",
+              "shape": "Same rectangular bottle shape with faceted/jagged edges on both sides, matching cap and body proportions.",
+              "colour": "Same blue-to-light-blue gradient glass with silver cap band and silver spray nozzle.",
+              "logo": "VERSACE MAN logo on silver plate present and correctly spelled/placed in both images.",
+              "prominent_text": "EAU FRAÎCHE text present and correctly spelled on bottle in both images; ad adds overlay text 'HYDRATION THAT LASTS' which is not on the product itself.",
+              "counts": "reference: 1 bottle / ad: 1 bottle",
+              "parts": "No parts missing or added to the bottle itself; cap, nozzle, label plate all present in both."
+            }
+          }
+        },
+        "context": {
+          "verdict": "pass",
+          "reason": "all context checks pass"
+        },
+        "season_fit": {
+          "verdict": "pass",
+          "reason": "Rain-streaked window, overcast grey sky, and visible coastal storm clouds accurately reflect Mumbai's monsoon weather conditions."
+        },
+        "market_fit": {
+          "verdict": "pass",
+          "reason": "Coastal cityscape with skyline silhouette plausibly represents Mumbai's Marine Drive area without contradicting local geography or culture."
+        },
+        "no_cliche": {
+          "verdict": "pass",
+          "reason": "No forced landmarks, stereotyped color filters, or token cultural props; scene relies on authentic weather and skyline."
+        }
+      }
+    }
+  ]
+}

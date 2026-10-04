@@ -1,0 +1,52 @@
+{
+  "item_id": "p21",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"BUILT FOR FALL WORK\"",
+      "details": {
+        "transcription": "BUILT FOR FALL WORK",
+        "legibility": "clear",
+        "judge_reason": "Text is sharply rendered, high contrast against wood background, with clear letterforms."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Plaid colour scheme differs significantly: navy/white in reference vs. brown/tan in ad, indicating a different product variant.",
+      "details": {
+        "observations": {
+          "shape": "Same short-sleeve button-down collar shirt with chest pocket, consistent proportions and fit.",
+          "colour": "Reference shows navy/white plaid; advertisement shows brown/tan/white plaid — different colourway.",
+          "logo": "Small pocket label visible in both; brand mark not clearly legible in either image.",
+          "label_text": "No readable fine print in either image; insufficient detail to compare text.",
+          "parts_and_count": "Single chest pocket, button placket, and collar all present in both images.",
+          "presence": "Actual garment worn by a model in both images, not just packaging."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "season_fit: Blooming trees and lush green grass indicate spring, not autumn; Montana fall would show changing/fallen leaves, drier fields."
+    },
+    "season_fit": {
+      "verdict": "fail",
+      "reason": "Blooming trees and lush green grass indicate spring, not autumn; Montana fall would show changing/fallen leaves, drier fields."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Rural orchard/farmland setting with workwear plausibly fits Montana, no contradicting foreign elements present."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or token souvenirs; gloves and shirt serve the product focus naturally."
+    }
+  },
+  "cost_usd": 0.02302
+}

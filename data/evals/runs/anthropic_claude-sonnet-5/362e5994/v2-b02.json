@@ -1,0 +1,52 @@
+{
+  "item_id": "v2-b02",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"SUMMER GLOW 25% OFF\"",
+      "details": {
+        "transcription": "SUMMER GLOW 25% OFF",
+        "legibility": "clear",
+        "judge_reason": "Headline text is sharp, well-contrasted, and easily readable against the sky background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product jar shape, color, logo, and visible text align with reference; minor blur from staging but no identity changes detected.",
+      "details": {
+        "observations": {
+          "shape": "Same cylindrical jar with flat lid, proportions match reference",
+          "colour": "White jar and lid with black/red text, consistent with reference",
+          "logo": "Kiehl's logo present with 'SINCE 1851' styling, matches reference placement and form",
+          "label_text": "Text is blurry/illegible in most areas; visible fragments like 'ULTRA FACIAL CREAM' are consistent, but fine print is too soft to fully verify, appears non-garbled where readable",
+          "parts_and_count": "Single jar shown, correct count, no added or missing parts",
+          "presence": "Actual product jar is physically present in the scene, not just depicted on packaging"
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Bright sunlit sky, calm ocean, coastal rock pool, succulent plant, and warm golden light all align with a Sydney summer setting."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Ocean rock pool scene is generic coastal, plausible for Sydney beaches like Bondi, without contradicting signage or foreign landmarks."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or national symbols; the coastal rock pool setting feels natural rather than a token signal."
+    }
+  },
+  "cost_usd": 0.02503
+}

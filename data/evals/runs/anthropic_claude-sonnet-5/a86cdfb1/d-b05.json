@@ -1,0 +1,54 @@
+{
+  "item_id": "d-b05",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "reads \"BBQ SEASON FUOROOST IS HERE\" instead of \"BBQ SEASON IS HERE\"; garbled text near headline: \"FUOROOST\"",
+      "details": {
+        "transcription": "BBQ SEASON FUOROOST IS HERE",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Text is sharply rendered but contains the nonsense word 'FUOROOST' inserted between 'SEASON' and 'IS HERE'."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Package design is faithful, but ad headline text contains garbled nonsense word 'FUOROOST', violating prominent text accuracy.",
+      "details": {
+        "observations": {
+          "presence": "The product package is shown in the ad, matching the reference bag",
+          "shape": "Bag shape and proportions match the reference",
+          "colour": "Colours (tan patterned top, green organic band, cream body, maroon bottom) match",
+          "logo": "365 Everyday Value logo present and correctly placed, matches reference",
+          "prominent_text": "'Organic', 'Barbeque', 'Potato Chips' all correctly spelled and styled as in reference; however, the overlay headline text reads 'BBQ SEASON FUOROOST IS HERE' which contains garbled nonsense word 'FUOROOST'",
+          "counts": "reference: one bag shown / ad: one bag shown - matches",
+          "parts": "No missing or added parts on the package itself"
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Sunny outdoor picnic, iced tea, bright foliage all match Austin's hot, sunny summer season."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic outdoor picnic scene with no foreign landmarks, scripts, or festivals contradicting Austin, Texas."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "Warm golden-hour lighting feels natural for BBQ season, not an exaggerated dusty stereotype filter."
+    }
+  },
+  "cost_usd": 0.03053
+}

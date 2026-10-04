@@ -1,0 +1,54 @@
+{
+  "item_id": "p02",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "reads \"HYGGE HOURS 20% 0FF\" instead of \"HYGGE HOURS 20% OFF\"",
+      "details": {
+        "transcription": "HYGGE HOURS 20% 0FF",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Text is sharp and well-contrasted against wall, though 'OFF' is misspelled with a zero."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product shape, color, logo, and parts all match reference; staging (steam, cup, window) is allowed context.",
+      "details": {
+        "observations": {
+          "presence": "The kettle is shown in the ad, staged on a table with steam and a cup.",
+          "shape": "Matches reference - gooseneck spout, cylindrical body, same proportions.",
+          "colour": "Chrome/stainless steel body with black handle and lid knob, consistent with reference.",
+          "logo": "Bodum logo visible on body in both images, correctly spelled and placed.",
+          "prominent_text": "Only 'bodum' logo present on product in both images; ad overlay text ('HYGGE HOURS 20% OFF') is marketing text, not product text.",
+          "counts": "reference: 1 kettle / ad: 1 kettle",
+          "parts": "All parts present - spout, handle, lid with knob, no additions or omissions."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Golden-yellow autumn foliage visible through window matches Copenhagen's real autumn season; no contradicting cues present."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Neutral interior, window, kettle and cup don't reference any other country's culture, script or landmark."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "Scene uses genuine coffee moment and natural light, no forced landmark, flag, or token souvenir props."
+    }
+  },
+  "cost_usd": 0.02664
+}

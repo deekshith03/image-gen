@@ -1,0 +1,54 @@
+{
+  "item_id": "p30",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"ランニングセール\"",
+      "details": {
+        "transcription": "ランニングセール",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharp, bold, and easily readable against the blurred background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Shoe matches reference in shape, color, branding, and construction; only staging (angle, background) differs.",
+      "details": {
+        "observations": {
+          "presence": "The product (Nike LunarEpic Low Flyknit 2 shoe) is clearly shown in the advertisement image.",
+          "shape": "Shoe shape, sole design, collar height, and flyknit upper proportions match the reference.",
+          "colour": "Same white/grey flyknit upper with black Nike swoosh and white Lunarlon midsole in both images.",
+          "logo": "Nike swoosh logo present in correct form and placement on both; 'NIKE' text tab visible on heel/tongue area in both.",
+          "prominent_text": "Reference shows 'NIKE' and partial 'LUNAREPIC FLYKNIT 2' text on tongue tab; ad image shoe appears to have similar tongue tab, though text is not clearly legible at this angle/size - consistent with staging.",
+          "counts": "reference: one shoe shown / ad: one shoe shown - counts match.",
+          "parts": "All parts present - laces, swoosh, Lunarlon sole label, flyknit upper, no added or missing components."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "market_fit: Skyline clearly shows the Empire State Building, signaling New York City, not Tokyo—contradicts the target market."
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Clear sky, warm golden light, person running outdoors fits a Tokyo summer morning or evening scene."
+    },
+    "market_fit": {
+      "verdict": "fail",
+      "reason": "Skyline clearly shows the Empire State Building, signaling New York City, not Tokyo—contradicts the target market."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No stereotyped props, filters, or forced local landmarks beyond the market mismatch already noted elsewhere."
+    }
+  },
+  "cost_usd": 0.02804
+}

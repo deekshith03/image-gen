@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b37",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"FALL INTO 515\"",
+      "details": {
+        "transcription": "FALL INTO 515",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is bold, high-contrast, and sharply rendered against the blurred background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product design, color, logo, and proportions are consistent between reference and ad; only staging differs.",
+      "details": {
+        "observations": {
+          "presence": "The product (New Balance 515 sneaker) is clearly shown in both images.",
+          "shape": "Same silhouette, proportions, and sole shape match between reference and ad image.",
+          "colour": "Black mesh/suede upper, grey N logo, white midsole, and textured heel pattern match in both images.",
+          "logo": "New Balance 'N' logo present on both, same placement, shape, and outline styling.",
+          "prominent_text": "Ad text 'FALL INTO 515' is marketing overlay, not on the product itself; no garbled text on shoe.",
+          "counts": "reference: 1 shoe shown / ad: 1 shoe shown",
+          "parts": "No missing or added components; laces, eyelets, heel patch, and sole design all consistent."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Fallen autumn leaves on pavement, muted light, and bundled-up pedestrian all match Boston's real autumn climate."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Brownstone row houses and brick sidewalk convincingly depict a Boston neighborhood street scene with no conflicting culture."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmark, flag, or token prop; leaves and brownstones genuinely fit the autumn Boston setting naturally."
+    }
+  },
+  "cost_usd": 0.02428
+}

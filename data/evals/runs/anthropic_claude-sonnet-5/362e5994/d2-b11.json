@@ -1,0 +1,52 @@
+{
+  "item_id": "d2-b11",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"POUR SLOWLY. SIP SPRING.\"",
+      "details": {
+        "transcription": "POUR SLOWLY. SIP SPRING.",
+        "legibility": "clear",
+        "judge_reason": "Text is sharply rendered, high contrast dark letters on light background, no distortion."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Kettle design, color, handle, spout, and branding consistent with reference product; only staging differs.",
+      "details": {
+        "observations": {
+          "shape": "Gooseneck spout, cylindrical body, knob lid, side handle - proportions match reference kettle",
+          "colour": "Chrome/stainless steel body with black handle and knob, consistent with reference",
+          "logo": "Bodum logo visible on body in same placement/style as reference, though not legible in ad due to angle",
+          "label_text": "No additional label text present beyond brand name; no garbled text visible",
+          "parts_and_count": "Single kettle with spout, handle, lid/knob - matches reference, no missing or added parts",
+          "presence": "Actual product shown staged in a scene, not just packaging imagery"
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Fresh green new leaves, soft bright natural light, and moss/grass visible outside all align with spring in Kyoto's temperate climate."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Shoji screens, wooden engawa, and a Japanese garden setting feel authentic and believable for Kyoto without forcing any landmark."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No flags, famous landmarks, or souvenir props; the architecture and plant integrate naturally with the product scene."
+    }
+  },
+  "cost_usd": 0.0243
+}

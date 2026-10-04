@@ -1,0 +1,126 @@
+{
+  "run_id": "20261004-174015-b16-2519",
+  "brief": {
+    "id": "b16",
+    "product": "adidas_grand_court",
+    "geo": "Lagos, Nigeria",
+    "season": "dry season",
+    "text": "LAGOS MOVES"
+  },
+  "outcome": "fallback: headline overlaid with a real font",
+  "final": "01_fallback_overlay.png",
+  "cost_usd": 0.1963,
+  "attempts": [
+    {
+      "label": "generate",
+      "image": "00_generate.png",
+      "failures": [
+        "text",
+        "context"
+      ],
+      "cost_usd": 0.02513,
+      "passed": false,
+      "checks": {
+        "size": {
+          "verdict": "pass",
+          "reason": "1024×1024, long edge ≤ 1024px"
+        },
+        "text": {
+          "verdict": "fail",
+          "reason": "reads \"LAGOS/ MOVES\" instead of \"LAGOS MOVES\"",
+          "details": {
+            "transcription": "LAGOS/ MOVES",
+            "legibility": "clear",
+            "scene_garble": "",
+            "judge_reason": "Headline text is bold, well-rendered, and clearly legible against the background."
+          }
+        },
+        "product": {
+          "verdict": "pass",
+          "reason": "Shoe design, color, stripe count, and branding all match reference; only staging/background differ.",
+          "details": {
+            "observations": {
+              "presence": "The product (adidas Grand Court sneaker) is clearly shown in the ad image.",
+              "shape": "Same low-top sneaker silhouette, rounded toe, consistent proportions.",
+              "colour": "Matches reference: grey suede upper, white stripes and sole, grey heel tab.",
+              "logo": "adidas logo visible on heel tab and tongue, consistent with reference.",
+              "prominent_text": "adidas text present on heel; ad adds 'LAGOS/MOVES' campaign text, not part of product itself.",
+              "counts": "reference: 3 side stripes / ad: 3 side stripes - matches.",
+              "parts": "No missing or added parts; laces, tongue, heel tab, sole all present as in reference."
+            }
+          }
+        },
+        "context": {
+          "verdict": "fail",
+          "reason": "no_cliche: Overall scene has a warm golden-hour glow over the whole cityscape, applying a dusty amber haze filter typical of stereotyped African settings."
+        },
+        "season_fit": {
+          "verdict": "pass",
+          "reason": "Clear sky, dry pavement, and strong sun haze are consistent with Lagos dry season conditions; no contradicting weather cues present."
+        },
+        "market_fit": {
+          "verdict": "pass",
+          "reason": "Generic city skyline could plausibly be Lagos; no wrong-country landmarks, scripts, or festivals contradict the market."
+        },
+        "no_cliche": {
+          "verdict": "fail",
+          "reason": "Overall scene has a warm golden-hour glow over the whole cityscape, applying a dusty amber haze filter typical of stereotyped African settings."
+        }
+      }
+    },
+    {
+      "label": "fallback_overlay",
+      "image": "01_fallback_overlay.png",
+      "failures": [],
+      "cost_usd": 0.0281,
+      "passed": true,
+      "checks": {
+        "size": {
+          "verdict": "pass",
+          "reason": "1024×1024, long edge ≤ 1024px"
+        },
+        "text": {
+          "verdict": "pass",
+          "reason": "reads exactly \"LAGOS MOVES\"",
+          "details": {
+            "transcription": "LAGOS MOVES",
+            "legibility": "clear",
+            "scene_garble": "",
+            "judge_reason": "Headline is sharply rendered in bold black text with no distortions; background city skyline is blurred with no legible text."
+          }
+        },
+        "product": {
+          "verdict": "pass",
+          "reason": "Product shape, color, stripe count, and branding all match reference; only staging/background differs.",
+          "details": {
+            "observations": {
+              "presence": "The product (adidas Grand Court sneaker) is shown in the ad image.",
+              "shape": "Shape and proportions match the reference shoe - low-top sneaker silhouette.",
+              "colour": "Grey suede upper with white stripes and white sole matches reference colours/materials.",
+              "logo": "Adidas logo visible on tongue, consistent with reference.",
+              "prominent_text": "'LAGOS MOVES' is ad campaign text, not product text; adidas branding appears correct.",
+              "counts": "reference: 3 side stripes / ad: 3 side stripes - matches",
+              "parts": "No parts missing or added; single shoe shown in both（reference shows pair at angle, ad shows single shoe staged)."
+            }
+          }
+        },
+        "context": {
+          "verdict": "pass",
+          "reason": "all context checks pass"
+        },
+        "season_fit": {
+          "verdict": "pass",
+          "reason": "Clear sky, warm sunlight, no rain or storm cues — consistent with Lagos dry season weather."
+        },
+        "market_fit": {
+          "verdict": "pass",
+          "reason": "Generic skyline and rooftop scene; no wrong-country landmarks, scripts, or festival elements present."
+        },
+        "no_cliche": {
+          "verdict": "pass",
+          "reason": "Lighting reads as genuine golden-hour sun, not a stereotyped filter; no forced landmarks or token props used."
+        }
+      }
+    }
+  ]
+}

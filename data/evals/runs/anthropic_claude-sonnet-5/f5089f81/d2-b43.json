@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b43",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"FOR MY SISTER, WITH LOVE\"",
+      "details": {
+        "transcription": "FOR MY SISTER, WITH LOVE",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharp, evenly spaced, and fully legible against the blurred background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product design, text, stone color/shape, and hallmark all consistent between reference and ad image.",
+      "details": {
+        "observations": {
+          "presence": "Product (silver heart charm with 'Sister' text and pink CZ stone) is present in both images",
+          "shape": "Heart-shaped charm with same proportions, rounded edges, and bead hole for threading in both",
+          "colour": "Silver/sterling metal tone matches; pink CZ stone color matches in both images",
+          "logo": "No separate brand logo visible; 'S925' hallmark present on left edge in both images",
+          "prominent_text": "'Sister' script text matches in style, spelling, and placement on both",
+          "counts": "reference: 1 pink heart-shaped CZ stone / ad: 1 pink heart-shaped CZ stone - matches",
+          "parts": "All parts present: heart charm body, threading hole, 'Sister' engraving, pink CZ stone, S925 marking"
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Evening cityscape with warm bokeh lights and cool-toned sky fits Manila's December dry season and cooler evenings; no contradiction."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic blurred skyline, no conflicting landmarks, scripts, or foreign cultural markers present."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmark, flag, food, or stereotyped color filter; lighting is natural warm golden-hour ambiance."
+    }
+  },
+  "cost_usd": 0.02794
+}

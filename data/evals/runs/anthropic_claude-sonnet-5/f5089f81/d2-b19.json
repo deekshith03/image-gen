@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b19",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"BUILT FOR FALL WORK\"",
+      "details": {
+        "transcription": "BUILT FOR FALL WORK",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharply rendered with distressed-style font, fully legible against wood background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Shirt pattern, color, pocket design, and button style are consistent between reference and ad; only cropping/angle differs.",
+      "details": {
+        "observations": {
+          "presence": "Product shown in both images as worn shirt",
+          "shape": "Consistent button-down collar, short sleeves, chest pocket design",
+          "colour": "Matching navy/white plaid pattern in both images",
+          "logo": "Orange Carhartt tag visible on pocket in both images, consistent placement",
+          "prominent_text": "No readable large text on garment in either image; ad overlay text is separate marketing copy",
+          "counts": "reference: 7 visible buttons, 1 pocket / ad: partial crop shows 5 visible buttons, 1 pocket (consistent with same shirt, just cropped)",
+          "parts": "All parts match: collar, pocket, buttons, short sleeves present in both"
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Golden/yellow foliage, warm sunlight, and long-sleeve layering potential with short sleeves fit Montana's crisp, sunny autumn."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Rural barn setting, plaid shirt, farmland background all plausibly represent Montana rural work culture without contradicting it."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks or token props; warm golden-hour light fits the natural autumn setting, not a stereotyped filter."
+    }
+  },
+  "cost_usd": 0.02608
+}

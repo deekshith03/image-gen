@@ -1,0 +1,52 @@
+{
+  "item_id": "d2-b21",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"A GIFT OF ROOTS\"",
+      "details": {
+        "transcription": "A GIFT OF ROOTS",
+        "legibility": "clear",
+        "judge_reason": "Text is sharply rendered in a clean serif font with good contrast against the soft background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Charm design, proportions, and finish match reference exactly; only staging (lighting, props, ribbon) differs.",
+      "details": {
+        "observations": {
+          "shape": "Round openwork charm with tree of life motif, consistent spherical bead shape matches reference",
+          "colour": "Oxidized sterling silver tone matches reference, matte stone surface contrast is staging",
+          "logo": "No visible logo in either image",
+          "label_text": "Text 'A GIFT OF ROOTS' is ad copy overlay, not product label; no garbled text on product itself",
+          "parts_and_count": "Single charm shown, same tree design with swirled branches and roots, no added/missing parts",
+          "presence": "Actual physical charm is shown, not just packaging or illustration"
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Warm golden sunlight, no vegetation or clothing cues present; lighting suggests autumn warmth consistent with Diwali season in Delhi."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Neutral sandstone tones, brass bowl, and jasmine flower suggest South Asian aesthetic without contradicting Delhi's cultural or seasonal context."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No flags, landmarks, or forced symbols; brass bowl and flower feel natural, not inserted purely as nationality markers."
+    }
+  },
+  "cost_usd": 0.02635
+}

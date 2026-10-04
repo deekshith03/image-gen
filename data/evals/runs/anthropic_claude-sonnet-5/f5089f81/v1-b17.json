@@ -1,0 +1,54 @@
+{
+  "item_id": "v1-b17",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"ランニングセール\"",
+      "details": {
+        "transcription": "ランニングセール",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharp, high-contrast black characters on a plain light background, easily readable."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "The shoe in the ad matches the reference in shape, color, logo, and text; only staging (background, props) differs.",
+      "details": {
+        "observations": {
+          "presence": "Product (Nike LunarEpic Low Flyknit 2 shoe) is clearly shown in both images.",
+          "shape": "Same low-top knit sneaker silhouette, same sole unit shape with LUNARLON branding visible on both.",
+          "colour": "Consistent white/grey/platinum Flyknit upper with black Swoosh and white midsole/outsole in both images.",
+          "logo": "Nike Swoosh logo present in same position and black color on both; 'NIKE' text tag at heel visible in both.",
+          "prominent_text": "Heel tag reads 'NIKE' and 'LUNAREPIC FLYKNIT 2' in reference; same tag appears in ad image, consistent placement and legibility.",
+          "counts": "reference: 1 shoe shown / ad: 1 shoe shown - matches.",
+          "parts": "No missing or added components; laces, Swoosh, heel tab, and sole details all present in both."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "People wear light summer clothing (short sleeves, light fabrics) and bright sunny outdoor scene fits Tokyo summer."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Japanese text, Aquarius drink (popular in Japan), urban concrete plaza setting all plausibly fit Tokyo, no contradicting culture."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmark, stereotype, or token souvenir props; scene is a believable everyday urban setting with relevant drink."
+    }
+  },
+  "cost_usd": 0.02709
+}

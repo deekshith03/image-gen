@@ -1,0 +1,52 @@
+{
+  "item_id": "v3-b03",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"HYDRATION THAT LASTS\"",
+      "details": {
+        "transcription": "HYDRATION THAT LASTS",
+        "legibility": "clear",
+        "judge_reason": "Text is sharp, high-contrast, and clearly legible against the muted sky background."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Volume text altered to '673 ml' instead of '473 ml', a factual label inconsistency despite correct overall design.",
+      "details": {
+        "observations": {
+          "shape": "Bottle shape, pump nozzle, and proportions match the reference product.",
+          "colour": "White bottle with blue pump cap and blue diagonal label band consistent with reference.",
+          "logo": "CeraVe logo present in correct navy font and placement, though slightly soft-focus.",
+          "label_text": "Text reads 'Moisturising Lotion' and 'Lait Hydratant' correctly, but volume shows '16 FL OZ/673 ml' instead of correct '473 ml', an inconsistency.",
+          "parts_and_count": "Single bottle shown, pump intact, no missing or extra parts.",
+          "presence": "Actual product bottle is shown, not just packaging imagery."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Rain streaking windows, wet balcony floor, lush green potted plants, and a drying umbrella all match Mumbai's monsoon season accurately."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Scene feels plausible for an Indian apartment balcony with chai, flip-flops, and monsoon rain; no contradicting foreign cues present."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No landmarks or flags; chai and umbrella feel organic to the rainy scene rather than forced nationality markers."
+    }
+  },
+  "cost_usd": 0.02684
+}

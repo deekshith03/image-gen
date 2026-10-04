@@ -1,0 +1,52 @@
+{
+  "item_id": "v1-b02",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"SUMMER GLOW 25% OFF\"",
+      "details": {
+        "transcription": "SUMMER GLOW 25% OFF",
+        "legibility": "clear",
+        "judge_reason": "Headline text is sharply rendered in bold navy font against a light background, fully legible."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product jar matches reference in shape, color, logo, and layout; text blur is acceptable soft focus, not garbled nonsense.",
+      "details": {
+        "observations": {
+          "shape": "Cylindrical jar with flat lid, matches reference proportions",
+          "colour": "White/cream jar with white cap, cream-colored product visible, consistent with reference",
+          "logo": "Kiehl's since 1851 logo present, correct placement and form",
+          "label_text": "Text appears blurred/illegible in places but general layout matches; fine print softness is acceptable staging",
+          "parts_and_count": "Single jar shown, lid appears to be off/open with product visible, matches single product count",
+          "presence": "Actual product jar is shown, not just an image of it"
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "no_cliche: Opera House is a famous landmark used mainly as a location signal, functioning as a backdrop rather than integrated naturally."
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Clear blue sky, bright sunlight, calm water, and visible yacht suggest warm summer conditions consistent with Sydney's season."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Sydney Opera House and harbor setting are authentic, believable location cues matching the Australian market without contradiction."
+    },
+    "no_cliche": {
+      "verdict": "fail",
+      "reason": "Opera House is a famous landmark used mainly as a location signal, functioning as a backdrop rather than integrated naturally."
+    }
+  },
+  "cost_usd": 0.02457
+}

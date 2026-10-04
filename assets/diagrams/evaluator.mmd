@@ -1,0 +1,11 @@
+flowchart TB
+  AD["Ad + brief"] --> S["Size gate · code<br/>long edge ≤ 1024"]
+  AD --> TX["Text · Claude<br/>blind transcription<br/>(not told the expected text)"]
+  TX --> TC["Code: normalise case/spacing/’,–<br/>exact match · strict punctuation<br/>+ garbled / illegible text"]
+  AD --> PR["Product · Claude<br/>reference vs ad: presence, shape,<br/>colour, logo, prominent text, counts, parts"]
+  AD --> CX["Context · Claude<br/>season_fit · market_fit · no_cliche<br/>reason before verdict, one problem → one check"]
+  S --> V{"All pass?"}
+  TC --> V
+  PR --> V
+  CX --> V
+  V --> R["pass / fail per check + reasons"]

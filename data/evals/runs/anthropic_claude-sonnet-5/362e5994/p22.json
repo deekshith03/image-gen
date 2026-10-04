@@ -1,0 +1,52 @@
+{
+  "item_id": "p22",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"POUR SLOWLY. SIP SPRING.\"",
+      "details": {
+        "transcription": "POUR SLOWLY. SIP SPRING.",
+        "legibility": "clear",
+        "judge_reason": "Text is sharp, high-contrast, and fully legible against the light background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product shape, color, logo, and parts match reference; only staging (angle, background) differs.",
+      "details": {
+        "observations": {
+          "shape": "Gooseneck kettle shape, spout curvature, body proportions, and lid knob match reference image consistently.",
+          "colour": "Chrome/stainless steel body with black handle and knob matches reference exactly.",
+          "logo": "Bodum logo visible on body in same placement and font style as reference.",
+          "label_text": "No additional label or fine print text visible on product itself; ad text is separate overlay.",
+          "parts_and_count": "Single kettle with lid, handle, spout, and knob all present, no missing or extra parts.",
+          "presence": "The actual product is shown in the staged lifestyle photo, not just packaging artwork."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "market_fit: Eiffel Tower visible through window places scene in Paris, directly contradicting a Kyoto, Japan setting despite shoji-style doors.; no_cliche: Eiffel Tower is a foreign landmark inserted incongruously, acting as a conflicting location cue rather than fitting the scene."
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Soft light, green foliage and fresh sprouting plant suggest spring; setting is plausible for Kyoto spring ambiance."
+    },
+    "market_fit": {
+      "verdict": "fail",
+      "reason": "Eiffel Tower visible through window places scene in Paris, directly contradicting a Kyoto, Japan setting despite shoji-style doors."
+    },
+    "no_cliche": {
+      "verdict": "fail",
+      "reason": "Eiffel Tower is a foreign landmark inserted incongruously, acting as a conflicting location cue rather than fitting the scene."
+    }
+  },
+  "cost_usd": 0.02436
+}

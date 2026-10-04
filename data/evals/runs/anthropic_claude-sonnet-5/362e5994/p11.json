@@ -1,0 +1,52 @@
+{
+  "item_id": "p11",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"STREET CLASSICS\"",
+      "details": {
+        "transcription": "STREET CLASSICS",
+        "legibility": "clear",
+        "judge_reason": "Text is bold, high-contrast, and sharply rendered against blurred background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Shoe design, color, stripe count, and branding match reference; only staging (angle, background) differs.",
+      "details": {
+        "observations": {
+          "shape": "Same low-top lace-up sneaker silhouette, consistent toe shape, outsole profile, and proportions as reference.",
+          "colour": "Grey suede upper with white 3-stripes and white midsole/outsole, matching reference colourway.",
+          "logo": "Adidas trefoil-style logo tab on heel pull and branding on tongue consistent with reference; adidas text visible on outsole.",
+          "label_text": "No garbled text; only 'adidas' branding and 'STREET CLASSICS' ad copy, which is marketing text not product label.",
+          "parts_and_count": "Single shoe shown in both images, laces, stripes (3), heel tab all present and correctly counted.",
+          "presence": "Actual physical product shown, not just packaging or icon."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Bright soft sunlight, new green budding leaves on branch, light clothing-free scene suggest early spring, consistent with Paris seasonal light and growth."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic European stone street, shutters, and café chair evoke Parisian ambiance without contradicting signage, architecture, or culture cues."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmark, flag, or souvenir; setting feels authentic and unobtrusive, supporting product focus rather than nationality signaling."
+    }
+  },
+  "cost_usd": 0.02394
+}

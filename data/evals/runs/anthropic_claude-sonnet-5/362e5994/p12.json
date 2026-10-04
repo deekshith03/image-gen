@@ -1,0 +1,52 @@
+{
+  "item_id": "p12",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"BUILT FOR THE TRAIL\"",
+      "details": {
+        "transcription": "BUILT FOR THE TRAIL",
+        "legibility": "clear",
+        "judge_reason": "Headline text is sharp, well-contrasted against background, and fully legible with no distortion."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Brand name misspelled as 'TIMEZ' and 'CHRONOGRAPH' garbled to 'CHRONOCOSAPH', indicating identity alteration.",
+      "details": {
+        "observations": {
+          "shape": "Round case, chronograph subdials in same layout as reference; proportions consistent.",
+          "colour": "Black dial, tan accents, brown leather strap with stitching match reference.",
+          "logo": "Brand text reads 'TIMEZ' instead of 'TIMEX' - misspelled logo.",
+          "label_text": "'CHRONOCOSAPH' is garbled, should read 'CHRONOGRAPH'; other subdial text is legible.",
+          "parts_and_count": "Same number of subdials, crown, and strap loops as reference.",
+          "presence": "Product clearly shown, not just packaging."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Fallen golden leaves, muted forested mountains, and soft dim light align well with autumn conditions in Patagonia (March-May)."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic forested mountain and rock scene with no contradicting landmarks, scripts, or climate cues; plausibly fits Patagonian landscapes."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or token national props; autumn leaves and rock serve mood/product naturally, not nationality signaling."
+    }
+  },
+  "cost_usd": 0.02486
+}

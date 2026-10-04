@@ -1,0 +1,52 @@
+{
+  "item_id": "p03",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "reads \"TIME TO EXPLORE $89\" instead of \"TIME TO EXPLORE $99\"",
+      "details": {
+        "transcription": "TIME TO EXPLORE $89",
+        "legibility": "clear",
+        "judge_reason": "Text is sharply rendered with high contrast tan lettering against a blurred background, easy to read fully."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Watch design, color, and proportions match reference; no visible identity changes despite small scale.",
+      "details": {
+        "observations": {
+          "shape": "Round case with three chronograph subdials, consistent with reference watch silhouette.",
+          "colour": "Black case and dial with brown leather strap, matching reference colour scheme.",
+          "logo": "Brand text too small to confirm but position and style consistent with reference.",
+          "label_text": "Dial text illegible due to distance, no garbled characters visible.",
+          "parts_and_count": "Single watch shown, same number of subdials and strap as reference.",
+          "presence": "Actual product is worn on wrist, not just a logo or packaging image."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Snow-covered ground, bare trees, overcast sky, and a wool sweater all align with a cold Toronto winter scene."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic snowy, wooded setting with no foreign landmarks, signage, or culture-specific cues; plausible for Toronto winter."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or souvenir props; scene relies on natural winter mood rather than token nationality markers."
+    }
+  },
+  "cost_usd": 0.02468
+}

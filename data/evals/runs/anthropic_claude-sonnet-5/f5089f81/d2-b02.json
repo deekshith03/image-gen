@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b02",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"SUMMER GLOW 25% OFF\"",
+      "details": {
+        "transcription": "SUMMER GLOW 25% OFF",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp, high-contrast, and clearly legible against the sky background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product identity, text, logo, and design match reference; only staging (sand, ocean, lighting) differs.",
+      "details": {
+        "observations": {
+          "presence": "The product jar is shown in both images, staged on sand with ocean background in the ad.",
+          "shape": "Same cylindrical jar with flat lid, consistent proportions between both images.",
+          "colour": "White jar with white cap, black and red text, matching reference colours and materials.",
+          "logo": "Kiehl's logo with 'SINCE 1851' present and correctly formatted in both images.",
+          "prominent_text": "'ULTRA FACIAL CREAM' and descriptive text visible and consistent, though slightly blurred in ad due to staging.",
+          "counts": "reference: 1 jar / ad: 1 jar",
+          "parts": "No missing or added components; cap, label, and jar body all present."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Beach setting, sunny sky, bright light all align with summer conditions typical of Sydney in December-February."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic beach and ocean scene contains no elements contradicting Australian culture or geography."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or token souvenirs; beach setting fits product context naturally without stereotyping."
+    }
+  },
+  "cost_usd": 0.02604
+}

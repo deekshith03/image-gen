@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b14",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"TIME TO EXPLORE $99\"",
+      "details": {
+        "transcription": "TIME TO EXPLORE $99",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharply rendered with clean typography and high contrast against the blurred background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Watch in ad matches reference in shape, color, strap, and dial layout; staging (worn on wrist, outdoor snow scene) is permitted.",
+      "details": {
+        "observations": {
+          "presence": "The product (Timex Expedition Scout Chronograph watch) is shown worn on a wrist in the ad, matching the reference photo.",
+          "shape": "Round case, three sub-dials, brown leather strap with stitching - consistent with reference.",
+          "colour": "Black dial with tan/cream numerals and hands, brown leather band, black case - matches reference.",
+          "logo": "Timex logo not clearly legible in ad due to small scale and angle, but dial layout matches reference.",
+          "prominent_text": "Dial text not fully readable in ad due to angle/distance, but visible elements (numerals, sub-dial positions) are consistent with reference.",
+          "counts": "reference: 3 sub-dials, 2 crown/pushers visible / ad: 3 sub-dials visible, pushers consistent with reference",
+          "parts": "No missing or added parts - case, crown, pushers, strap all present and consistent."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Snow-covered ground, frosty branches, and winter sweater align with Toronto's real winter climate."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "No conflicting cultural, national, or festival markers; generic snowy outdoor setting is plausible for Toronto."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or token props; scene relies on natural winter setting and product focus."
+    }
+  },
+  "cost_usd": 0.02585
+}

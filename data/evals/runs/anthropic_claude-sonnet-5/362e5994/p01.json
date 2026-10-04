@@ -1,0 +1,52 @@
+{
+  "item_id": "p01",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "reads \"WINTER-PROOF YOUR SKN\" instead of \"WINTER-PROOF YOUR SKIN\"",
+      "details": {
+        "transcription": "WINTER-PROOF YOUR SKN",
+        "legibility": "clear",
+        "judge_reason": "Headline is sharp and high-contrast, but 'SKIN' is misspelled as 'SKN', missing the letter 'I'."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Label fine print is garbled/nonsensical compared to crisp, legible reference text, indicating an identity inconsistency.",
+      "details": {
+        "observations": {
+          "shape": "Cylindrical jar with flat lid, matches reference proportions",
+          "colour": "White jar and lid, black text, red underline under 'ULTRA FACIAL CREAM' - consistent with reference",
+          "logo": "KIEHL'S logo present with 'SINCE 1851' styling, matches reference placement",
+          "label_text": "Text appears garbled/blurry upon close inspection - words like 'Greentond Pirst Ascent', 'Detracis', 'Oyaugtoleto aasaeted' are nonsensical, unlike crisp reference text",
+          "parts_and_count": "Single jar shown, consistent count with reference",
+          "presence": "Product itself is shown, not just a rendering on packaging"
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Snow visible on fire escape and window ledges, overcast winter light, cozy scarf prop all align with New York winter weather."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Brick buildings, fire escape, and urban window scene are typical of New York residential architecture, fitting the market naturally."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No landmarks or forced national symbols; scarf and skincare product serve the product story, not nationality signaling."
+    }
+  },
+  "cost_usd": 0.02517
+}

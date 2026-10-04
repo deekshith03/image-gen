@@ -1,0 +1,52 @@
+{
+  "item_id": "p04",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "reads \"BBQ SEASON IS\" instead of \"BBQ SEASON IS HERE\"",
+      "details": {
+        "transcription": "BBQ SEASON IS",
+        "legibility": "clear",
+        "judge_reason": "Text appears to be cut off or incomplete, but what is shown is clearly legible."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "All branding, text, colors, and packaging shape match the reference product consistently.",
+      "details": {
+        "observations": {
+          "shape": "Bag shape and proportions consistent with reference packaging",
+          "colour": "Tan/kraft pattern, green banner, maroon text, white label match reference colors",
+          "logo": "365 Everyday Value logo present, correctly placed and spelled",
+          "label_text": "'Organic Barbeque Potato Chips' text matches reference; fine print not fully legible but consistent",
+          "parts_and_count": "Single bag shown, matches reference product, no added/missing elements",
+          "presence": "Actual product bag is shown, not just an image of it"
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Warm golden light, green leafy tree, iced drink with lime, outdoor stone setting all align with Austin summer ambiance."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic sunny outdoor patio scene with iced tea plausibly fits Texas summer barbecue culture without contradicting elements."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No landmarks or flags; props (chips, iced tea) are relevant to product and BBQ season theme, not forced symbols."
+    }
+  },
+  "cost_usd": 0.02399
+}

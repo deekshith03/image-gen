@@ -1,0 +1,54 @@
+{
+  "item_id": "v2-b02",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"SUMMER GLOW 25% OFF\"",
+      "details": {
+        "transcription": "SUMMER GLOW 25% OFF",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp, high-contrast, and easily readable against the sky background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product shape, color, and branding match reference; text is blurry but consistent with original layout, no identity change.",
+      "details": {
+        "observations": {
+          "presence": "Product jar is clearly shown in both images.",
+          "shape": "Cylindrical jar with flat lid matches reference proportions.",
+          "colour": "White jar with white lid, black and red text matches reference colours.",
+          "logo": "Kiehl's logo present, same serif font and 'SINCE 1851' banner layout.",
+          "prominent_text": "Text is present but blurred/illegible in ad; 'ULTRA FACIAL CREAM' shape is discernible though not crisp.",
+          "counts": "reference: 1 jar / ad: 1 jar",
+          "parts": "No missing or added parts; lid, label, and jar body all present."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Sunny beach, ocean rock pool, warm light consistent with Sydney summer; no contradicting weather cues present."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Ocean rock pool setting resembles Sydney's coastal ocean baths, a plausible local scene without foreign cultural markers."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or token souvenirs; succulent and rock setting feel natural, not stereotyped."
+    }
+  },
+  "cost_usd": 0.02594
+}

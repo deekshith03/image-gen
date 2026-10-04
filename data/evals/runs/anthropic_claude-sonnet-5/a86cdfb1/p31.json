@@ -1,0 +1,54 @@
+{
+  "item_id": "p31",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"SPRING LAYERS FROM $59\"",
+      "details": {
+        "transcription": "SPRING LAYERS FROM $59",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharply rendered with clean, legible lettering against a contrasting background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Shirt design, color, pattern, pocket, and logo match reference; only pose/styling differ.",
+      "details": {
+        "observations": {
+          "presence": "Product shirt is clearly shown in both images, worn by a model.",
+          "shape": "Same short-sleeve button-down collar shirt with chest pocket in both.",
+          "colour": "Navy/white/gray plaid pattern matches in both images.",
+          "logo": "Carhartt pocket logo patch visible on pocket in both images.",
+          "prominent_text": "No garbled text; only brand patch visible, consistent in both.",
+          "counts": "reference: 7 placket buttons, 1 collar button, 1 pocket / ad: similar button count, 1 pocket, consistent.",
+          "parts": "All parts present: collar, pocket, buttons, sleeves; nothing added or missing."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "season_fit: Snow on ground and frosted branches depict winter conditions, contradicting Melbourne's spring which is mild with no snow."
+    },
+    "season_fit": {
+      "verdict": "fail",
+      "reason": "Snow on ground and frosted branches depict winter conditions, contradicting Melbourne's spring which is mild with no snow."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Brick wall and bench setting is generic and doesn't contradict Australian culture or geography."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or token cultural props used to signal location."
+    }
+  },
+  "cost_usd": 0.02534
+}

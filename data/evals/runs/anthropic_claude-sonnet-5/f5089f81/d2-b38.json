@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b38",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"SUMMER STRIDES NZ$129\"",
+      "details": {
+        "transcription": "SUMMER STRIDES NZ$129",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp, bold, and clearly legible against the blurred background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Shoe design, color, logo, and construction details match reference exactly; only staging (dock setting) differs.",
+      "details": {
+        "observations": {
+          "presence": "Product shown in both images - New Balance 515 sneaker is present in the ad.",
+          "shape": "Same low-top running shoe silhouette, consistent proportions between reference and ad.",
+          "colour": "Black mesh/suede upper, grey N logo, white midsole, black outsole - matches in both images.",
+          "logo": "New Balance 'N' logo correctly placed on lateral side, same grey outline style in both images.",
+          "prominent_text": "No additional garbled text on product itself; ad overlay text 'SUMMER STRIDES NZ$129' is marketing copy, not product text.",
+          "counts": "reference: 1 shoe shown / ad: 1 shoe shown - matches.",
+          "parts": "Laces, tongue, zebra-print heel accent, and sole pattern all present and consistent with reference."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Bright sunny waterside scene with clear skies and warm light matches Auckland summer conditions well."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic waterfront/pier scene is plausible for Auckland, no conflicting landmarks or foreign cultural markers present."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, stereotypes, or token props; natural golden-hour lighting fits the scene authentically."
+    }
+  },
+  "cost_usd": 0.02443
+}

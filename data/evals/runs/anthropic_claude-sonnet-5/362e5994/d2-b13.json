@@ -1,0 +1,52 @@
+{
+  "item_id": "d2-b13",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"BUILT FOR THE TRAIL\"",
+      "details": {
+        "transcription": "BUILT FOR THE TRAIL",
+        "legibility": "clear",
+        "judge_reason": "Text is sharp, high-contrast, and easily readable against the dark background."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Dial text at bottom is garbled and mirrored, showing nonsense characters instead of correct 'CHRONOGRAPH' and 'INDIGLO WR 100M' text.",
+      "details": {
+        "observations": {
+          "shape": "Round case, three sub-dials, chronograph layout matches reference.",
+          "colour": "Black dial, tan accents, brown leather strap consistent with reference.",
+          "logo": "TIMEX logo present and correctly placed at top of dial.",
+          "label_text": "Bottom dial text is garbled/mirrored - reads 'COROHOOSAPH' instead of 'CHRONOGRAPH', and 'INDIGLO WR 100M' appears reversed/nonsensical.",
+          "parts_and_count": "Correct number of sub-dials, hands, crown, and strap keepers visible.",
+          "presence": "Product itself is clearly shown, not just packaging."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Golden fallen leaves, muted light, cool rocky setting align with autumn (March–May) in the Southern Hemisphere Patagonia."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic mountainous, lichen-covered rock terrain with autumn foliage plausibly fits Patagonia without contradicting signage or climate."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No flags, landmarks, or forced souvenirs; natural rock and leaves serve mood/texture rather than nationality signaling."
+    }
+  },
+  "cost_usd": 0.02739
+}

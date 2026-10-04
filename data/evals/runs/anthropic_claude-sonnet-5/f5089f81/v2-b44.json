@@ -1,0 +1,54 @@
+{
+  "item_id": "v2-b44",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"CELEBRATE SISTERHOOD\"",
+      "details": {
+        "transcription": "CELEBRATE SISTERHOOD",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharply rendered in solid dark font against a plain light background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Charm design, engraving, stone, and material fully consistent with reference product; only staging differs.",
+      "details": {
+        "observations": {
+          "presence": "The silver heart-shaped charm with 'Sister' engraving is present in both images, shown with Pandora branded box in the ad.",
+          "shape": "Heart-shaped charm with rounded top lobes, consistent proportions, and beaded hole opening match reference.",
+          "colour": "Polished silver metal with pink CZ stone matches reference exactly.",
+          "logo": "Pandora logo/text visible on box in ad; 'S925' stamp on charm matches reference.",
+          "prominent_text": "'Sister' script engraving is identical in font and placement in both images.",
+          "counts": "reference: 1 pink heart-shaped CZ stone / ad: 1 pink heart-shaped CZ stone - matches.",
+          "parts": "No added or missing parts; charm appears complete and unaltered in the ad."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Budding branch, soft greenery, and bright natural light align with New York spring; no contradicting weather cues present."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Brownstone-style buildings and streetscape are consistent with New York; no foreign landmarks or scripts contradict the setting."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or stereotyped color filters; lighting is natural golden-hour, scene feels authentic and unforced."
+    }
+  },
+  "cost_usd": 0.02788
+}

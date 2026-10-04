@@ -1,0 +1,54 @@
+{
+  "item_id": "p09",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "reads \"\" instead of \"BEACH BODY SEASON\"; headline illegible",
+      "details": {
+        "transcription": "",
+        "legibility": "illegible",
+        "scene_garble": "",
+        "judge_reason": "No marketing headline text is present in the image; only product packaging text appears, which is excluded."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product identity, shape, color, and branding remain consistent with the reference image despite staging differences in angle and distance.",
+      "details": {
+        "observations": {
+          "presence": "The product container is shown in the advertisement, matching the reference product.",
+          "shape": "Cylindrical tub with black screw-top lid, consistent with reference proportions.",
+          "colour": "Black container with dark label; consistent with reference colour scheme.",
+          "logo": "OWN PWR logo visible, matches reference in form and placement.",
+          "prominent_text": "ELITE SERIES and PRE WORKOUT text present, though smaller/blurrier in ad; text appears consistent though less legible.",
+          "counts": "reference: 1 tub / ad: 1 tub - matches.",
+          "parts": "No missing or added parts; label layout appears consistent with reference, though fine details are less visible due to staging/distance."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Clear sky, bright sunlight, coastal haze, and warm tones align with typical LA summer beach weather."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Coastal cliffside view with ocean, palm tree, and distant mountains matches Southern California coastline plausibly."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "Palm tree and coastline fit naturally as a real backdrop, not forced as an artificial location signal."
+    }
+  },
+  "cost_usd": 0.02722
+}

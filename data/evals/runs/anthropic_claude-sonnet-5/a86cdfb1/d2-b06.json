@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b06",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"BUY 2 GET 1 FREE\"",
+      "details": {
+        "transcription": "BUY 2 GET 1 FREE",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp, bold, and clearly legible against the blurred green background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Two bags shown instead of one is acceptable staging for a 'Buy 2 Get 1 Free' promotional context, not an identity change.",
+      "details": {
+        "observations": {
+          "presence": "Product packaging is shown in the ad, matching the reference bag design",
+          "shape": "Bag shape and proportions consistent with reference",
+          "colour": "Tan/kraft paper background with green 'Organic' band and burgundy 'Barbeque' text match reference colours",
+          "logo": "365 Everyday Value logo present with colored square icon, consistent with reference",
+          "prominent_text": "'Organic', 'Barbeque', 'Potato Chips' text all correctly spelled and styled as in reference",
+          "counts": "reference: 1 bag shown / ad: 2 bags shown (staging for buy 2 get 1 free promotion)",
+          "parts": "All key label elements present - logo, product name, chip basket image, certification badges visible"
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Ginkgo leaves, fallen foliage, mild sunlight match Seoul's crisp, colorful autumn season accurately."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic picnic scene with no wrong-country landmarks, scripts, or festival elements present."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "Ginkgo leaves are a genuine seasonal element, not a forced token prop or landmark cliché."
+    }
+  },
+  "cost_usd": 0.0285
+}

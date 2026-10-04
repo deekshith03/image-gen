@@ -1,0 +1,52 @@
+{
+  "item_id": "p14",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"SUMMER GLOW 25% OFF\"",
+      "details": {
+        "transcription": "SUMMER GLOW 25% OFF",
+        "legibility": "clear",
+        "judge_reason": "Headline text is sharp, well-contrasted, and easily readable against the sky background."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Cap color changed from white (reference) to black (ad), altering product identity.",
+      "details": {
+        "observations": {
+          "shape": "Cylindrical jar shape and proportions match the reference.",
+          "colour": "Cap is black in the ad, but white in the reference photo — color discrepancy.",
+          "logo": "Kiehl's logo and 'Since 1851' text correctly spelled and placed.",
+          "label_text": "Text matches reference ('Ultra Facial Cream', Greenland First Ascent description), though slightly blurred.",
+          "parts_and_count": "Single jar with single lid, consistent with reference; no extra/missing parts.",
+          "presence": "Actual product jar is shown, not just a graphic."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Bright sunny sky, beach setting, olive branch foliage, and sand all convincingly match a warm summer day."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic beach, ocean, and sand scene could plausibly be Sydney; nothing contradicts an Australian coastal setting."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No landmarks, flags, or forced national symbols; beach setting feels natural to product and season, not a stereotype."
+    }
+  },
+  "cost_usd": 0.02464
+}

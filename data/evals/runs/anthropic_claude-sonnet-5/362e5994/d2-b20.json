@@ -1,0 +1,52 @@
+{
+  "item_id": "d2-b20",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"SPRING LAYERS FROM $59\"",
+      "details": {
+        "transcription": "SPRING LAYERS FROM $59",
+        "legibility": "clear",
+        "judge_reason": "Text is sharply rendered in bold, high-contrast cream font against brick background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Shirt design, plaid pattern, logo, and construction details match the reference product consistently.",
+      "details": {
+        "observations": {
+          "shape": "Same short-sleeve button-down shirt shape with chest pocket, button-down collar, and consistent fit/proportions as reference.",
+          "colour": "Matches navy/white plaid pattern with same scale and tones as reference photo; worn over cream undershirt in ad.",
+          "logo": "Carhartt 'C' logo patch visible on chest pocket in both images, consistent placement and form.",
+          "label_text": "No garment label text visible in either image; ad overlay text 'SPRING LAYERS FROM $59' is clear and legible.",
+          "parts_and_count": "Same number of buttons, one chest pocket, collar buttons all present and consistent between both images.",
+          "presence": "Actual shirt is shown worn by a model in both images, not just packaging or icon."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Short-sleeve plaid shirt layered over tee, bright sunlight, mild outdoor seating suit cool mornings/warm days typical of Melbourne spring."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic brick wall and casual workwear style fits Australian urban settings without contradicting Melbourne's climate or culture."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No landmarks, flags, or forced national symbols; relies on natural clothing and setting to convey season and style."
+    }
+  },
+  "cost_usd": 0.02246
+}

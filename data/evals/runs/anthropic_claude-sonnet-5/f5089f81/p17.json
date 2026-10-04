@@ -1,0 +1,54 @@
+{
+  "item_id": "p17",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"TRAVEL IN STYLE\"",
+      "details": {
+        "transcription": "TRAVEL IN STYLE",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp, well-contrasted serif font against plain wall background, easily readable."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "The suitcase in the ad is a solid gray color, while the reference product is a black/white houndstooth pattern - a clear material/colorway change.",
+      "details": {
+        "observations": {
+          "presence": "Product (carry-on suitcase) is shown in both images",
+          "shape": "Same overall shape and proportions - upright spinner case with telescoping handle, front pocket, top and side carry handles",
+          "colour": "Reference is white/black houndstooth pattern; ad shows solid gray - significant color/material change",
+          "logo": "Reference shows visible London Fog logo plate on front pocket; ad's logo area is not clearly visible/readable at this angle",
+          "prominent_text": "No prominent text visible in ad image aside from branding overlay text 'TRAVEL IN STYLE' which is marketing copy, not product text",
+          "counts": "reference: 8 spinner wheels visible / ad: 4 wheels visible at this angle (consistent with same product, different viewing angle)",
+          "parts": "Same structural parts present - front pocket, side pocket, handle, wheels, telescoping handle"
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Fallen yellow leaves on pavement match autumn in Paris; no contradicting seasonal cues present."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Ornate stone wall and wrought-iron gate plausibly suggest Parisian architecture; nothing contradicts the market."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmark, flag, or stereotypical token props; scene uses believable architectural backdrop without cliché."
+    }
+  },
+  "cost_usd": 0.02593
+}

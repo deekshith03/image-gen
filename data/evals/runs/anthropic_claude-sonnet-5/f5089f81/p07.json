@@ -1,0 +1,54 @@
+{
+  "item_id": "p07",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "reads \"FALL INTO 51\" instead of \"FALL INTO 515\"",
+      "details": {
+        "transcription": "FALL INTO 51",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp and well-rendered, though '51' appears truncated, likely cut off from '515'."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "The shoe in the ad matches the reference in shape, color, logo, and construction with only staging differences.",
+      "details": {
+        "observations": {
+          "presence": "The product (New Balance 515 sneaker) is clearly shown in both images.",
+          "shape": "Same silhouette, proportions, and sole design match the reference shoe.",
+          "colour": "Black mesh/suede upper, grey N logo, white midsole, and textured heel pattern all match.",
+          "logo": "New Balance 'N' logo present on both, same placement, shape, and grey outline styling.",
+          "prominent_text": "Ad text 'FALL INTO 51' is marketing copy, not product text; shoe itself has no altered text.",
+          "counts": "reference: 1 shoe shown / ad: 1 shoe shown",
+          "parts": "No missing or added parts; laces, heel tab, and sole design all consistent."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Fallen autumn leaves, overcast light, and a person in a warm coat match Boston's real fall climate."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Brownstone row houses and brick sidewalks are authentic to Boston neighborhoods; nothing contradicts the setting."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmark, flag, or token prop; architecture and leaves fit naturally without stereotyping."
+    }
+  },
+  "cost_usd": 0.02606
+}

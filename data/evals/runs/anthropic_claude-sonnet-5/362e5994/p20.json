@@ -1,0 +1,52 @@
+{
+  "item_id": "p20",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"WINTER MILES 30% OFF\"",
+      "details": {
+        "transcription": "WINTER MILES 30% OFF",
+        "legibility": "clear",
+        "judge_reason": "Text is bold, high-contrast white against blue sky background, with clean letterforms and no distortion."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Heel tab text is garbled nonsense instead of correct 'LunarEpic Flyknit 2' label, indicating an identity/label change.",
+      "details": {
+        "observations": {
+          "shape": "Consistent silhouette, low-top Flyknit running shoe with similar sole structure",
+          "colour": "Matches reference - white/grey knit upper with black swoosh, white Lunarlon sole",
+          "logo": "NIKE wordmark on heel tab appears correctly placed and spelled",
+          "label_text": "Heel tab subtext is garbled/nonsensical ('NARAEPE PLJNOT'S' or similar) instead of 'LUNAREPIC FLYKNIT 2'",
+          "parts_and_count": "Single shoe shown, consistent with reference (one shoe shown at an angle)",
+          "presence": "Actual product is shown, not just packaging or logo"
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "season_fit: Bright sunny sky, palm trees, and tropical beach setting depict summer conditions, directly contradicting Cape Town's cold, rainy winter season.; market_fit: Tropical palm trees and turquoise water resemble Caribbean or Southeast Asian beaches, not Cape Town's rugged coastline and winter climate."
+    },
+    "season_fit": {
+      "verdict": "fail",
+      "reason": "Bright sunny sky, palm trees, and tropical beach setting depict summer conditions, directly contradicting Cape Town's cold, rainy winter season."
+    },
+    "market_fit": {
+      "verdict": "fail",
+      "reason": "Tropical palm trees and turquoise water resemble Caribbean or Southeast Asian beaches, not Cape Town's rugged coastline and winter climate."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "Generic tropical beach imagery with palm trees functions as a stock vacation backdrop rather than any authentic regional signal."
+    }
+  },
+  "cost_usd": 0.02659
+}

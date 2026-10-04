@@ -1,0 +1,54 @@
+{
+  "item_id": "p15",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"SHARE THE WARMTH\"",
+      "details": {
+        "transcription": "SHARE THE WARMTH",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharply rendered with clear, legible lettering against the window background."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Brand name misspelled as 'nutela' instead of 'nutella' on package in advertisement.",
+      "details": {
+        "observations": {
+          "presence": "Product package shown in both images, held/staged on table near tea.",
+          "shape": "Pouch shape and proportions consistent with reference.",
+          "colour": "White/brown packaging with red and black text, matches reference.",
+          "logo": "Brand name misspelled in ad as 'nutela' (single L) instead of 'nutella' (double L).",
+          "prominent_text": "Misspelling of brand name is a critical error; 'biscuits' text and x22 remain correct.",
+          "counts": "reference: x22 label / ad: x22 label - counts match.",
+          "parts": "No missing or added components beyond the spelling error; biscuits shown outside pack in both."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Rainy, foggy Bosphorus scene with misty windows and warm tea fits Istanbul's cold, damp winter weather."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Bosphorus ferry, traditional tulip tea glass, and wooden Istanbul interior authentically represent Turkish culture and setting."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "Tea glass and ferry view feel naturally integrated into a cozy winter scene, not forced tokenism."
+    }
+  },
+  "cost_usd": 0.0287
+}

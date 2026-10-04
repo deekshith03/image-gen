@@ -1,0 +1,52 @@
+{
+  "item_id": "d-b07",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"COSY MUG CAKE IN 1 MINUTE\"",
+      "details": {
+        "transcription": "COSY MUG CAKE IN 1 MINUTE",
+        "legibility": "clear",
+        "judge_reason": "Bold, high-contrast white text clearly rendered against dark background with no distortion."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Mug cake product, mug design, and color palette consistent with reference; background packet too small to verify text fidelity.",
+      "details": {
+        "observations": {
+          "shape": "Mug matches reference - same polka dot patterned mug with handle, cake shape and texture consistent",
+          "colour": "Mug colors (white/blue/brown dots) match; cake color golden-brown with chocolate chips matches reference",
+          "logo": "Duncan Hines branding not clearly legible on packet shown, but partial red/blue packaging visible in background matches color scheme",
+          "label_text": "Background packet text too small/blurred to confirm exact wording, appears consistent with original box colors",
+          "parts_and_count": "Single mug cake shown, consistent with single-serving presentation; no extra or missing parts",
+          "presence": "Actual mug cake product is shown, not just packaging imagery"
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Rain-streaked window, cozy knit sweater, steaming hot drink and dark lighting all align with a damp, cold London winter evening."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic cozy indoor scene with English text and no conflicting cultural or climate markers fits a UK winter setting naturally."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No landmarks, flags, or forced national symbols; props (sweater, mug, spoon) serve the cozy mood rather than signaling nationality."
+    }
+  },
+  "cost_usd": 0.0269
+}

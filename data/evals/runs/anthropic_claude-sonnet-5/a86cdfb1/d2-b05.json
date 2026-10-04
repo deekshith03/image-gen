@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b05",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"BBQ SEASON IS HERE\"",
+      "details": {
+        "transcription": "BBQ SEASON IS HERE",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is bold, sharply rendered, and easily readable against the background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product packaging in the ad matches the reference in shape, color, text, and branding with only staging differences.",
+      "details": {
+        "observations": {
+          "presence": "The product package is clearly shown in the advertisement, matching the reference.",
+          "shape": "Bag shape and proportions are consistent with the reference packaging.",
+          "colour": "Tan/kraft paper background with green band, maroon text, and orange chip imagery all match.",
+          "logo": "365 Everyday Value logo present with correct colorful square icon and placement.",
+          "prominent_text": "'Organic', 'Barbeque', and 'Potato Chips' text all match in spelling, font, and placement.",
+          "counts": "reference: 1 bag / ad: 1 bag - consistent",
+          "parts": "All design elements (basket of chips, label bands, logo, text) are present with nothing added or missing."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Sunny outdoor scene, green leafy tree, iced drink with condensation suggest warm summer weather consistent with Austin summers."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic outdoor patio setting with no conflicting cultural, geographic, or festival elements that contradict Austin, Texas."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "BBQ chips and iced tea fit naturally as a genuine summer snack pairing, not forced token props signaling location."
+    }
+  },
+  "cost_usd": 0.02579
+}

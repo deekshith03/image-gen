@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b01",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"WINTER-PROOF YOUR SKIN\"",
+      "details": {
+        "transcription": "WINTER-PROOF YOUR SKIN",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp and bold; product label text is small but legible, no nonsense lettering visible."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "The product's shape, color, text, and logo are consistent across both images with no alterations.",
+      "details": {
+        "observations": {
+          "presence": "The product jar is present in both the reference and advertisement images.",
+          "shape": "Cylindrical jar with flat lid, consistent proportions in both images.",
+          "colour": "White jar and lid with black and red text, matching in both images.",
+          "logo": "Kiehl's logo present and correctly spelled in both images, consistent placement.",
+          "prominent_text": "'ULTRA FACIAL CREAM' and 'SINCE 1851' text present and legible in both images.",
+          "counts": "reference: 1 jar / ad: 1 jar",
+          "parts": "No missing or added parts; jar and lid are consistent in both images."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Snow visible on fire escape and sill, frosty window, cozy scarf all match real NYC winter conditions."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Brick building with fire escape is classic NYC architecture; no foreign landmarks or cultural markers intrude."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmark, flag, or souvenir; scarf and window scene feel natural to the wintry moment."
+    }
+  },
+  "cost_usd": 0.02716
+}

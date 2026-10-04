@@ -1,0 +1,52 @@
+{
+  "item_id": "d2-b05",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"BBQ SEASON IS HERE\"",
+      "details": {
+        "transcription": "BBQ SEASON IS HERE",
+        "legibility": "clear",
+        "judge_reason": "Text is sharply rendered in bold, high-contrast dark red font against a light background, fully legible."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Packaging design, logo, text, and colors all match the reference product with no alterations.",
+      "details": {
+        "observations": {
+          "shape": "Bag shape, proportions, and basket/chip display match the reference packaging accurately.",
+          "colour": "Colors consistent - tan/kraft background with green banner, maroon bottom, matches reference exactly.",
+          "logo": "365 Everyday Value logo present and correctly placed, matches reference styling and position.",
+          "label_text": "Barbeque Potato Chips text, Organic banner, and small print consistent with reference; no garbled text visible.",
+          "parts_and_count": "Single bag shown, consistent with one product instance; no added or missing elements on packaging.",
+          "presence": "Actual product bag is shown in the ad, not just an image of it on another surface."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Warm sunlight, green leafy foliage, iced drink, and outdoor seating all suggest a warm summer day consistent with Austin's climate."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic outdoor patio scene with no conflicting cultural or geographic markers; plausible setting for Austin, Texas."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No landmarks, flags, or forced regional symbols; chips and iced tea serve the product message naturally."
+    }
+  },
+  "cost_usd": 0.02452
+}

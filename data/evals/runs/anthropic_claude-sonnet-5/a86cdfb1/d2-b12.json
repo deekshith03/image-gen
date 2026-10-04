@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b12",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"HYGGE HOURS 20% OFF\"",
+      "details": {
+        "transcription": "HYGGE HOURS 20% OFF",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp, well-spaced, and rendered in clean sans-serif font with no distortion."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product matches reference in shape, color, materials, and branding; only staging differences (steam, setting) present.",
+      "details": {
+        "observations": {
+          "presence": "The gooseneck kettle is present in the advertisement image.",
+          "shape": "Same gooseneck spout, cylindrical body, tapered base, and handle shape as reference.",
+          "colour": "Same chrome/stainless steel body with black handle and black knob on lid.",
+          "logo": "Bodum logo visible on the body in both images, correctly spelled and placed.",
+          "prominent_text": "No additional product text beyond the Bodum logo; ad text (Hygge Hours 20% off) is separate overlay, not on product.",
+          "counts": "reference: 1 kettle / ad: 1 kettle",
+          "parts": "All parts match - spout, handle, lid, knob, base; nothing missing or added."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Yellow autumn leaves visible outside window, bare branches, warm interior with steaming kettle match Copenhagen autumn."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "No conflicting landmarks, festivals, or foreign cultural markers; scene is neutral Scandinavian-style interior."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or token souvenirs; minimalist kettle and mug fit naturally without stereotyping."
+    }
+  },
+  "cost_usd": 0.02584
+}

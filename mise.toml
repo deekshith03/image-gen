@@ -1,0 +1,82 @@
+[tools]
+python = "3.12"
+node = "22"
+uv = "latest"
+
+[env]
+_.python.venv = { path = ".venv", create = true }
+
+# ── workflow, in order ────────────────────────────────────────────────
+[tasks.fetch]
+description = "Download the reference product photos listed in data/products/manifest.yaml"
+run = "uv run python scripts/fetch_products.py"
+
+[tasks.generate]
+description = "Generate one ad per brief with the locked D2 strategy"
+run = "uv run python scripts/generate_ads.py"
+
+[tasks.plant]
+description = "Create planted single-change failures from data/golden/plant_specs.yaml"
+run = "uv run python scripts/plant_failures.py"
+
+[tasks."golden:build"]
+description = "Assemble data/golden/items.yaml"
+run = "uv run python scripts/build_golden.py"
+
+[tasks."golden:panel"]
+description = "Run the expert panel pre-labels"
+run = "uv run python scripts/run_panel.py"
+
+[tasks."golden:truth"]
+description = "Derive ground truth from human labels"
+run = "uv run python scripts/derive_ground_truth.py"
+
+[tasks."eval:build"]
+description = "Rebuild promptfoo test cases from the ground truth"
+run = "uv run python scripts/build_eval_tests.py"
+
+[tasks."eval:dev"]
+description = "Run the judge against the dev split (promptfoo)"
+dir = "evals"
+env = { PROMPTFOO_PYTHON = "{{config_root}}/.venv/bin/python", PROMPTFOO_DISABLE_TELEMETRY = "1" }
+run = "npx -y promptfoo@latest eval -c promptfoo.dev.yaml -j 6 --no-cache -o ../data/evals/promptfoo_dev.json || true"
+
+[tasks."eval:test"]
+description = "Run the judge against the held-out test split (final exam — run once)"
+dir = "evals"
+env = { PROMPTFOO_PYTHON = "{{config_root}}/.venv/bin/python", PROMPTFOO_DISABLE_TELEMETRY = "1" }
+run = "npx -y promptfoo@latest eval -c promptfoo.test.yaml -j 6 --no-cache -o ../data/evals/promptfoo_test.json || true"
+
+[tasks."eval:score"]
+description = "Score cached judge runs (pass --split test, --show-misses)"
+run = "uv run python scripts/score_evals.py"
+
+# ── apps & pipeline ───────────────────────────────────────────────────
+[tasks.pipeline]
+description = "Run generate → judge → retry → fallback on brief ids, e.g. mise run pipeline b16"
+run = "uv run python scripts/run_pipeline.py"
+
+[tasks."app:label"]
+description = "Labelling UI"
+run = "uv run streamlit run app/label.py"
+
+[tasks."app:demo"]
+description = "Pipeline demo UI"
+run = "uv run streamlit run app/demo.py"
+
+# ── quality ───────────────────────────────────────────────────────────
+[tasks.lint]
+description = "Lint and check formatting"
+run = ["uv run ruff check .", "uv run ruff format --check ."]
+
+[tasks.format]
+description = "Auto-fix lint issues and format"
+run = ["uv run ruff check --fix .", "uv run ruff format ."]
+
+[tasks.verify]
+description = "Dataset integrity: labels, splits, hashes, ground truth, judge prompt version"
+run = "uv run python scripts/verify.py"
+
+[tasks.test]
+description = "Run unit tests"
+run = "uv run pytest -q"

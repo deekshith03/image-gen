@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b07",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"COSY MUG CAKE IN 1 MINUTE\"",
+      "details": {
+        "transcription": "COSY MUG CAKE IN 1 MINUTE",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline is bold, high-contrast, and clearly legible against the window background."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Package text appears blurred/garbled in ad compared to sharp reference text, indicating label fidelity issue.",
+      "details": {
+        "observations": {
+          "presence": "Product box and mug cake are both shown in the ad, matching reference packaging.",
+          "shape": "Box shape and mug shape/proportions consistent with reference.",
+          "colour": "Red box, blue label band, white mug with blue floral pattern all match reference.",
+          "logo": "Duncan Hines logo present, correct red script on white shield, matches reference.",
+          "prominent_text": "Text is distorted/garbled in ad - 'MUG CAKES' readable but 'chocolate chip cookie cake MIX' and '4 INDIVIDUAL POUCHES' text appears blurred/illegible compared to crisp reference text.",
+          "counts": "reference: 1 mug cake shown on box / ad: 2 mugs of cake shown (one on box, one held in hands) - this is acceptable staging showing product in use.",
+          "parts": "No missing or added parts to the product itself; spoon added but this is acceptable staging for food consumption."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Rainy window, bare winter trees, warm indoor lighting and cosy sweater all match London's cold, wet winter weather accurately."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Chimney pots and rooftop silhouettes resemble London architecture; no conflicting foreign landmarks, scripts, or festivals present."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmark, flag, or stereotyped color filter; scene relies on genuine cosy winter mood, not token cultural props."
+    }
+  },
+  "cost_usd": 0.02887
+}

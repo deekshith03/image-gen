@@ -1,0 +1,52 @@
+{
+  "item_id": "d-b17",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "garbled text near headline: \"ランニングセール\"",
+      "details": {
+        "transcription": "ランニングセール",
+        "legibility": "clear",
+        "judge_reason": "Both headline and smaller subtext are sharply rendered in bold black Japanese characters, easily readable."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Shoe matches reference in shape, colour, logo, and construction; staging (shadow, angle) is acceptable.",
+      "details": {
+        "observations": {
+          "shape": "Same low-top Flyknit silhouette, curved Lunarlon midsole, consistent proportions with reference shoe",
+          "colour": "Same white/platinum knit upper, black swoosh, white sole with grey ridges — matches reference",
+          "logo": "NIKE text on heel tab and black swoosh in correct placement, consistent with reference",
+          "label_text": "Japanese text 'ランニングセール' (Running Sale) is clear, legible, not garbled; no nonsense characters",
+          "parts_and_count": "Single shoe shown, no added or missing parts, laces intact and consistent",
+          "presence": "Actual product (shoe) is shown, not just packaging or icon"
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Bright sunlight and shadows suggest clear weather, but no explicit seasonal cues like vegetation or clothing are shown to confirm summer."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Japanese text (katakana) naturally fits Tokyo market; neutral concrete setting doesn't contradict Japan's urban environment."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No landmarks, flags, or stereotypical props used; relies on language and product focus without forced nationality signals."
+    }
+  },
+  "cost_usd": 0.02452
+}

@@ -1,0 +1,52 @@
+{
+  "item_id": "d-b05",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "reads \"BBQ SEASON FUOROOST IS HERE\" instead of \"BBQ SEASON IS HERE\"; garbled text near headline: \"FUOROOST\"",
+      "details": {
+        "transcription": "BBQ SEASON FUOROOST IS HERE",
+        "legibility": "clear",
+        "judge_reason": "Text is sharply rendered and fully legible, though 'FUOROOST' appears to be a nonsensical/garbled word."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Advertisement headline includes garbled nonsense word 'FUOROOST', which counts as corrupted text despite correct product packaging.",
+      "details": {
+        "observations": {
+          "shape": "Bag shape, proportions, and basket/chip arrangement match the reference product closely.",
+          "colour": "Colors consistent with reference - tan/kraft pattern, green banner, maroon bottom, orange chips.",
+          "logo": "365 Everyday Value logo present and correctly rendered in the small packaging image.",
+          "label_text": "The headline text 'BBQ SEASON FUOROOST IS HERE' contains garbled nonsense word 'FUOROOST'; packaging text itself ('Organic Barbeque Potato Chips') appears legible and correct.",
+          "parts_and_count": "Single bag shown, consistent with one product; no extra or missing parts on the package.",
+          "presence": "The actual product (bag of chips) is shown, not just imagery of it."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Bright sunny outdoor setting, dappled tree light, iced tea with lime, picnic table — consistent with warm Austin summer weather."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic sunny picnic/backyard scene with oak-like tree and iced tea plausibly fits Austin, Texas without contradicting local culture."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No landmarks or flags; chips, limes, and iced tea serve the BBQ theme naturally rather than as forced regional signifiers."
+    }
+  },
+  "cost_usd": 0.0254
+}

@@ -1,0 +1,1073 @@
+items:
+- item_id: d2-b01
+  brief_id: b01
+  product: kiehls_ultra_facial_cream
+  split: dev
+  source: d2
+  image: data/ads/natural/d2/b01.png
+  sha256: 99f4792aabe6e8359f98efb8d316e87bbb23dcd0acc3c0a11c42dad14f27702e
+- item_id: d2-b02
+  brief_id: b02
+  product: kiehls_ultra_facial_cream
+  split: dev
+  source: d2
+  image: data/ads/natural/d2/b02.png
+  sha256: eeb5d6879760125b9caca52cbbdbdd529090d20f258c6da199dad6b1f804f8e5
+- item_id: d2-b03
+  brief_id: b03
+  product: cerave_moisturising_lotion
+  split: dev
+  source: d2
+  image: data/ads/natural/d2/b03.png
+  sha256: a455e2573eb659870fdcba1047116f3f8f4b0af345a9084148e2751f8007dc2e
+- item_id: d2-b04
+  brief_id: b04
+  product: cerave_moisturising_lotion
+  split: dev
+  source: d2
+  image: data/ads/natural/d2/b04.png
+  sha256: d19cd7604e7ea43d831be66d6b0c3ea03f9666bf49494e6d7f22def84637d67b
+- item_id: d2-b05
+  brief_id: b05
+  product: bbq_chips_365
+  split: dev
+  source: d2
+  image: data/ads/natural/d2/b05.png
+  sha256: f0568d1e929ab8c3d05e7753528655043507258c2d08d43c1f07c5f5e0d6abdc
+- item_id: d2-b06
+  brief_id: b06
+  product: bbq_chips_365
+  split: dev
+  source: d2
+  image: data/ads/natural/d2/b06.png
+  sha256: ed3766a49b7a5a7085df9cf62eac974105805a7ba52c52333e20e98edea42fba
+- item_id: d2-b07
+  brief_id: b07
+  product: duncanhines_mugcake
+  split: dev
+  source: d2
+  image: data/ads/natural/d2/b07.png
+  sha256: c4fc0b57218635588868d75f20f7d6fc8e6de1ce9beeebaba9f7a696ab97018a
+- item_id: d2-b08
+  brief_id: b08
+  product: duncanhines_mugcake
+  split: dev
+  source: d2
+  image: data/ads/natural/d2/b08.png
+  sha256: 761c3b3579c1402fc158ae0d8b469b1e7f1d06bb98040807412cdc63d90feaa9
+- item_id: d2-b09
+  brief_id: b09
+  product: versace_eau_fraiche
+  split: dev
+  source: d2
+  image: data/ads/natural/d2/b09.png
+  sha256: 06ae4b14bbc27124c686da954b42452a01d2363d7c73e0c253f929f9a7da08f1
+- item_id: d2-b10
+  brief_id: b10
+  product: versace_eau_fraiche
+  split: dev
+  source: d2
+  image: data/ads/natural/d2/b10.png
+  sha256: 1002450b64a05aeb62ff1fd292a243c0b40a73eb00adaf719dee0ba5d03028e4
+- item_id: d2-b11
+  brief_id: b11
+  product: bodum_chrome_kettle
+  split: dev
+  source: d2
+  image: data/ads/natural/d2/b11.png
+  sha256: 6644b39d0350e68fbb9ac03c275059680c8febe0e0be653d7b42535744e36641
+- item_id: d2-b12
+  brief_id: b12
+  product: bodum_chrome_kettle
+  split: dev
+  source: d2
+  image: data/ads/natural/d2/b12.png
+  sha256: e5ccb22e37dd77e03db6a3a689af9df8f054c5b4068ceba2c4317a0d22b3936f
+- item_id: d2-b13
+  brief_id: b13
+  product: timex_expedition_chrono
+  split: dev
+  source: d2
+  image: data/ads/natural/d2/b13.png
+  sha256: 297b271bd72f69ead546230acd48b3347f0d549e68b1bcdd5d9c14a0926324d3
+- item_id: d2-b14
+  brief_id: b14
+  product: timex_expedition_chrono
+  split: dev
+  source: d2
+  image: data/ads/natural/d2/b14.png
+  sha256: b8405d9e51acd0d50b3771464ea63da87b0ac57a5f0e71cae20033c7d3c098f1
+- item_id: d2-b15
+  brief_id: b15
+  product: adidas_grand_court
+  split: dev
+  source: d2
+  image: data/ads/natural/d2/b15.png
+  sha256: 509d698c8172349deae8e8dd267526b1efc170efe3c042c4a28998216f9d6bcf
+- item_id: d2-b16
+  brief_id: b16
+  product: adidas_grand_court
+  split: dev
+  source: d2
+  image: data/ads/natural/d2/b16.png
+  sha256: 14328dee76e9d1c07947c206ccf0aa0e197014102b983ab027d0850b64716560
+- item_id: d2-b17
+  brief_id: b17
+  product: nike_lunarepic_flyknit
+  split: dev
+  source: d2
+  image: data/ads/natural/d2/b17.png
+  sha256: f21898e2007af9193e01242bbe995914414ade5619f30673cd0ee869350eab91
+- item_id: d2-b18
+  brief_id: b18
+  product: nike_lunarepic_flyknit
+  split: dev
+  source: d2
+  image: data/ads/natural/d2/b18.png
+  sha256: 1818a44694be8e925696f480d01f87cef61dc606d1355c8faf720b82369bc396
+- item_id: d2-b19
+  brief_id: b19
+  product: carhartt_plaid_shirt
+  split: dev
+  source: d2
+  image: data/ads/natural/d2/b19.png
+  sha256: 6a11e02f6a76446e810c883a04982b209125d9ce0e56dae699fb519dd63c5f59
+- item_id: d2-b20
+  brief_id: b20
+  product: carhartt_plaid_shirt
+  split: dev
+  source: d2
+  image: data/ads/natural/d2/b20.png
+  sha256: bae8ccb689148ccd848ab647b3edf3722cdd046deef50ccee8bbcd31e2ff5332
+- item_id: d2-b21
+  brief_id: b21
+  product: pandora_family_roots
+  split: dev
+  source: d2
+  image: data/ads/natural/d2/b21.png
+  sha256: 57904d58034eff95cfefa59e4787a8b681c081cc82b2d0b66551cf769bc334a0
+- item_id: d2-b22
+  brief_id: b22
+  product: pandora_family_roots
+  split: dev
+  source: d2
+  image: data/ads/natural/d2/b22.png
+  sha256: 2abb91ead9f2058e2a4292c77f1dd637bfcb90af83ce1d614d94c09c43993861
+- item_id: d2-b23
+  brief_id: b23
+  product: neutrogena_hydro_boost
+  split: test
+  source: d2
+  image: data/ads/natural/d2/b23.png
+  sha256: bfecba822338f98f1e6c99ad0ff041a67c0fdf10ae51bca3943f93b1d36d62cd
+- item_id: d2-b24
+  brief_id: b24
+  product: neutrogena_hydro_boost
+  split: test
+  source: d2
+  image: data/ads/natural/d2/b24.png
+  sha256: f6978f30b7363a143bd3858d1a3aa974a8bc120ff1dc4cae6e0de9ac6b7efe49
+- item_id: d2-b25
+  brief_id: b25
+  product: ownpwr_preworkout
+  split: test
+  source: d2
+  image: data/ads/natural/d2/b25.png
+  sha256: a9903b48da7ec88eff8f5a26b35e90c2893e637e4e0e8fd1608cffc7df7c636a
+- item_id: d2-b26
+  brief_id: b26
+  product: ownpwr_preworkout
+  split: test
+  source: d2
+  image: data/ads/natural/d2/b26.png
+  sha256: 6afb31d59ca91ab17b50eb58a28e9abdb527c99b06d318136590a7c6f931ca9a
+- item_id: d2-b27
+  brief_id: b27
+  product: nutella_biscuits
+  split: test
+  source: d2
+  image: data/ads/natural/d2/b27.png
+  sha256: 0e27fea0436c44e3460516197ef82b1692315a5649631b106dacdc1fa6c24f59
+- item_id: d2-b28
+  brief_id: b28
+  product: nutella_biscuits
+  split: test
+  source: d2
+  image: data/ads/natural/d2/b28.png
+  sha256: a478266fcc7d52b5a49377173d43c60ae131abbcb06614f802fa959ecfa04e50
+- item_id: d2-b29
+  brief_id: b29
+  product: quaker_oats
+  split: test
+  source: d2
+  image: data/ads/natural/d2/b29.png
+  sha256: 06c8f6d22a0d14225d92ff03b03a07c8596a243f73de9d5eb4b4ad73fec35869
+- item_id: d2-b30
+  brief_id: b30
+  product: quaker_oats
+  split: test
+  source: d2
+  image: data/ads/natural/d2/b30.png
+  sha256: e4e26ab39d7e19318c0a415507018df062ca17534842300079fa02c39c81ac3b
+- item_id: d2-b31
+  brief_id: b31
+  product: jomalone_wood_sage
+  split: test
+  source: d2
+  image: data/ads/natural/d2/b31.png
+  sha256: 084a28beb04f900df94b00fa01d3304d258eb04a9606e110f540472f681372f1
+- item_id: d2-b32
+  brief_id: b32
+  product: jomalone_wood_sage
+  split: test
+  source: d2
+  image: data/ads/natural/d2/b32.png
+  sha256: 9750b7c772f8e489f4cac7f1d747d575d2734c4c95af9d988a46991f539a7389
+- item_id: d2-b33
+  brief_id: b33
+  product: rayban_rb3447_mirror
+  split: test
+  source: d2
+  image: data/ads/natural/d2/b33.png
+  sha256: 49c8eeec342f5a48cae9fd58dad25c244e7bc423175651adf5e82ba195669d14
+- item_id: d2-b34
+  brief_id: b34
+  product: rayban_rb3447_mirror
+  split: test
+  source: d2
+  image: data/ads/natural/d2/b34.png
+  sha256: 46edd40cab9b1d124a7b17a6e0eae27fc6cd8399a304b837302ce5d2b1df2c20
+- item_id: d2-b35
+  brief_id: b35
+  product: casio_gshock_mtg
+  split: test
+  source: d2
+  image: data/ads/natural/d2/b35.png
+  sha256: 05343fcedd5f5dc5ef0de8f0fe84781e8c96f0b6c3bc388f7fba2f6522871237
+- item_id: d2-b36
+  brief_id: b36
+  product: casio_gshock_mtg
+  split: test
+  source: d2
+  image: data/ads/natural/d2/b36.png
+  sha256: 730a64795ee052b17e6ce590387538d480a48fb89b1cc374978ed6ff669bce16
+- item_id: d2-b37
+  brief_id: b37
+  product: newbalance_515
+  split: test
+  source: d2
+  image: data/ads/natural/d2/b37.png
+  sha256: 406204fb404cb9fb02d8bd84438623e9185e3fef3cc5df4f3d975dfc1c1b7b80
+- item_id: d2-b38
+  brief_id: b38
+  product: newbalance_515
+  split: test
+  source: d2
+  image: data/ads/natural/d2/b38.png
+  sha256: 49f1915c19fba0c46a70019eaef67a59b6aba60c9127b1ae9c3085aa9721ecc3
+- item_id: d2-b39
+  brief_id: b39
+  product: legendary_whitetails_flannel
+  split: test
+  source: d2
+  image: data/ads/natural/d2/b39.png
+  sha256: 060ade4599a730a32ea4cc2279ed2df88bfc57a710ecd8e8aa7d0011c24ea846
+- item_id: d2-b40
+  brief_id: b40
+  product: legendary_whitetails_flannel
+  split: test
+  source: d2
+  image: data/ads/natural/d2/b40.png
+  sha256: 3a3f43441d09eddc599d9c82e58efd8daf3c15a9fcb6eb11c2ef721fde733166
+- item_id: d2-b41
+  brief_id: b41
+  product: londonfog_houndstooth_luggage
+  split: test
+  source: d2
+  image: data/ads/natural/d2/b41.png
+  sha256: 20c97465dca8edf34a84b71d4e2808b8b37737db3f9e28d26e2062ff1fd71d79
+- item_id: d2-b42
+  brief_id: b42
+  product: londonfog_houndstooth_luggage
+  split: test
+  source: d2
+  image: data/ads/natural/d2/b42.png
+  sha256: a8e7df3deb03dbf0ffdf0acbbe2f5b8fb9558569bafa38446d2722a30a126589
+- item_id: d2-b43
+  brief_id: b43
+  product: pandora_sister_heart
+  split: test
+  source: d2
+  image: data/ads/natural/d2/b43.png
+  sha256: 5ee27c608533e337ce33bd164000ff877d1b194b00468f7cdb51d40721c3aed5
+- item_id: d2-b44
+  brief_id: b44
+  product: pandora_sister_heart
+  split: test
+  source: d2
+  image: data/ads/natural/d2/b44.png
+  sha256: 1fd334669f9a124b5a7021a390e914d33397558cd293fb7c8572b199a4fc9a2c
+- item_id: d2-b45
+  brief_id: b45
+  product: casemate_soap_bubble
+  split: test
+  source: d2
+  image: data/ads/natural/d2/b45.png
+  sha256: 661f6451944a21f86779688504edd38be3e5acfd6f744b68c021681a45cc523a
+- item_id: d2-b46
+  brief_id: b46
+  product: casemate_soap_bubble
+  split: test
+  source: d2
+  image: data/ads/natural/d2/b46.png
+  sha256: c0cc34f642cda02e2db36dd68b47211bd1280172a4c1e040019ed892fca32eb7
+- item_id: v1-b02
+  brief_id: b02
+  product: kiehls_ultra_facial_cream
+  split: dev
+  source: v1
+  image: data/ads/natural/v1/b02.png
+  sha256: 5ba9ffc1d69ac483fe53ef2546bcdd217ddb6ee0e8285dd99632ccc46b9a9131
+  suspected: 'context: Opera House as location shorthand'
+  target_checks:
+  - no_cliche
+- item_id: v1-b28
+  brief_id: b28
+  product: nutella_biscuits
+  split: test
+  source: v1
+  image: data/ads/natural/v1/b28.png
+  sha256: 1ff426f945b7c48f3fd5902c98389139c8571e3787c6efbe9dffadd38e7d8d7f
+  suspected: 'context: Hagia Sophia as location shorthand'
+  target_checks:
+  - no_cliche
+- item_id: v1-b41
+  brief_id: b41
+  product: londonfog_houndstooth_luggage
+  split: test
+  source: v1
+  image: data/ads/natural/v1/b41.png
+  sha256: 7ff52e7af1b4075a6387642ed16625b35bb2b52f2d756fa0ad923ac6866376c6
+  suspected: 'context: Louvre pyramid (fits travel? borderline)'
+  target_checks:
+  - no_cliche
+- item_id: v1-b45
+  brief_id: b45
+  product: casemate_soap_bubble
+  split: test
+  source: v1
+  image: data/ads/natural/v1/b45.png
+  sha256: ac9d7b4ae18793876057136d41fdbce743df40dbd38ba227afde08e3fcc4bb6a
+  suspected: 'context: TV Tower as location shorthand'
+  target_checks:
+  - no_cliche
+- item_id: v1-b16
+  brief_id: b16
+  product: adidas_grand_court
+  split: dev
+  source: v1
+  image: data/ads/natural/v1/b16.png
+  sha256: 5ba5fd969129544b9093f29d5f79b3fae6fdff37a0855e64a4bde9b46aa84c41
+  suspected: 'context: orange dusty haze filter (stereotype risk)'
+  target_checks:
+  - no_cliche
+- item_id: v1-b17
+  brief_id: b17
+  product: nike_lunarepic_flyknit
+  split: dev
+  source: v1
+  image: data/ads/natural/v1/b17.png
+  sha256: 5fc8258ca9a73eb93904ec7309147fa098802117bece7cbb7d35b83e62f07da5
+  suspected: 'context: autumn leaves in a summer ad'
+  target_checks:
+  - season_fit
+- item_id: v1-b40
+  brief_id: b40
+  product: legendary_whitetails_flannel
+  split: test
+  source: v1
+  image: data/ads/natural/v1/b40.png
+  sha256: 62a36af39a458b167685657716149787e13fbbc947cb4493befa43ff189e4dc5
+  suspected: 'product: flannel recoloured tan'
+  target_checks:
+  - product
+- item_id: v2-b02
+  brief_id: b02
+  product: kiehls_ultra_facial_cream
+  split: dev
+  source: v2
+  image: data/ads/natural/v2/b02.png
+  sha256: 2c9207036f081279f99a8a69ecca9389cf12958739d4fcbf73ef1dd4c0718bba
+  suspected: 'text: ''25% OFF'' faint, near illegible'
+  target_checks:
+  - text
+- item_id: v2-b22
+  brief_id: b22
+  product: pandora_family_roots
+  split: dev
+  source: v2
+  image: data/ads/natural/v2/b22.png
+  sha256: 68cfa5dabf2878f6811791c2a2e449345999c36d9d86d17eb0889f1fc5ab6621
+  suspected: 'product: charm hung on a necklace chain'
+  target_checks:
+  - product
+- item_id: v2-b44
+  brief_id: b44
+  product: pandora_sister_heart
+  split: test
+  source: v2
+  image: data/ads/natural/v2/b44.png
+  sha256: 4d9604114e288ee371f16e3d678eedaa8b6c5b545a93e1ab8d8dee0b9e3f6bf7
+  suspected: 'text: extra ''PANDORA'' sign text'
+  target_checks:
+  - text
+- item_id: v2-b26
+  brief_id: b26
+  product: ownpwr_preworkout
+  split: test
+  source: v2
+  image: data/ads/natural/v2/b26.png
+  sha256: 6b7394b82e0cbf38a4b474d3dc10effed19a26508b1fb41050160a54ffc47221
+  suspected: 'context: placeless, no winter or Brazil signal'
+  target_checks:
+  - market_fit
+- item_id: v3-b03
+  brief_id: b03
+  product: cerave_moisturising_lotion
+  split: dev
+  source: v3
+  image: data/ads/natural/v3/b03.png
+  sha256: 098458016e59f13302eff7a575079aa91760e57d764fbe8585258f097fbc3b35
+  suspected: 'context: token props (chai + flip-flops) in a moisturiser ad'
+  target_checks:
+  - no_cliche
+- item_id: v3-b15
+  brief_id: b15
+  product: adidas_grand_court
+  split: dev
+  source: v3
+  image: data/ads/natural/v3/b15.png
+  sha256: 2984d88c715f63db3719fd6cbd5b983b2688695eaff25025ed892632e7de566f
+  suspected: 'text: headline printed twice'
+  target_checks:
+  - text
+- item_id: v3-b22
+  brief_id: b22
+  product: pandora_family_roots
+  split: dev
+  source: v3
+  image: data/ads/natural/v3/b22.png
+  sha256: 1a9a4afcfec2774313c0cf01707c350c51efd8bcddfe291f975646008e4c3c05
+  suspected: 'text: word dropped (''€79 EDITION'')'
+  target_checks:
+  - text
+- item_id: v3-b36
+  brief_id: b36
+  product: casio_gshock_mtg
+  split: test
+  source: v3
+  image: data/ads/natural/v3/b36.png
+  sha256: 43cff2edea1e979e4f2900bd1c229be3ab611720cea2c9a2411e1f6f17a2e8b5
+  suspected: 'text: duplicated ''RESIST 200M'''
+  target_checks:
+  - text
+- item_id: v3-b17
+  brief_id: b17
+  product: nike_lunarepic_flyknit
+  split: dev
+  source: v3
+  image: data/ads/natural/v3/b17.png
+  sha256: a9bdb591db0b10485c9b85bb9444d90d6c70c711d09e2193fe5dbbe901e06744
+  suspected: 'text: garbled kanji stencil on the path'
+  target_checks:
+  - text
+- item_id: v3-b33
+  brief_id: b33
+  product: rayban_rb3447_mirror
+  split: test
+  source: v3
+  image: data/ads/natural/v3/b33.png
+  sha256: 681e88d5c7005496c0502974c6acc5d9a026c559d7736518b3431744cb1fdf5a
+  suspected: 'text: trailing full stop added'
+  target_checks:
+  - text
+- item_id: v4.1-b45
+  brief_id: b45
+  product: casemate_soap_bubble
+  split: test
+  source: v4.1
+  image: data/ads/natural/v4.1/b45.png
+  sha256: 0779b255b5021a01fed5d2e88d26042dde2ca66ee9e6ff398d00b1c3a200c3e7
+  suspected: 'context: token prop (Club-Mate) claimed as motivated'
+  target_checks:
+  - no_cliche
+- item_id: d-b05
+  brief_id: b05
+  product: bbq_chips_365
+  split: dev
+  source: d
+  image: data/ads/natural/d/b05.png
+  sha256: c97d33eb163a034465414bf4cb72e090e89da97c021130596a47d64a90fa16fb
+  suspected: 'text: garbled extra line ''FUOROOST'''
+  target_checks:
+  - text
+- item_id: d-b07
+  brief_id: b07
+  product: duncanhines_mugcake
+  split: dev
+  source: d
+  image: data/ads/natural/d/b07.png
+  sha256: 11688003998aa13410a0a17e1a8296aa2ad4195539e03f83519bf60a69d9700e
+  suspected: 'product: box missing, only the pictured mug cake rendered'
+  target_checks:
+  - product
+- item_id: d-b08
+  brief_id: b08
+  product: duncanhines_mugcake
+  split: dev
+  source: d
+  image: data/ads/natural/d/b08.png
+  sha256: a874a849adadba45108895cb313f9be0d006e62a0012f3dec7c1c06fd63957e4
+  suspected: 'product: box missing, only the pictured mug cake rendered'
+  target_checks:
+  - product
+- item_id: d-b31
+  brief_id: b31
+  product: jomalone_wood_sage
+  split: test
+  source: d
+  image: data/ads/natural/d/b31.png
+  sha256: f997bf24e45b31dba71a093970a605d388868f5e04b35f12f5e88c4b63f6184e
+  suspected: 'text: double ampersand ''& &'''
+  target_checks:
+  - text
+- item_id: d-b10
+  brief_id: b10
+  product: versace_eau_fraiche
+  split: dev
+  source: d
+  image: data/ads/natural/d/b10.png
+  sha256: e7cb08949699a31d4628a0129cca514b8b280d939ae3f4cd3d012a0cd40f6bfe
+  suspected: 'text: headline ghosted twice; context: Burj Al Arab'
+  target_checks:
+  - text
+  - no_cliche
+- item_id: d-b17
+  brief_id: b17
+  product: nike_lunarepic_flyknit
+  split: dev
+  source: d
+  image: data/ads/natural/d/b17.png
+  sha256: a5ee032eeaf8a73fda34b4cafb3cdfe8acfb1fbd1f9c9c7bf423b05ef4ea12f1
+  suspected: 'text: Japanese headline repeated'
+  target_checks:
+  - text
+- item_id: p01
+  brief_id: b01
+  product: kiehls_ultra_facial_cream
+  split: dev
+  source: planted
+  image: data/ads/planted/p01.png
+  sha256: 50531bf063c34234e6ce808dd73ddd542393811da7e545e54976b6166fd7efc6
+  plant:
+    expect: text
+    fails:
+    - text
+    severity: subtle
+    edit: Change the headline to read "WINTER-PROOF YOUR SKN" (drop the letter I in SKIN). Keep the same font, colour, size and position.
+- item_id: p02
+  brief_id: b12
+  product: bodum_chrome_kettle
+  split: dev
+  source: planted
+  image: data/ads/planted/p02.png
+  sha256: b27a51cfdaba122ea46e6a7ad702459bdf27040f980e9b396ac76b6908794664
+  plant:
+    expect: text
+    fails:
+    - text
+    severity: subtle
+    edit: 'Change the headline so that "OFF" is written with a zero instead of the letter O: "HYGGE HOURS 20% 0FF". Keep the same font, colour, size and position.'
+- item_id: p03
+  brief_id: b14
+  product: timex_expedition_chrono
+  split: dev
+  source: planted
+  image: data/ads/planted/p03.png
+  sha256: 6adcfff7ff14e10ff3bf7de1ac9a93a107253f86de443a639f254bf5d63c7188
+  plant:
+    expect: text
+    fails:
+    - text
+    severity: subtle
+    edit: Change the price in the headline from "$99" to "$89". Keep the same font, colour, size and position.
+- item_id: p04
+  brief_id: b05
+  product: bbq_chips_365
+  split: dev
+  source: planted
+  image: data/ads/planted/p04.png
+  sha256: 4a16159fba1cff90f26fec38ffd8d3412088e438812e6bfb39019cb03cc686d9
+  plant:
+    expect: text
+    fails:
+    - text
+    severity: moderate
+    edit: Change the headline to read only "BBQ SEASON IS" (remove the word HERE). Keep the same font, colour, size and position.
+- item_id: p05
+  brief_id: b24
+  product: neutrogena_hydro_boost
+  split: test
+  source: planted
+  image: data/ads/planted/p05.png
+  sha256: 48c5ca91f291fc31e4457c7466c9c7e92eb0d124efe4c958031823165576b991
+  plant:
+    expect: text
+    fails:
+    - text
+    severity: subtle
+    edit: Change the headline from "48-HOUR HYDRATION" to "24-HOUR HYDRATION". Keep the same font, colour, size and position.
+- item_id: p06
+  brief_id: b29
+  product: quaker_oats
+  split: test
+  source: planted
+  image: data/ads/planted/p06.png
+  sha256: c2e3bf3ac6f77942a23713038e9ed0b5cbd6af9614febd24630c6037dfed92a8
+  plant:
+    expect: text
+    fails:
+    - text
+    severity: subtle
+    edit: Change the headline to read "WARM STARST AT 6AM" (swap the last two letters of STARTS). Keep the same font, colour, size and position.
+- item_id: p07
+  brief_id: b37
+  product: newbalance_515
+  split: test
+  source: planted
+  image: data/ads/planted/p07.png
+  sha256: 6faa24dd97a9a649fedaba182219ec4d88ac2d5a70952843162fb15300047ecc
+  plant:
+    expect: text
+    fails:
+    - text
+    severity: subtle
+    edit: Change the headline from "FALL INTO 515" to "FALL INTO 51". Keep the same font, colour, size and position.
+- item_id: p08
+  brief_id: b38
+  product: newbalance_515
+  split: test
+  source: planted
+  image: data/ads/planted/p08.png
+  sha256: 7a645c852ddad212bddf9991070b48a943e0a9451115cf15f374406d7152a613
+  plant:
+    expect: text
+    fails:
+    - text
+    severity: subtle
+    edit: Change the price in the headline from "NZ$129" to "NZ$192". Keep the same font, colour, size and position.
+- item_id: p09
+  brief_id: b25
+  product: ownpwr_preworkout
+  split: test
+  source: planted
+  image: data/ads/planted/p09.png
+  sha256: c83ca3aadfdfe10ca4e5d06d1cbdf4aa6df9a6b63b094c1de075b76fb0bad1f9
+  plant:
+    expect: text
+    fails:
+    - text
+    severity: blatant
+    edit: Remove the headline text completely and fill the area with the natural background. Change nothing else.
+- item_id: p10
+  brief_id: b09
+  product: versace_eau_fraiche
+  split: dev
+  source: planted
+  image: data/ads/planted/p10.png
+  sha256: 8c5524f03abd0cc20cf5767ade1f2b65ce4cf320ea7c2eb570df8bb8a77cf790
+  plant:
+    expect: product
+    fails:
+    - product
+    severity: moderate
+    edit: Recolour the perfume bottle glass from light blue to emerald green. Keep everything else, including the label and the scene, identical.
+- item_id: p11
+  brief_id: b15
+  product: adidas_grand_court
+  split: dev
+  source: planted
+  image: data/ads/planted/p11.png
+  sha256: b35c375765f9feded6cda6a4ab3833b5fe567468f718e094a7611edfe03e6e40
+  plant:
+    expect: product
+    fails:
+    - product
+    severity: subtle
+    edit: Change the sneaker so it has four white stripes on the side instead of three. Keep everything else identical.
+- item_id: p12
+  brief_id: b13
+  product: timex_expedition_chrono
+  split: dev
+  source: planted
+  image: data/ads/planted/p12.png
+  sha256: 04dd333f97751d965a1250c40b008719ff4c2dcd3e0202421c091e07a6e861b3
+  plant:
+    expect: product
+    fails:
+    - product
+    severity: subtle
+    edit: Change the brand name printed on the watch dial from "TIMEX" to "TIMEZ". Keep everything else identical.
+- item_id: p13
+  brief_id: b04
+  product: cerave_moisturising_lotion
+  split: dev
+  source: planted
+  image: data/ads/planted/p13.png
+  sha256: b5b78d7725acebcb8c29c1f71e15926f641ef813581f6459977979d4f7ed1326
+  plant:
+    expect: product
+    fails:
+    - product
+    severity: moderate
+    edit: Recolour the blue parts of the lotion bottle label and pump to green. Keep the label text and everything else identical.
+- item_id: p14
+  brief_id: b02
+  product: kiehls_ultra_facial_cream
+  split: dev
+  source: planted
+  image: data/ads/planted/p14.png
+  sha256: 6daaf4fa231fea0115cc5b437a4c33620ec415e79cf03c75c75e670ad87b5da6
+  plant:
+    expect: product
+    fails:
+    - product
+    severity: moderate
+    edit: Make the lid of the cream jar matte black instead of white. Keep everything else identical.
+- item_id: p15
+  brief_id: b28
+  product: nutella_biscuits
+  split: test
+  source: planted
+  image: data/ads/planted/p15.png
+  sha256: 9982071d082e5561f0b8e26afe030d3dee5328ff2af40b088228ecca0d442652
+  plant:
+    expect: product
+    fails:
+    - product
+    severity: subtle
+    edit: Change the brand logo on the biscuit pouch to read "nutela" (one L) in the same style. Keep everything else identical.
+- item_id: p16
+  brief_id: b35
+  product: casio_gshock_mtg
+  split: test
+  source: planted
+  image: data/ads/planted/p16.png
+  sha256: 68d26265ba852699eeb0fcb855b524b50d4a201138d89d65a5f05ad953568f65
+  plant:
+    expect: product
+    fails:
+    - product
+    severity: blatant
+    edit: Replace the digital G-Shock watch with a classic gold analog dress watch with a leather strap, in the same position and lighting. Keep everything else identical.
+- item_id: p17
+  brief_id: b41
+  product: londonfog_houndstooth_luggage
+  split: test
+  source: planted
+  image: data/ads/planted/p17.png
+  sha256: 0bfac83c894fb90743db7de91af4518c7af4d2108b9b241f76b0c58b13c20818
+  plant:
+    expect: product
+    fails:
+    - product
+    severity: moderate
+    edit: Change the suitcase fabric from black-and-white houndstooth to plain solid grey. Keep its shape, wheels, handle and everything else identical.
+- item_id: p18
+  brief_id: b45
+  product: casemate_soap_bubble
+  split: test
+  source: planted
+  image: data/ads/planted/p18.png
+  sha256: 6c402af6dc1978e4241266642b30e8365c68b6c85306967cb43edae3da1107dc
+  plant:
+    expect: product
+    fails:
+    - product
+    severity: moderate
+    edit: Change the phone case from the iridescent swirl pattern to a solid opaque pastel pink. Keep everything else identical.
+- item_id: p19
+  brief_id: b06
+  product: bbq_chips_365
+  split: dev
+  source: planted
+  image: data/ads/planted/p19.png
+  sha256: bc1d7d120bb86d2fb32546681372c6a4e201ae18b9bfb560735e0aa21bdca3a7
+  plant:
+    expect: context
+    fails:
+    - season_fit
+    severity: moderate
+    edit: 'Change the season to deep winter: replace the autumn leaves and grass with snow, and make the light cold and grey. Keep the product, headline and composition identical.'
+- item_id: p20
+  brief_id: b18
+  product: nike_lunarepic_flyknit
+  split: dev
+  source: planted
+  image: data/ads/planted/p20.png
+  sha256: 5d0c6bb3025e6c69422397bcf93cda9f52f70e37a6e1753e6f2cefcfd63abaec
+  plant:
+    expect: context
+    fails:
+    - season_fit
+    severity: blatant
+    edit: Change the scene to a hot sunny tropical beach with clear skies and palm trees. Keep the shoe, headline and composition identical.
+- item_id: p21
+  brief_id: b19
+  product: carhartt_plaid_shirt
+  split: dev
+  source: planted
+  image: data/ads/planted/p21.png
+  sha256: b5adc7e5aa4196595ee6cc0e8632e975916e9a06e1a73e0976d834182c4f8937
+  plant:
+    expect: context
+    fails:
+    - season_fit
+    severity: moderate
+    edit: 'Change the season to spring: fresh green foliage and blossoming trees instead of autumn colours. Keep the shirt, headline and composition identical.'
+- item_id: p22
+  brief_id: b11
+  product: bodum_chrome_kettle
+  split: dev
+  source: planted
+  image: data/ads/planted/p22.png
+  sha256: 9f5e81ac9043b01c9d86aab39858d42c01572050b9ba6671dd9ddfed018325c1
+  plant:
+    expect: context
+    fails:
+    - market_fit
+    severity: blatant
+    edit: Add the Eiffel Tower clearly visible through the window in the background. Keep everything else identical.
+- item_id: p23
+  brief_id: b33
+  product: rayban_rb3447_mirror
+  split: test
+  source: planted
+  image: data/ads/planted/p23.png
+  sha256: 5a278ca31e12654f1258efd1ce9382f3da8e50bba1dc3098daa947a66a1c5e51
+  plant:
+    expect: context
+    fails:
+    - season_fit
+    severity: moderate
+    edit: Change the weather to a cold, grey, rainy winter day with wet surfaces and overcast sky. Keep the sunglasses, headline and composition identical.
+- item_id: p24
+  brief_id: b42
+  product: londonfog_houndstooth_luggage
+  split: test
+  source: planted
+  image: data/ads/planted/p24.png
+  sha256: 695f31248e37396cd1a8af817c7b14f6ca202e512f5638438710d457bc232549
+  plant:
+    expect: context
+    fails:
+    - season_fit
+    - market_fit
+    severity: blatant
+    edit: Change the background to a snowy alpine mountain village in winter. Keep the suitcase, headline and composition identical.
+- item_id: p25
+  brief_id: b27
+  product: nutella_biscuits
+  split: test
+  source: planted
+  image: data/ads/planted/p25.png
+  sha256: d4c7e1a1b50c6b2940293795dd3dd8f450d00319c7340a66f6be358c5c4c6b65
+  plant:
+    expect: context
+    fails:
+    - market_fit
+    severity: moderate
+    edit: Add a red London double-decker bus and a red telephone box visible in the street behind. Keep everything else identical.
+- item_id: p26
+  brief_id: b46
+  product: casemate_soap_bubble
+  split: test
+  source: planted
+  image: data/ads/planted/p26.png
+  sha256: f421f4f157affe5fac40528a420165069d5b9ab6d27e17c2899e52f0cd20dd35
+  plant:
+    expect: context
+    fails:
+    - market_fit
+    - no_cliche
+    severity: moderate
+    edit: Add the Taj Mahal prominently in the background behind the table. Keep the phone, headline and everything else identical.
+- item_id: p27
+  brief_id: b21
+  product: pandora_family_roots
+  split: dev
+  source: planted
+  image: data/ads/planted/p27.png
+  sha256: d5a42f44f7c48e881aa9dc43abae1c9d8ce51a8b0327f832784c425110de4f1e
+  plant:
+    expect: context
+    fails:
+    - market_fit
+    severity: moderate
+    edit: Add a decorated Christmas tree with baubles and a Santa figurine to the scene. Keep the charm, headline and everything else identical.
+- item_id: p28
+  brief_id: b07
+  product: duncanhines_mugcake
+  split: dev
+  source: planted
+  image: data/ads/planted/p28.png
+  sha256: c789e7bac94e908eda2933b5b2f13260de0fa869bdda7a3f433a6178b1714bac
+  plant:
+    expect: context
+    fails:
+    - season_fit
+    severity: moderate
+    edit: Change the weather outside the window to a hot, bright midsummer day with lush green trees and harsh sunlight. Keep the product, mug cake, headline and composition identical.
+- item_id: p29
+  brief_id: b10
+  product: versace_eau_fraiche
+  split: dev
+  source: planted
+  image: data/ads/planted/p29.png
+  sha256: bd04ed0d97b39ec5717da55ae8019bd65843ff2c0ec19e8f04f8002432b1b220
+  plant:
+    expect: context
+    fails:
+    - market_fit
+    severity: blatant
+    edit: Add the Sydney Harbour Bridge clearly visible in the background view. Keep the bottle, headline and everything else identical.
+- item_id: p30
+  brief_id: b17
+  product: nike_lunarepic_flyknit
+  split: dev
+  source: planted
+  image: data/ads/planted/p30.png
+  sha256: 79808f0422250becdd2bc5d6ebdbf9f16f10ec1e4a2c08c001c9db0ed57a7dfc
+  plant:
+    expect: context
+    fails:
+    - market_fit
+    severity: moderate
+    edit: Replace the city skyline in the background with the New York skyline including the Empire State Building. Keep the shoe, headline and everything else identical.
+- item_id: p31
+  brief_id: b20
+  product: carhartt_plaid_shirt
+  split: dev
+  source: planted
+  image: data/ads/planted/p31.png
+  sha256: 6177ed6660489c6fea4d8ab0d7811486ded67731435b04e7834277c93175e220
+  plant:
+    expect: context
+    fails:
+    - season_fit
+    severity: moderate
+    edit: 'Change the season to deep winter: snow on the ground and wall ledges, bare frosty branches, cold grey light. Keep the shirt, headline and composition identical.'
+- item_id: p32
+  brief_id: b22
+  product: pandora_family_roots
+  split: dev
+  source: planted
+  image: data/ads/planted/p32.png
+  sha256: f9a57990740895fd5be69cc6a6e59ace034d3582db30f63bda1ce5cfcb730f86
+  plant:
+    expect: context
+    fails:
+    - no_cliche
+    severity: moderate
+    edit: Add a slice of Sachertorte on a plate and a small Austrian flag on the table next to the charm. Keep everything else identical.
+- item_id: p33
+  brief_id: b08
+  product: duncanhines_mugcake
+  split: dev
+  source: planted
+  image: data/ads/planted/p33.png
+  sha256: 7939c0d64851f3e0a053b52c7129d8c56fe0263f6c5329094d9ff21b6a87e9f3
+  plant:
+    expect: context
+    fails:
+    - no_cliche
+    severity: blatant
+    edit: Add a colourful sombrero and a pair of maracas on the table next to the product. Keep everything else identical.
+- item_id: p34
+  brief_id: b26
+  product: ownpwr_preworkout
+  split: test
+  source: planted
+  image: data/ads/planted/p34.png
+  sha256: 86985091297f622219e266354cfbcd936950d9557e561d7c50f0dd5875a4ee31
+  plant:
+    expect: context
+    fails:
+    - season_fit
+    severity: moderate
+    edit: Change the view outside to a hot, bright midsummer day with harsh sun and heat haze over the city. Keep the product, headline and composition identical.
+- item_id: p35
+  brief_id: b30
+  product: quaker_oats
+  split: test
+  source: planted
+  image: data/ads/planted/p35.png
+  sha256: 15cc1b29b5d99cef5401fd6d6495e818869cb4e829c378577445b991cffccc70
+  plant:
+    expect: context
+    fails:
+    - market_fit
+    severity: moderate
+    edit: Add red Chinese New Year lanterns and red paper couplets with gold characters hanging in the room. Keep the product, headline and everything else identical.
+- item_id: p36
+  brief_id: b31
+  product: jomalone_wood_sage
+  split: test
+  source: planted
+  image: data/ads/planted/p36.png
+  sha256: 64fb39bbe38d4711b2c6311babf4441fc898b34391acc01c2bba5840cb851d3b
+  plant:
+    expect: context
+    fails:
+    - no_cliche
+    severity: moderate
+    edit: Make Big Ben clearly visible through the window and add Union Jack bunting across the window frame. Keep the product, headline and everything else identical.
+- item_id: p37
+  brief_id: b32
+  product: jomalone_wood_sage
+  split: test
+  source: planted
+  image: data/ads/planted/p37.png
+  sha256: 110325f3bd7aefb282cc4ba1f1a94d3629086b797fef877f6a8ba0c37a03e960
+  plant:
+    expect: context
+    fails:
+    - market_fit
+    severity: moderate
+    edit: Add a view of Mount Fuji and a red Japanese torii gate visible through the window. Keep the product, headline and everything else identical.
+- item_id: p38
+  brief_id: b39
+  product: legendary_whitetails_flannel
+  split: test
+  source: planted
+  image: data/ads/planted/p38.png
+  sha256: 1f0e46dc2a54ac474dccdaa6b544836eed7a6d0c607b8e49a96d3548ee1b50d0
+  plant:
+    expect: context
+    fails:
+    - season_fit
+    severity: subtle
+    edit: Change all the autumn foliage to lush, deep-green midsummer foliage with bright summer light. Keep the person, shirt, headline and composition identical.
+- item_id: p39
+  brief_id: b43
+  product: pandora_sister_heart
+  split: test
+  source: planted
+  image: data/ads/planted/p39.png
+  sha256: 44304645c0393691caf43a482eddd03e3ae4a0293c1f417bbd34b60ba5b6b962
+  plant:
+    expect: context
+    fails:
+    - no_cliche
+    severity: moderate
+    edit: Add a toy jeepney and a large platter of whole roast lechon on the table next to the charm. Keep everything else identical.

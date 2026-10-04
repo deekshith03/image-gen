@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b32",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"선물 같은 겨울\"",
+      "details": {
+        "transcription": "선물 같은 겨울",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharply rendered in dark serif font against a light wall, easily legible."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Bottle cap shape differs (cylindrical flat-top vs rounded dome), indicating a design alteration in the ad.",
+      "details": {
+        "observations": {
+          "presence": "Product bottle and box both shown in ad, matching reference staging.",
+          "shape": "Box proportions match; bottle cap in ad appears more rounded/domed vs. flat cylindrical cap in reference.",
+          "colour": "Box colour slightly more golden-tan in ad vs. beige in reference; bottle cap still silver in both.",
+          "logo": "Jo Malone London logo present and correctly spelled on both box and bottle.",
+          "prominent_text": "Label text appears consistent though smaller/less legible in ad due to scale.",
+          "counts": "reference: 1 bottle, 1 box / ad: 1 bottle, 1 box",
+          "parts": "No missing or added parts; cap shape variation is the main deviation."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Bare winter branch, cozy knit throws, soft indoor light, and bare tree outside window all align with Seoul winter."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Korean text 'Gift-like Winter' and neutral interior scene fit Seoul market without contradicting culture."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, stereotypes, or token props; natural styling with perfume, branch, and throws suits the product."
+    }
+  },
+  "cost_usd": 0.03087
+}

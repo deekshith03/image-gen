@@ -1,0 +1,6 @@
+flowchart LR
+  P["Product photo"] --> PL
+  B["Geo · Season · Headline"] --> PL
+  PL["Planner (D2)<br/>brand read from packaging<br/>scene · composition<br/>typeface style · placement"] --> T["Image prompt template<br/><i>prompts/image.md</i><br/>+ exact headline (code)<br/>+ product fidelity<br/>+ no faces"]
+  T --> G["Gemini 3.1 Flash Image<br/>(product photo attached)"]
+  G --> A["Ad, long edge ≤ 1024 px<br/>headline colour picked<br/>from the final scene"]

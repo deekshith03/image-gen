@@ -1,0 +1,54 @@
+{
+  "item_id": "p19",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"BUY 2 GET 1 FREE\"",
+      "details": {
+        "transcription": "BUY 2 GET 1 FREE",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharply rendered in solid, uniform lettering with clear edges against the snowy background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Packaging design, text, logo, and colours all consistent with reference; only staging (snow, multiple bags) differs.",
+      "details": {
+        "observations": {
+          "presence": "Product packaging is clearly shown in the ad, matching the reference bag design.",
+          "shape": "Bag shape and proportions match the reference packaging.",
+          "colour": "Tan/kraft paper pattern, green stripe, dark red bottom, and chip bowl imagery all match reference colours.",
+          "logo": "365 Everyday Value logo present and correctly placed in both images.",
+          "prominent_text": "'Organic Barbeque Potato Chips' text matches reference in font, spelling, and placement.",
+          "counts": "reference: 1 bag shown / ad: 2 bags shown (staging/quantity for promotion, not an identity change)",
+          "parts": "No missing or added design elements on the packaging itself."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "season_fit: Snow and frost-covered branches depict winter, not autumn, which contradicts Seoul's actual autumn climate."
+    },
+    "season_fit": {
+      "verdict": "fail",
+      "reason": "Snow and frost-covered branches depict winter, not autumn, which contradicts Seoul's actual autumn climate."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "No elements contradict Korean culture; scene is generic and could plausibly be set in Seoul."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, stereotypes, or token cultural props; setup is neutral and product-focused."
+    }
+  },
+  "cost_usd": 0.02598
+}

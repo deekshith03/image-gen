@@ -1,0 +1,54 @@
+{
+  "item_id": "v3-b36",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "reads \"WATER RESIST 200M RESIST 200M\" instead of \"WATER RESIST 200M\"; garbled text near headline: \"RESIST 200M\"",
+      "details": {
+        "transcription": "WATER RESIST 200M RESIST 200M",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp and legible, but phrase 'RESIST 200M' is oddly duplicated below main line."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "All design, text, logo, and structural elements match the reference watch; only staging (wet/rain context) differs.",
+      "details": {
+        "observations": {
+          "presence": "The product (Casio G-Shock MT-G watch) is clearly shown on a wrist in the ad image.",
+          "shape": "Same case shape, bezel design, button placement, and bracelet link structure as reference.",
+          "colour": "Matching silver/steel case and bracelet with purple-tinted LCD display face.",
+          "logo": "G-SHOCK and CASIO logos present and correctly placed on bezel and dial, matching reference.",
+          "prominent_text": "Dial text matches: 'WAVE CEPTOR/TOUGH SOLAR', 'FRI', '8:29', '4-26', 'SHOCK RESIST', 'WATER 200M RESIST', 'MT-G', 'ADJUST/MODE/TIME MEMO/RECEIVE' all legible and consistent.",
+          "counts": "reference: 1 watch, 1 dial, visible buttons (4) / ad: 1 watch, 1 dial, same 4 buttons visible",
+          "parts": "No missing or added parts; bracelet, bezel, crown/buttons all consistent with reference."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Heavy rain, wet road, raincoat, and water droplets match Jakarta's rainy season conditions accurately."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic urban flyover and motorbike traffic scene plausibly fits Jakarta without contradicting local culture or geography."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or token souvenirs; scene naturally emphasizes product's water resistance claim."
+    }
+  },
+  "cost_usd": 0.02728
+}

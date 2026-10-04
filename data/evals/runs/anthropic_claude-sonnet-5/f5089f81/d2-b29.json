@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b29",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"WARM STARTS AT 6AM\"",
+      "details": {
+        "transcription": "WARM STARTS AT 6AM",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline is crisp white sans-serif text with no distortion or overlapping elements."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Prominent label text (est. date and heart-health claim) is garbled/nonsensical compared to legible reference text.",
+      "details": {
+        "observations": {
+          "presence": "Product (Quaker Oats canister) is clearly shown in the ad scene on the table.",
+          "shape": "Cylindrical canister shape matches reference proportions.",
+          "colour": "Color scheme (navy, orange, white, red) matches reference.",
+          "logo": "Quaker man logo present but 'ESTD 1877' is garbled to 'ESTP' and 'L6Y7', a nonsense alteration.",
+          "prominent_text": "Heart callout text garbled: 'GATOREL CAM / RAUP GERICE / CHOLESTEROL' instead of legible 'OATMEAL CAN HELP REDUCE CHOLESTEROL'.",
+          "counts": "reference: 1 canister / ad: 1 canister (count matches)",
+          "parts": "No extra or missing physical parts, but label text is corrupted in multiple areas."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Dark early morning sky, steam from kettle, warm cozy indoor scene all match Edinburgh winter mornings at 6am."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Window view shows hills and stone chimneys consistent with Scottish/Edinburgh architecture; no conflicting culture or landmark present."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmark, flag, or stereotypical filter; scene relies on genuine cozy kitchen moment rather than token cultural props."
+    }
+  },
+  "cost_usd": 0.03173
+}

@@ -1,0 +1,54 @@
+{
+  "item_id": "p35",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "prominent garbled scene text: \"Red banners with Chinese characters (resembling 吉祥如意 and 恭喜發財) appear stylized/unclear, mixing Lunar New Year imagery into a Suhoor scene\"",
+      "details": {
+        "transcription": "SUHOOR READY",
+        "legibility": "clear",
+        "scene_garble": "Red banners with Chinese characters (resembling 吉祥如意 and 恭喜發財) appear stylized/unclear, mixing Lunar New Year imagery into a Suhoor scene",
+        "judge_reason": "Headline text is bold, high-contrast white font, fully legible against dark background."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Container shape/colors match, but label text (OLD FASHIONED, nutritional claims) is blurred/garbled, indicating identity distortion.",
+      "details": {
+        "observations": {
+          "presence": "Product container is present in the ad, placed on a table.",
+          "shape": "Cylindrical container shape and proportions match the reference.",
+          "colour": "Overall white body with red/navy label matches reference, though ad version appears slightly darker due to lighting.",
+          "logo": "Quaker Oats logo present with portrait, but text appears distorted/blurred - 'QUAKER OATS' lettering is less crisp than reference.",
+          "prominent_text": "'OLD FASHIONED' text present but garbled/illegible in ad; '42 Oz' is readable; top right nutritional callouts are blurred into unreadable smears.",
+          "counts": "reference: 1 container / ad: 1 container - counts match.",
+          "parts": "No extra or missing parts on the container itself, though label text fidelity is degraded."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "market_fit: Chinese lanterns and Chinese New Year script (吉祥如意, 恭喜發財) are culturally foreign, contradicting the Egyptian/Ramadan setting."
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Suhoor scene with dates, oats, and nighttime lighting aligns with Ramadan practices; nothing contradicts Cairo's spring climate."
+    },
+    "market_fit": {
+      "verdict": "fail",
+      "reason": "Chinese lanterns and Chinese New Year script (吉祥如意, 恭喜發財) are culturally foreign, contradicting the Egyptian/Ramadan setting."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No landmark forcing, stereotype filter, or token props beyond the already-flagged market mismatch; lighting is warm and natural."
+    }
+  },
+  "cost_usd": 0.03403
+}

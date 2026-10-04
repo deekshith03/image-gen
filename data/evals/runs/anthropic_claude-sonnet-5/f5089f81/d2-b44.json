@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b44",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"CELEBRATE SISTERHOOD\"",
+      "details": {
+        "transcription": "CELEBRATE SISTERHOOD",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharp, well-lit, and fully legible with no distortion or obstruction."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Charm design, text, stone, and materials match reference; only staged on a bracelet, which is allowed.",
+      "details": {
+        "observations": {
+          "presence": "The Pandora Sister charm is shown on a bracelet in the ad, matching the reference product.",
+          "shape": "Heart-shaped charm with same contours and silver dome shape as reference.",
+          "colour": "Sterling silver charm with pink CZ stone, consistent with reference colours/materials.",
+          "logo": "No separate logo visible; 'S925' hallmark present in reference, not clearly visible in ad due to angle, but not contradicted.",
+          "prominent_text": "'Sister' script text appears correctly spelled and styled the same as reference.",
+          "counts": "reference: 1 pink heart-shaped CZ stone / ad: 1 pink heart-shaped CZ stone visible",
+          "parts": "Charm is threaded on a bracelet chain in the ad, consistent with normal staging/use."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Magnolia blossoms are a classic spring flower in New York, consistent with the season."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "No landmarks, script, or cultural markers contradict a New York setting; scene is neutral and plausible."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or stereotyped props; setting feels natural and tied to the product."
+    }
+  },
+  "cost_usd": 0.02769
+}

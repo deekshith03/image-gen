@@ -1,0 +1,123 @@
+{
+  "run_id": "20261004-184008-b25-13de",
+  "brief": {
+    "id": "b25",
+    "product": "ownpwr_preworkout",
+    "geo": "Los Angeles, USA",
+    "season": "summer",
+    "text": "BEACH BODY SEASON"
+  },
+  "outcome": "fallback: headline overlaid with a real font",
+  "final": "01_fallback_overlay.png",
+  "cost_usd": 0.1964,
+  "attempts": [
+    {
+      "label": "generate",
+      "image": "00_generate.png",
+      "failures": [],
+      "cost_usd": 0.02701,
+      "passed": true,
+      "checks": {
+        "size": {
+          "verdict": "pass",
+          "reason": "1024×1024, long edge ≤ 1024px"
+        },
+        "text": {
+          "verdict": "pass",
+          "reason": "reads exactly \"BEACH BODY SEASON\"",
+          "details": {
+            "transcription": "BEACH BODY SEASON",
+            "legibility": "clear",
+            "scene_garble": "",
+            "judge_reason": "Headline text is bold, high-contrast, and clearly legible against the sky background."
+          }
+        },
+        "product": {
+          "verdict": "pass",
+          "reason": "Product identity, label design, text, and branding remain consistent between reference and advertisement despite different staging/background.",
+          "details": {
+            "observations": {
+              "presence": "Product container is present in both images",
+              "shape": "Same cylindrical tub with black lid, consistent proportions",
+              "colour": "Same black packaging with blue/white/red accent colors",
+              "logo": "OWN PWR logo correctly displayed in both images",
+              "prominent_text": "PRE WORKOUT, ELITE SERIES, FRUIT PUNCH text consistent and legible in both",
+              "counts": "reference: single product tub / ad: single product tub - matches",
+              "parts": "No missing or added parts, label layout consistent"
+            }
+          }
+        },
+        "context": {
+          "verdict": "pass",
+          "reason": "all context checks pass"
+        },
+        "season_fit": {
+          "verdict": "pass",
+          "reason": "Sunny sky, palm trees, bright light, and 'Beach Body Season' copy align well with LA summer conditions."
+        },
+        "market_fit": {
+          "verdict": "pass",
+          "reason": "Beach, palm trees, and concrete architecture are consistent with LA coastal settings; nothing suggests another country or culture."
+        },
+        "no_cliche": {
+          "verdict": "pass",
+          "reason": "Palm trees and beach are genuine LA setting, not forced landmark or token props; no color filter applied."
+        }
+      }
+    },
+    {
+      "label": "fallback_overlay",
+      "image": "01_fallback_overlay.png",
+      "failures": [],
+      "cost_usd": 0.02823,
+      "passed": true,
+      "checks": {
+        "size": {
+          "verdict": "pass",
+          "reason": "1024×1024, long edge ≤ 1024px"
+        },
+        "text": {
+          "verdict": "pass",
+          "reason": "reads exactly \"BEACH BODY SEASON\"",
+          "details": {
+            "transcription": "BEACH BODY SEASON",
+            "legibility": "clear",
+            "scene_garble": "",
+            "judge_reason": "Headline text is bold, high-contrast, and clearly legible against the sky background."
+          }
+        },
+        "product": {
+          "verdict": "pass",
+          "reason": "Product identity, shape, colors, and label layout are consistent; blurred text is due to scale, not an identity change.",
+          "details": {
+            "observations": {
+              "presence": "Product container is shown in the ad, matching the reference jar.",
+              "shape": "Cylindrical tub with black lid and label, consistent proportions with reference.",
+              "colour": "Black container with grey/black label, blue and white text accents match reference.",
+              "logo": "OWN PWR logo visible on front label, consistent placement and style, though blurred at small scale.",
+              "prominent_text": "PRE WORKOUT text visible; smaller text (300mg, 6g, etc.) appears blurred/illegible in ad but positioned consistently with reference.",
+              "counts": "reference: 5 nutrient callouts (300mg caffeine, 6g citrulline, 2g beta-alanine, 5g creatine, 100mg neurofactor) / ad: same 5 callouts present but text unreadable at this scale.",
+              "parts": "No missing or added parts; lid, label, and jar body all present as in reference."
+            }
+          }
+        },
+        "context": {
+          "verdict": "pass",
+          "reason": "all context checks pass"
+        },
+        "season_fit": {
+          "verdict": "pass",
+          "reason": "Bright sunny sky, calm ocean, strong shadows and warm light all align with Los Angeles summer conditions."
+        },
+        "market_fit": {
+          "verdict": "pass",
+          "reason": "Generic beachside concrete ledge and ocean view plausibly fits LA coastline without contradicting culture or geography."
+        },
+        "no_cliche": {
+          "verdict": "pass",
+          "reason": "No forced landmark, flags, or stereotypical props; natural coastal setting with product genuinely placed in scene."
+        }
+      }
+    }
+  ]
+}

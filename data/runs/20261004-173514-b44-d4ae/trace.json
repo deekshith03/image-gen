@@ -1,0 +1,126 @@
+{
+  "run_id": "20261004-173514-b44-d4ae",
+  "brief": {
+    "id": "b44",
+    "product": "pandora_sister_heart",
+    "geo": "New York, USA",
+    "season": "spring",
+    "text": "CELEBRATE SISTERHOOD"
+  },
+  "outcome": "passed after 1 retry",
+  "final": "01_retry1.png",
+  "cost_usd": 0.1997,
+  "attempts": [
+    {
+      "label": "generate",
+      "image": "00_generate.png",
+      "failures": [
+        "text",
+        "product"
+      ],
+      "cost_usd": 0.02971,
+      "passed": false,
+      "checks": {
+        "size": {
+          "verdict": "pass",
+          "reason": "1024×1024, long edge ≤ 1024px"
+        },
+        "text": {
+          "verdict": "fail",
+          "reason": "reads \"CELEBRATE SISTERHOOD CELEBRATE SSTERHOOD\" instead of \"CELEBRATE SISTERHOOD\"; garbled text near headline: \"SSTERHOOD (missing 'I' in second instance)\"",
+          "details": {
+            "transcription": "CELEBRATE SISTERHOOD CELEBRATE SSTERHOOD",
+            "legibility": "clear",
+            "scene_garble": "",
+            "judge_reason": "Text is sharp and readable, but second line repeats headline with a misspelling 'SSTERHOOD'."
+          }
+        },
+        "product": {
+          "verdict": "fail",
+          "reason": "Charm design matches reference exactly; however, duplicated headline text contains a spelling error ('SSTERHOOD').",
+          "details": {
+            "observations": {
+              "presence": "Product charm shown on bracelet in ad, matching reference charm.",
+              "shape": "Heart-shaped charm shape consistent with reference.",
+              "colour": "Silver metal with pink CZ stone matches reference.",
+              "logo": "No separate logo shown; 'S925' marking not visible but not required at this scale.",
+              "prominent_text": "Ad headline reads 'CELEBRATE SISTERHOOD' then 'CELEBRATE SSTERHOOD' — second line misspelled.",
+              "counts": "reference: 1 heart charm, 1 pink stone / ad: 1 heart charm, 1 pink stone — matches.",
+              "parts": "Charm shown correctly threaded on bracelet chain, no added or missing parts."
+            }
+          }
+        },
+        "context": {
+          "verdict": "pass",
+          "reason": "all context checks pass"
+        },
+        "season_fit": {
+          "verdict": "pass",
+          "reason": "Cozy long-sleeved sweater and warm beverage suggest cooler weather, but no explicit contradiction of spring in New York is shown."
+        },
+        "market_fit": {
+          "verdict": "pass",
+          "reason": "No landmarks, festivals, or culturally specific elements present that contradict a New York setting."
+        },
+        "no_cliche": {
+          "verdict": "pass",
+          "reason": "Scene uses neutral marble table, jewelry, and cup without forced national symbols or stereotyped filters."
+        }
+      }
+    },
+    {
+      "label": "retry1",
+      "image": "01_retry1.png",
+      "failures": [],
+      "cost_usd": 0.0282,
+      "passed": true,
+      "checks": {
+        "size": {
+          "verdict": "pass",
+          "reason": "1024×1024, long edge ≤ 1024px"
+        },
+        "text": {
+          "verdict": "pass",
+          "reason": "reads exactly \"CELEBRATE SISTERHOOD\"",
+          "details": {
+            "transcription": "CELEBRATE SISTERHOOD",
+            "legibility": "clear",
+            "scene_garble": "",
+            "judge_reason": "Headline text is sharp, well-spaced, and clearly legible against the blurred marble background."
+          }
+        },
+        "product": {
+          "verdict": "pass",
+          "reason": "Product charm matches reference in shape, color, text, and stone count; shown staged on a bracelet, which is allowed.",
+          "details": {
+            "observations": {
+              "presence": "The silver heart charm with 'Sister' script and pink CZ stone is present in the ad image, shown on a bracelet.",
+              "shape": "Heart-shaped charm with rounded form matches reference; proportions consistent.",
+              "colour": "Sterling silver tone with pink CZ stone matches reference exactly.",
+              "logo": "No separate logo visible; 'S925' hallmark not visible in ad but not required at this scale.",
+              "prominent_text": "'Sister' script text matches reference in font and placement.",
+              "counts": "reference: 1 pink heart-shaped CZ stone / ad: 1 pink heart-shaped CZ stone - matches.",
+              "parts": "Charm is threaded on a snake-chain bracelet in the ad (staging), no extra or missing design elements on the charm itself."
+            }
+          }
+        },
+        "context": {
+          "verdict": "pass",
+          "reason": "all context checks pass"
+        },
+        "season_fit": {
+          "verdict": "pass",
+          "reason": "No weather or seasonal cues present that contradict spring; cozy sweater and warm light are neutral, not season-specific indicators."
+        },
+        "market_fit": {
+          "verdict": "pass",
+          "reason": "No landmarks, scripts, or cultural markers present that contradict a New York setting; scene is generic and plausible."
+        },
+        "no_cliche": {
+          "verdict": "pass",
+          "reason": "No forced landmarks, stereotypes, color filters, or token souvenir props; the bracelet and mug naturally fit the cozy moment."
+        }
+      }
+    }
+  ]
+}

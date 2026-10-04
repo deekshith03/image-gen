@@ -1,0 +1,52 @@
+{
+  "item_id": "d2-b04",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"FOR DRY WINTER SKIN\"",
+      "details": {
+        "transcription": "FOR DRY WINTER SKIN",
+        "legibility": "clear",
+        "judge_reason": "Text is sharp, high contrast blue on white background, and easily readable."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Label text contains garbled, nonsensical words that don't match legitimate product fine print, indicating fidelity failure.",
+      "details": {
+        "observations": {
+          "shape": "Pump bottle shape and proportions match reference, consistent silhouette and cap design",
+          "colour": "White bottle with blue pump cap and blue diagonal label band match reference colours",
+          "logo": "CeraVe logo present but font appears slightly altered/blurred compared to crisp reference logo",
+          "label_text": "Text is distorted and garbled - words like 'Maistiuroes', 'laee', 'preletrice', 'Vleage', 'Ans 3 cetamides', 'kyeluronique' are nonsense/misspelled versions of correct text",
+          "parts_and_count": "Single bottle with pump top, matches count of reference",
+          "presence": "Product itself is shown, not just imagery on packaging"
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Snow-covered rooftops and bright winter sunlight through window align well with a Stockholm winter scene."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic European rooftop view with snow is plausible for Stockholm; no conflicting cultural or climate elements shown."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No landmarks, flags, or token national symbols used; scene relies on natural seasonal cues instead."
+    }
+  },
+  "cost_usd": 0.02945
+}

@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b22",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"€79 LIMITED EDITION\"",
+      "details": {
+        "transcription": "€79 LIMITED EDITION",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp, high-contrast cream lettering on dark wood background, fully legible with no distortion."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product design, shape, and material are consistent between reference and advertisement with no identity changes.",
+      "details": {
+        "observations": {
+          "presence": "The charm is clearly shown on a marble table in the ad, matching the reference product photo.",
+          "shape": "Round bead shape with openwork tree design is consistent between both images.",
+          "colour": "Silver tone metal matches in both images.",
+          "logo": "No visible logo in either image at this resolution.",
+          "prominent_text": "Ad includes '€79 LIMITED EDITION' as promotional text, not product text; no conflict with product itself.",
+          "counts": "reference: one tree design with symmetrical branches and swirls / ad: same single tree design, consistent swirl count and branch pattern.",
+          "parts": "No parts missing or added; charm hole, tree design, and leaf cutouts are present in both."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Dusk sky, interior warmth, coat draped on chair suggest cold winter evening; nothing contradicts Vienna's winter climate."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "European architecture with ornate facades plausibly fits Vienna's cityscape; no foreign landmarks or conflicting cultural elements present."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmark, stereotype, color filter, or token props; scene reads as natural café setting, not staged Vienna signifier."
+    }
+  },
+  "cost_usd": 0.02789
+}

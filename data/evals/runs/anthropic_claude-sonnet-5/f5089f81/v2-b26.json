@@ -1,0 +1,54 @@
+{
+  "item_id": "v2-b26",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"TREINO DE INVERNO\"",
+      "details": {
+        "transcription": "TREINO DE INVERNO",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharp, well-contrasted against sky, and fully legible with no distortion."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product shown is consistent in shape, color, logo, and label layout with the reference, only staged differently with water droplets and outdoor background.",
+      "details": {
+        "observations": {
+          "presence": "The same OWN PWR Elite Series Pre Workout container appears in the ad image, shown with water droplets on a rooftop setting.",
+          "shape": "Cylindrical tub with black twist-off lid matches reference proportions.",
+          "colour": "Black container with dark label, consistent with reference; label text appears blue/white as in reference.",
+          "logo": "OWN PWR logo visible in white block letters, matches reference placement and style.",
+          "prominent_text": "PRE WORKOUT text visible in blue; other label details (300mg, 6g, etc.) are too small/blurred to fully verify but layout matches reference.",
+          "counts": "reference: 1 tub / ad: 1 tub - consistent",
+          "parts": "No missing or added parts; lid, label, and container structure all intact and consistent with reference."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Clear sky, mild sunny look, green plants intact matches São Paulo's dry, mild winter; no contradictory snow or storm cues."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic high-rise skyline plausibly represents São Paulo; no foreign landmarks, scripts, or festivals shown."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmark, flag, food, or color-filtered stereotype; skyline and plants are neutral, plausible rooftop setting."
+    }
+  },
+  "cost_usd": 0.0296
+}

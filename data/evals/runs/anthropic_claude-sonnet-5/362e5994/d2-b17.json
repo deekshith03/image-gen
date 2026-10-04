@@ -1,0 +1,52 @@
+{
+  "item_id": "d2-b17",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"ランニングセール\"",
+      "details": {
+        "transcription": "ランニングセール",
+        "legibility": "clear",
+        "judge_reason": "Bold black Japanese text is sharply rendered against a light background, fully legible."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Shoe shape, color, swoosh logo, and sole design match reference; only staging/background differs.",
+      "details": {
+        "observations": {
+          "shape": "Low-top knit running shoe silhouette matches reference, consistent sole and upper shape",
+          "colour": "White/grey Flyknit upper with black Nike swoosh and white Lunarlon midsole, consistent with reference",
+          "logo": "Nike swoosh correctly shaped and placed on lateral side, consistent with reference",
+          "label_text": "Japanese text 'ランニングセール' is overlay advertisement text, not product label; no garbled product text visible",
+          "parts_and_count": "Single shoe shown, matches reference count for product depiction",
+          "presence": "Actual product (shoe) is shown, not just packaging or icon"
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Bright sunny sky, short sleeves on runner, greenery visible, warm light consistent with Tokyo summer morning conditions."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic waterfront promenade with modern high-rises plausibly resembles Tokyo riverside areas; Japanese text matches local language naturally."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmark, flag, or stereotypical prop; scene relies on believable urban jogging path and product focus."
+    }
+  },
+  "cost_usd": 0.02417
+}

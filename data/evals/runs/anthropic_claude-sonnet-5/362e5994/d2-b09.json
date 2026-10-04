@@ -1,0 +1,52 @@
+{
+  "item_id": "d2-b09",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"FRESH LIKE THE OCEAN\"",
+      "details": {
+        "transcription": "FRESH LIKE THE OCEAN",
+        "legibility": "clear",
+        "judge_reason": "Text is sharply rendered in a clean serif font with high contrast against the blurred ocean background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Bottle shape, color, logo, and label text all match reference product accurately.",
+      "details": {
+        "observations": {
+          "shape": "Same rectangular bottle with jagged/scalloped edges, matching cap and sprayer design as reference",
+          "colour": "Same blue translucent glass with silver cap accents, consistent with reference bottle",
+          "logo": "VERSACE MAN logo present on silver band, matches reference placement and font",
+          "label_text": "EAU FRAÎCHE text visible on bottle front, matches reference spelling and placement",
+          "parts_and_count": "Single bottle shown, same cap, sprayer nozzle, and band components as reference",
+          "presence": "Actual product bottle is shown, not just a graphic representation"
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Bright sunlight, clear ocean water, and warm tones match summer conditions; no seasonal markers contradict Rio's December-March summer."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic coastal rock and ocean scene is plausible for Rio's coastline; no foreign landmarks, signage, or contradicting cultural cues present."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or token national props; scene relies on natural coastal setting and product, avoiding stereotypical signals."
+    }
+  },
+  "cost_usd": 0.02399
+}

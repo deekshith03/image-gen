@@ -1,0 +1,54 @@
+{
+  "item_id": "p14",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"SUMMER GLOW 25% OFF\"",
+      "details": {
+        "transcription": "SUMMER GLOW 25% OFF",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp, well-spaced, and clearly legible against the sky background."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "The product lid color changed from white to black, altering the product's identity despite correct text and logo.",
+      "details": {
+        "observations": {
+          "presence": "The product jar is shown in the advertisement, matching the reference product.",
+          "shape": "Jar shape and proportions are consistent with the reference (cylindrical jar with flat lid).",
+          "colour": "Reference has a white lid matching the jar body; ad shows a black lid, which is a colour change.",
+          "logo": "Kiehl's logo is present and correctly placed in both images.",
+          "prominent_text": "'ULTRA FACIAL CREAM' and 'Since Kiehl's 1851' text present in both; text is legible in reference, slightly blurred in ad but consistent wording.",
+          "counts": "reference: 1 jar / ad: 1 jar",
+          "parts": "No extra or missing parts other than the lid color difference."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Beach, ocean, sunny sky, and sand all align with Sydney's summer (December-February) climate."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic beach scene with no conflicting cultural, landmark, or festival elements from another country."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "Beach setting is believable for Sydney without forced landmarks, flags, or stereotypical token props."
+    }
+  },
+  "cost_usd": 0.02612
+}

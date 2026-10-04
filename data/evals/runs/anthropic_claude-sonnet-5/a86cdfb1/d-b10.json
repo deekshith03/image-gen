@@ -1,0 +1,54 @@
+{
+  "item_id": "d-b10",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "reads \"ONLY AED 299 ONLY AED 299\" instead of \"ONLY AED 299\"; garbled text near headline: \"duplicated headline text overlapping, smaller repeat underneath larger text\"",
+      "details": {
+        "transcription": "ONLY AED 299 ONLY AED 299",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp and readable but duplicated twice in different sizes, overlapping awkwardly."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Bottle shape, color, logo, and text all match reference; only staging (background, lighting) differs.",
+      "details": {
+        "observations": {
+          "presence": "Product bottle is clearly shown in the advertisement.",
+          "shape": "Rectangular faceted bottle with scalloped edges matches reference shape and proportions.",
+          "colour": "Blue tinted glass with silver cap and trim consistent with reference.",
+          "logo": "VERSACE MAN logo present on silver plaque, correct form and placement.",
+          "prominent_text": "\"EAU FRAÎCHE\" text visible and correctly spelled, matching reference.",
+          "counts": "reference: 1 bottle, 1 cap, 1 nozzle / ad: 1 bottle, 1 cap, 1 nozzle",
+          "parts": "No missing or added components; all elements (cap, nozzle, label, glass) present."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "no_cliche: Burj Al Arab is used purely as a location signal in the background, a stereotypical landmark cue."
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Calm sea, clear skies, soft light match Dubai's mild, sunny winter weather; no contradiction present."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Scene is coastal Dubai with Burj Al Arab visible; nothing from another country or culture appears."
+    },
+    "no_cliche": {
+      "verdict": "fail",
+      "reason": "Burj Al Arab is used purely as a location signal in the background, a stereotypical landmark cue."
+    }
+  },
+  "cost_usd": 0.02968
+}

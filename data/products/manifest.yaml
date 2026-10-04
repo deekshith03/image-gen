@@ -1,0 +1,82 @@
+# Reference product photos. Images are brand-copyrighted and git-ignored:
+# run `uv run python scripts/fetch_products.py` to download them into data/products/images/.
+# risk = the fine detail generation is expected to break.
+
+products:
+  # label text
+  - {id: kiehls_ultra_facial_cream, brand: "Kiehl's", name: "Ultra Facial Cream", category: label_text, split: dev,
+     risk: "dense serif label paragraphs", source: amazon_reviews_2023, asin: B000VE9E7A,
+     url: "https://m.media-amazon.com/images/I/71bkmPs2c5L._SL1500_.jpg"}
+  - {id: neutrogena_hydro_boost, brand: Neutrogena, name: "Hydro Boost Whipped Body Balm", category: label_text, split: test,
+     risk: "wordmark, blue gradient, mixed text sizes", source: amazon_reviews_2023, asin: B0B3PHXRY6,
+     url: "https://m.media-amazon.com/images/I/71lSC+JoT+L._SL1500_.jpg"}
+  - {id: cerave_moisturising_lotion, brand: CeraVe, name: "Moisturising Lotion 473ml", category: label_text, split: dev,
+     risk: "bilingual small print, pump bottle", source: amazon_reviews_2023, asin: B0947NS7V9,
+     url: "https://m.media-amazon.com/images/I/518GlapSXBL._SL1500_.jpg"}
+  - {id: ownpwr_preworkout, brand: "OWN PWR", name: "Elite Series Pre Workout", category: label_text, split: test,
+     risk: "stylised brand lettering, dense side text", source: abo, asin: B07CR9K6ZC,
+     url: "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/f3/f3c7796c.jpg"}
+  # packaging (some depicting other objects)
+  - {id: bbq_chips_365, brand: "365 Everyday Value", name: "Organic Barbeque Potato Chips", category: packaging, split: dev,
+     risk: "crinkled bag, script logo, printed food photo", source: abo, asin: B07FW8NV5R,
+     url: "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/0b/0b8887e2.jpg"}
+  - {id: nutella_biscuits, brand: Nutella, name: "Biscuits x22", category: packaging, split: test,
+     risk: "pouch shape, iconic logo, printed biscuits", source: open_food_facts, license: CC-BY-SA-3.0,
+     url: "https://images.openfoodfacts.org/images/products/800/050/031/0427/front_fr.586.full.jpg"}
+  - {id: duncanhines_mugcake, brand: "Duncan Hines", name: "Mug Cakes Chocolate Chip Cookie", category: illusion_depicts_object, split: dev,
+     risk: "box shows a photo of a mug cake", source: amazon_reviews_2023, asin: B0994Z334P,
+     url: "https://m.media-amazon.com/images/I/91cZjUXc4cL._SL1500_.jpg"}
+  - {id: quaker_oats, brand: Quaker, name: "Old Fashioned Oats 42oz", category: illusion_printed_face, split: test,
+     risk: "printed human face, dense text on a cylinder", source: amazon_reviews_2023, asin: B0C5Z4J6L1,
+     url: "https://m.media-amazon.com/images/I/61mQwepCYnL._SL1500_.jpg"}
+  # glass / mirror
+  - {id: versace_eau_fraiche, brand: Versace, name: "Man Eau Fraîche", category: glass, split: dev,
+     risk: "transparent blue glass, embossed logo", source: amazon_reviews_2023, asin: B0014XANUO,
+     url: "https://m.media-amazon.com/images/I/71roxdqpfuL._SL1500_.jpg"}
+  - {id: jomalone_wood_sage, brand: "Jo Malone", name: "Wood Sage & Sea Salt Cologne", category: glass, split: test,
+     risk: "minimal luxury type, two objects (box + bottle)", source: amazon_reviews_2023, asin: B076VDSPDX,
+     url: "https://m.media-amazon.com/images/I/71M3rUkf7UL._SL1500_.jpg"}
+  - {id: bodum_chrome_kettle, brand: Bodum, name: "Bistro Gooseneck Kettle, Chrome", category: illusion_mirror, split: dev,
+     risk: "mirror chrome reflects the scene, embossed logo", source: amazon_reviews_2023, asin: B08FC48BZD,
+     url: "https://m.media-amazon.com/images/I/61G67Lg1h2L._AC_SL1500_.jpg"}
+  - {id: rayban_rb3447_mirror, brand: "Ray-Ban", name: "RB3447 Round, Green Mirror", category: illusion_mirror, split: test,
+     risk: "mirror lenses, thin wire frame, tiny lens logo", source: amazon_reviews_2023, asin: B00J3YF7Q6,
+     url: "https://m.media-amazon.com/images/I/71RATuWyuRL._AC_UL1500_.jpg"}
+  # watches
+  - {id: timex_expedition_chrono, brand: Timex, name: "Expedition Scout Chronograph", category: watch, split: dev,
+     risk: "sub-dials, numerals, dial text", source: amazon_reviews_2023, asin: B01M3P1ES7,
+     url: "https://m.media-amazon.com/images/I/817xTdzA4XL._AC_UL1500_.jpg"}
+  - {id: casio_gshock_mtg, brand: Casio, name: "G-Shock MT-G MTG900", category: watch, split: test,
+     risk: "bezel text, LCD, metal links", source: amazon_reviews_2023, asin: B000248ZEW,
+     url: "https://m.media-amazon.com/images/I/81imKfqcE4L._AC_UL1500_.jpg"}
+  # sneakers
+  - {id: adidas_grand_court, brand: adidas, name: "Grand Court", category: sneaker, split: dev,
+     risk: "three-stripe logo, suede texture", source: amazon_reviews_2023, asin: B09TJTD1ZB,
+     url: "https://m.media-amazon.com/images/I/717-YbkoA-L._AC_UL1500_.jpg"}
+  - {id: newbalance_515, brand: "New Balance", name: "515 V1 Classic", category: sneaker, split: test,
+     risk: "N logo, mesh + suede, multi-tone", source: amazon_reviews_2023, asin: B0951NCR7Z,
+     url: "https://m.media-amazon.com/images/I/81FAHOQ1ugL._AC_UL1500_.jpg"}
+  - {id: nike_lunarepic_flyknit, brand: Nike, name: "LunarEpic Low Flyknit 2", category: sneaker, split: dev,
+     risk: "knit mesh texture, swoosh, tongue label", source: amazon_reviews_2023, asin: B06XKT2RPL,
+     url: "https://m.media-amazon.com/images/I/81Dl-QUdM-L._AC_UL1500_.jpg"}
+  # patterns
+  - {id: carhartt_plaid_shirt, brand: Carhartt, name: "Essential Plaid Work Shirt", category: pattern, split: dev,
+     risk: "plaid alignment, worn by a model", source: amazon_reviews_2023, asin: B0892J2PV5,
+     url: "https://m.media-amazon.com/images/I/71cE8NUmCTL._AC_UL1200_.jpg"}
+  - {id: legendary_whitetails_flannel, brand: "Legendary Whitetails", name: "Women's Flannel Shirt", category: pattern, split: test,
+     risk: "large-check flannel, worn by a model", source: amazon_reviews_2023, asin: B0BSQMNM4R,
+     url: "https://m.media-amazon.com/images/I/91NtencTayL._AC_SL1500_.jpg"}
+  - {id: londonfog_houndstooth_luggage, brand: "London Fog", name: "Cambridge II Carry-On, Houndstooth", category: illusion_moire, split: test,
+     risk: "fine houndstooth → moiré at 1024px", source: amazon_reviews_2023, asin: B079XHGHKY,
+     url: "https://m.media-amazon.com/images/I/916-qZz8hiL._AC_SL1500_.jpg"}
+  # jewellery
+  - {id: pandora_family_roots, brand: Pandora, name: "Openwork Family Roots Charm", category: jewellery, split: dev,
+     risk: "openwork filigree, negative space", source: amazon_reviews_2023, asin: B07G539CPB,
+     url: "https://m.media-amazon.com/images/I/71-ViUSz2-S._AC_UL1500_.jpg"}
+  - {id: pandora_sister_heart, brand: Pandora, name: "Sister's Love CZ Charm", category: jewellery, split: test,
+     risk: "engraved script, S925 hallmark, pink stone, mirror polish", source: amazon_reviews_2023, asin: B01IF1LO3C,
+     url: "https://m.media-amazon.com/images/I/61lUIWdLnKS._AC_UL1500_.jpg"}
+  # holographic
+  - {id: casemate_soap_bubble, brand: "Case-Mate", name: "Soap Bubble iPhone 13 Pro Case", category: illusion_holographic, split: test,
+     risk: "iridescent swirl over clear case, Apple logo", source: amazon_reviews_2023, asin: B0BZK5JD37,
+     url: "https://m.media-amazon.com/images/I/61-OYaWMNdL._AC_SL1500_.jpg"}

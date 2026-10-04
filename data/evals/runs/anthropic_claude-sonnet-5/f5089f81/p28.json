@@ -1,0 +1,54 @@
+{
+  "item_id": "p28",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"COSY MUG CAKE IN 1 MINUTE\"",
+      "details": {
+        "transcription": "COSY MUG CAKE IN 1 MINUTE",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp, well-formed, and easily readable against the sky background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product box and mug cake match reference in shape, color, logo, and text; added spoon and hands are acceptable staging elements.",
+      "details": {
+        "observations": {
+          "presence": "Product box and mug cake are both shown in the ad, consistent with reference.",
+          "shape": "Box shape and mug shape/proportions match the reference image.",
+          "colour": "Red/blue/white box coloring matches; mug cake golden color with chocolate chips matches.",
+          "logo": "Duncan Hines logo present, correct red script on white shield, matches reference.",
+          "prominent_text": "'Duncan Hines', 'Mug Cakes', 'chocolate chip cookie cake' text all present and spelled correctly, though slightly smaller/angled on box in ad.",
+          "counts": "reference: 1 box, 1 mug cake shown large + 1 small inset / ad: 1 box, 2 mug cakes shown (one on box, one held) - consistent with staging, no extra product variants added.",
+          "parts": "No missing or added parts; spoon added in hand is acceptable staging, not a product change."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "season_fit: Window shows lush green trees and bright blue sky, typical of summer, not London's bare winter trees and grey skies."
+    },
+    "season_fit": {
+      "verdict": "fail",
+      "reason": "Window shows lush green trees and bright blue sky, typical of summer, not London's bare winter trees and grey skies."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Rooftop chimney pots and terraced house window are authentic, believable British architecture fitting UK setting."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmark, flag, or stereotypical token prop; chimney view is subtle background, not a cliché signal."
+    }
+  },
+  "cost_usd": 0.03173
+}

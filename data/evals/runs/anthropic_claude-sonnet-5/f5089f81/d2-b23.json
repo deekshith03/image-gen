@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b23",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"BEAT THE HUMIDITY\"",
+      "details": {
+        "transcription": "BEAT THE HUMIDITY",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp, high-contrast white lettering clearly legible against the rainy window background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product design, color, text, and branding are consistent with the reference; only staging (lighting, background) differs.",
+      "details": {
+        "observations": {
+          "presence": "Product jar is shown in the ad, placed on a countertop by a window.",
+          "shape": "Cylindrical jar with white lid and blue base, matching reference proportions.",
+          "colour": "Same white lid, black/silver band, and light blue translucent base as reference.",
+          "logo": "Neutrogena logo present in white text on black band, matches reference placement and font.",
+          "prominent_text": "Text reads 'Hydro Boost whipped body balm, Hyaluronic Acid, Dry to Extra Dry Skin' - consistent with reference, though slightly blurred due to small scale.",
+          "counts": "reference: 1 jar / ad: 1 jar",
+          "parts": "No missing or added parts; lid, band, and label elements all present."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Rain streaking down window with tropical foliage visible matches Singapore's monsoon season accurately."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Tropical palm trees and rainy scene are plausible and consistent with Singapore's climate and geography."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, stereotypes, or token cultural props; scene is a believable generic tropical rainy setting."
+    }
+  },
+  "cost_usd": 0.02805
+}

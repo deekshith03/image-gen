@@ -1,0 +1,69 @@
+{
+  "run_id": "20261004-174315-demo-01f3",
+  "brief": {
+    "id": "demo",
+    "product": "kiehls_ultra_facial_cream",
+    "geo": "Mumbai, India",
+    "season": "monsoon",
+    "text": "HYDRATION THAT LASTS"
+  },
+  "outcome": "passed",
+  "final": "00_generate.png",
+  "cost_usd": 0.1002,
+  "attempts": [
+    {
+      "label": "generate",
+      "image": "00_generate.png",
+      "failures": [],
+      "cost_usd": 0.02615,
+      "passed": true,
+      "checks": {
+        "size": {
+          "verdict": "pass",
+          "reason": "1024×1024, long edge ≤ 1024px"
+        },
+        "text": {
+          "verdict": "pass",
+          "reason": "reads exactly \"HYDRATION THAT LASTS\"",
+          "details": {
+            "transcription": "HYDRATION THAT LASTS",
+            "legibility": "clear",
+            "scene_garble": "",
+            "judge_reason": "Headline text is crisp, high-contrast black serif font against a soft blurred background, easily readable."
+          }
+        },
+        "product": {
+          "verdict": "pass",
+          "reason": "Product identity, shape, color, and text remain consistent with reference despite staging and slight blur.",
+          "details": {
+            "observations": {
+              "presence": "The Kiehl's Ultra Facial Cream jar is present in the advertisement image.",
+              "shape": "Cylindrical jar with flat lid matches reference proportions.",
+              "colour": "White jar with black/red text, consistent with reference colours and materials.",
+              "logo": "Kiehl's logo with 'SINCE 1851' present, matches placement and style of reference.",
+              "prominent_text": "'Ultra Facial Cream' text is present and legible, though slightly blurred; wording matches reference.",
+              "counts": "reference: 1 jar / ad: 1 jar",
+              "parts": "No missing or added parts; label layout consistent with reference."
+            }
+          }
+        },
+        "context": {
+          "verdict": "pass",
+          "reason": "all context checks pass"
+        },
+        "season_fit": {
+          "verdict": "pass",
+          "reason": "Rain droplets on glass and misty, overcast outdoor scene with greenery match Mumbai's monsoon conditions well."
+        },
+        "market_fit": {
+          "verdict": "pass",
+          "reason": "No landmarks, festivals, or culture-specific cues present; generic rainy window scene doesn't contradict Mumbai setting."
+        },
+        "no_cliche": {
+          "verdict": "pass",
+          "reason": "No stereotyped filters, token props, or forced landmarks; clean product shot with natural rainy backdrop."
+        }
+      }
+    }
+  ]
+}

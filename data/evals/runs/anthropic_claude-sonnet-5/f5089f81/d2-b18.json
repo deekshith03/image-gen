@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b18",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"WINTER MILES 30% OFF\"",
+      "details": {
+        "transcription": "WINTER MILES 30% OFF",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp, well-rendered, and clearly legible against the blurred background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Shoe design, colors, logo, and text match reference; only staging (background, lighting, overlay text) differs.",
+      "details": {
+        "observations": {
+          "presence": "Product (Nike LunarEpic Low Flyknit 2 shoe) is shown in the ad image.",
+          "shape": "Shoe shape, silhouette, sole design, and flyknit upper structure match the reference.",
+          "colour": "Consistent white/grey flyknit upper with black swoosh and white Lunarlon sole, matching reference.",
+          "logo": "Nike swoosh present and correctly placed on lateral side; matches reference logo form.",
+          "prominent_text": "'NIKE' text visible on heel tab, consistent with reference; ad adds unrelated marketing text ('WINTER MILES 30% OFF') which is overlay, not product text.",
+          "counts": "reference: one shoe shown / ad: one shoe shown - matches.",
+          "parts": "No missing or added components; laces, heel tab, sole pattern all consistent."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Wet dark asphalt, cool misty overcast sky, and stormy sea match Cape Town's cold, rainy winter climate accurately."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic coastal mountain scene plausibly fits Cape Town's geography; no foreign landmarks, scripts, or festivals present."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmark naming, stereotyped color haze, or token cultural props; moody natural lighting fits the scene."
+    }
+  },
+  "cost_usd": 0.02811
+}

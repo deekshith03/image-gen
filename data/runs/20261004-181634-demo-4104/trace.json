@@ -1,0 +1,181 @@
+{
+  "run_id": "20261004-181634-demo-4104",
+  "brief": {
+    "id": "demo",
+    "product": "kiehls_ultra_facial_cream",
+    "geo": "Mumbai, India",
+    "season": "monsoon",
+    "text": "HYDRATION THAT LASTS"
+  },
+  "outcome": "passed after 2 retries",
+  "final": "02_retry2.png",
+  "cost_usd": 0.2922,
+  "attempts": [
+    {
+      "label": "generate",
+      "image": "00_generate.png",
+      "failures": [
+        "product"
+      ],
+      "cost_usd": 0.02696,
+      "passed": false,
+      "checks": {
+        "size": {
+          "verdict": "pass",
+          "reason": "1024×1024, long edge ≤ 1024px"
+        },
+        "text": {
+          "verdict": "pass",
+          "reason": "reads exactly \"HYDRATION THAT LASTS\"",
+          "details": {
+            "transcription": "HYDRATION THAT LASTS",
+            "legibility": "clear",
+            "scene_garble": "",
+            "judge_reason": "Headline text is crisp, well-formed, and fully legible with no distortions or errors."
+          }
+        },
+        "product": {
+          "verdict": "fail",
+          "reason": "Label text on the jar is garbled/misspelled compared to the reference, indicating an identity change in prominent product text.",
+          "details": {
+            "observations": {
+              "presence": "The product jar is present in the advertisement, placed on a wet surface near a window.",
+              "shape": "Cylindrical jar with flat lid, matching proportions of reference product.",
+              "colour": "White jar and lid with black/red text, consistent with reference.",
+              "logo": "Kiehl's logo present, correct font and placement, though slightly blurred.",
+              "prominent_text": "Text reads 'Ultra Facial Cream' and tagline, but some words are garbled/distorted (e.g., 'Breryday' instead of 'Everyday', 'Glyeaproteins' instead of 'Glycoproteins').",
+              "counts": "reference: 1 jar / ad: 1 jar",
+              "parts": "No missing or added parts; jar and lid both present."
+            }
+          }
+        },
+        "context": {
+          "verdict": "pass",
+          "reason": "all context checks pass"
+        },
+        "season_fit": {
+          "verdict": "pass",
+          "reason": "Rain-streaked windows, wet balcony floor, overcast grey sky and lush greenery accurately depict Mumbai's monsoon season."
+        },
+        "market_fit": {
+          "verdict": "pass",
+          "reason": "Generic tropical balcony with palm trees is plausible for Mumbai; nothing signals a different country or culture."
+        },
+        "no_cliche": {
+          "verdict": "pass",
+          "reason": "No forced landmarks, stereotyped filters, or token cultural props; scene is a believable, neutral balcony setting."
+        }
+      }
+    },
+    {
+      "label": "retry1",
+      "image": "01_retry1.png",
+      "failures": [
+        "product"
+      ],
+      "cost_usd": 0.02978,
+      "passed": false,
+      "checks": {
+        "size": {
+          "verdict": "pass",
+          "reason": "1024×1024, long edge ≤ 1024px"
+        },
+        "text": {
+          "verdict": "pass",
+          "reason": "reads exactly \"HYDRATION THAT LASTS\"",
+          "details": {
+            "transcription": "HYDRATION THAT LASTS",
+            "legibility": "clear",
+            "scene_garble": "",
+            "judge_reason": "Headline is crisp, high-contrast serif text clearly legible against the plain background."
+          }
+        },
+        "product": {
+          "verdict": "fail",
+          "reason": "Body text on label is garbled into nonsense words, altering prominent label text despite correct headers and logo.",
+          "details": {
+            "observations": {
+              "presence": "Product jar is present and clearly shown in the ad.",
+              "shape": "Cylindrical jar with flat lid matches reference proportions.",
+              "colour": "White jar, black/red text match reference colour scheme.",
+              "logo": "Kiehl's logo and 'Since 1851' banner correctly reproduced.",
+              "prominent_text": "Main headers 'KIEHL'S' and 'ULTRA FACIAL CREAM' are correct, but the descriptive body text below is garbled/nonsensical (e.g. 'scigisl', 'crachuridie') instead of legible wording.",
+              "counts": "reference: 1 jar / ad: 1 jar",
+              "parts": "No parts missing or added; jar structure intact."
+            }
+          }
+        },
+        "context": {
+          "verdict": "pass",
+          "reason": "all context checks pass"
+        },
+        "season_fit": {
+          "verdict": "pass",
+          "reason": "Rain falling, wet balcony, lush green palms and water droplets on glass all match Mumbai's monsoon season accurately."
+        },
+        "market_fit": {
+          "verdict": "pass",
+          "reason": "Generic tropical balcony scene with palm trees is plausible for Mumbai; no conflicting landmarks, scripts or foreign cultural markers present."
+        },
+        "no_cliche": {
+          "verdict": "pass",
+          "reason": "No forced landmarks, stereotypes, or token props like chai glasses; scene is a believable rainy balcony without color-filter stereotyping."
+        }
+      }
+    },
+    {
+      "label": "retry2",
+      "image": "02_retry2.png",
+      "failures": [],
+      "cost_usd": 0.02603,
+      "passed": true,
+      "checks": {
+        "size": {
+          "verdict": "pass",
+          "reason": "1024×1024, long edge ≤ 1024px"
+        },
+        "text": {
+          "verdict": "pass",
+          "reason": "reads exactly \"HYDRATION THAT LASTS\"",
+          "details": {
+            "transcription": "HYDRATION THAT LASTS",
+            "legibility": "clear",
+            "scene_garble": "",
+            "judge_reason": "Headline text is crisp, bold, and clearly rendered against the sky background with no distortion."
+          }
+        },
+        "product": {
+          "verdict": "pass",
+          "reason": "Product jar shape, color, branding, and text match reference despite staged rainy background.",
+          "details": {
+            "observations": {
+              "presence": "Product jar is shown in both images, consistent with reference.",
+              "shape": "Cylindrical jar with flat lid, matching proportions in both images.",
+              "colour": "White jar and lid with black/red text, consistent in both images.",
+              "logo": "Kiehl's logo present and correctly spelled in both images.",
+              "prominent_text": "Text reads 'Ultra Facial Cream' and descriptive copy consistent with reference, legible and correctly spelled.",
+              "counts": "reference: 1 jar / ad: 1 jar",
+              "parts": "No missing or added parts; lid, label, and jar body all present in both images."
+            }
+          }
+        },
+        "context": {
+          "verdict": "pass",
+          "reason": "all context checks pass"
+        },
+        "season_fit": {
+          "verdict": "pass",
+          "reason": "Rain-streaked window, wet outdoor surfaces, overcast sky, and lush palms all match Mumbai's monsoon season accurately."
+        },
+        "market_fit": {
+          "verdict": "pass",
+          "reason": "Tropical palm trees and rainy coastal setting are consistent with Mumbai; nothing signals another country or culture."
+        },
+        "no_cliche": {
+          "verdict": "pass",
+          "reason": "No forced landmarks, stereotypical color filters, or token cultural props; scene is a believable generic tropical window view."
+        }
+      }
+    }
+  ]
+}

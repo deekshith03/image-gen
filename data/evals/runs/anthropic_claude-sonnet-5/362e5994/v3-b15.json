@@ -1,0 +1,52 @@
+{
+  "item_id": "v3-b15",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "reads \"STREET CLASSICS STREET CLASSICS\" instead of \"STREET CLASSICS\"",
+      "details": {
+        "transcription": "STREET CLASSICS STREET CLASSICS",
+        "legibility": "clear",
+        "judge_reason": "Text is bold, high-contrast white font clearly legible against the background, though the phrase is repeated twice."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product shown matches reference in shape, colour, materials, and branding; worn on foot is acceptable staging.",
+      "details": {
+        "observations": {
+          "shape": "Same low-top sneaker silhouette, rounded toe, cupsole design consistent with reference image",
+          "colour": "Matching grey suede upper with white 3-stripes and white sole, consistent colourway across both images",
+          "logo": "Adidas logo visible on tongue patch and heel area, consistent trefoil/wordmark placement",
+          "label_text": "No garbled text visible; 'adidas' branding on shoe is legible and correctly spelled",
+          "parts_and_count": "Single shoe shown in advertisement, consistent with single shoe emphasis in reference (though reference shows one shoe too)",
+          "presence": "Actual physical product shown being worn on foot, not just packaging or logo"
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Bright sunlight, budding green leaves, light denim jacket suggest mild spring weather consistent with Paris springtime."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Parisian-style bistro table, rattan chair, espresso cup create a believable, understated European café scene without forcing location."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No landmarks, flags, or forced national symbols; café setting feels natural and functional rather than a tourist cliché."
+    }
+  },
+  "cost_usd": 0.02363
+}

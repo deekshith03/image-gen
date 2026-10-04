@@ -1,0 +1,52 @@
+{
+  "item_id": "p02",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "reads \"HYGGE HOURS 20% 0FF\" instead of \"HYGGE HOURS 20% OFF\"",
+      "details": {
+        "transcription": "HYGGE HOURS 20% 0FF",
+        "legibility": "clear",
+        "judge_reason": "Text is sharply rendered with high contrast against the wall, though the letter O in OFF appears as a zero."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Kettle shape, color, logo, and parts match reference exactly; staged with steam and setting only.",
+      "details": {
+        "observations": {
+          "shape": "Same gooseneck kettle silhouette, spout curve, lid knob, and handle shape match reference.",
+          "colour": "Chrome/stainless body with black handle and lid knob, consistent with reference.",
+          "logo": "Bodum logo visible on body in both images, same placement and form.",
+          "label_text": "No additional label text on product itself; ad overlay text 'HYGGE HOURS 20% OFF' is separate marketing text, not garbled.",
+          "parts_and_count": "Single kettle shown, same parts: spout, lid, knob, handle, body - all present, no additions or omissions.",
+          "presence": "Actual physical product is depicted, not just packaging imagery."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Yellow autumn leaves on bare-branching trees, soft overcast light, and a warm steaming drink all align with Copenhagen's autumn."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Minimalist Scandinavian interior, neutral tones, and cozy 'hygge' theme feel authentic to Danish/Nordic culture without contradiction."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No flags, landmarks, or forced national symbols; the kettle and mug serve the product narrative naturally."
+    }
+  },
+  "cost_usd": 0.02474
+}

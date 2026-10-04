@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b27",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"MERENDA D'AUTUNNO\"",
+      "details": {
+        "transcription": "MERENDA D'AUTUNNO",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp, high-contrast, and clearly legible against the blurred background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "All key branding, text, counts, and design elements match the reference product faithfully.",
+      "details": {
+        "observations": {
+          "presence": "Product package shown in both images, consistent with reference.",
+          "shape": "Pouch shape and proportions match reference packaging.",
+          "colour": "White/red/brown color scheme consistent with reference.",
+          "logo": "Nutella heart logo with 'n' present and matches reference in both images.",
+          "prominent_text": "'nutella biscuits' and 'x22' text correctly spelled and placed in both images.",
+          "counts": "reference: x22 shown on package / ad: x22 shown on package, consistent.",
+          "parts": "No missing or added parts; biscuits, fruit icons, and wheat graphics consistent with reference."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Autumn foliage in yellow/gold tones, warm sunlight, and cozy scarf match Milan's mild, sunny autumn climate well."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "European-style cafe, architecture, and street scene plausibly fit Milan with no contradicting cultural or geographic elements."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks or stereotypical props; golden light is natural autumn ambiance, not an artificial color filter."
+    }
+  },
+  "cost_usd": 0.0278
+}

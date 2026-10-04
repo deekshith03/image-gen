@@ -1,0 +1,54 @@
+{
+  "item_id": "p13",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"FOR DRY WINTER SKIN\"",
+      "details": {
+        "transcription": "FOR DRY WINTER SKIN",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp, bold, and clearly legible against the plain background."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Pump cap and label accent color changed from blue to green; label text appears blurred/garbled compared to crisp reference.",
+      "details": {
+        "observations": {
+          "presence": "Product bottle is shown in the advertisement, matching the reference item.",
+          "shape": "Same bottle shape and pump dispenser proportions as reference.",
+          "colour": "Pump and diagonal label stripe are green in the ad, but blue in the reference photo.",
+          "logo": "CeraVe logo present and correctly spelled in both images.",
+          "prominent_text": "Text 'Moisturising Lotion', 'Lait Hydratant', 'Fragrance Free/Sans Parfum', '16 FL OZ/473 ml' present but blurred/garbled in ad version.",
+          "counts": "reference: 1 bottle / ad: 1 bottle",
+          "parts": "No parts added or missing; pump head and cap present in both."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Snow-covered rooftops visible through window match winter conditions consistent with Stockholm's climate."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic rooftop and window scene doesn't contradict Swedish setting; no foreign landmarks or cultural markers present."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, stereotypes, or token cultural props; natural window light, not a stylized filter."
+    }
+  },
+  "cost_usd": 0.02877
+}

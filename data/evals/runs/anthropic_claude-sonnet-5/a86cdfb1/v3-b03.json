@@ -1,0 +1,54 @@
+{
+  "item_id": "v3-b03",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"HYDRATION THAT LASTS\"",
+      "details": {
+        "transcription": "HYDRATION THAT LASTS",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp, bold, and clearly legible against the sky background."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Net volume text altered from 473 ml to 673 ml on the ad label, an inaccurate prominent text change.",
+      "details": {
+        "observations": {
+          "presence": "Product bottle is clearly shown in both images.",
+          "shape": "Same bottle shape, pump dispenser, and proportions in both images.",
+          "colour": "Same white bottle with blue cap and blue diagonal label design.",
+          "logo": "CeraVe logo present in same font, color, and placement in both images.",
+          "prominent_text": "Ad label reads '16 FL OZ/673 ml' while reference reads '16 FL OZ/473 ml' - volume number altered.",
+          "counts": "reference: 1 bottle, 1 pump / ad: 1 bottle, 1 pump - counts match.",
+          "parts": "No parts missing or added; pump, cap, and label elements all present in both."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "no_cliche: Chai-like drink and flip-flops placed beside moisturiser act as token props signaling 'India' stereotypically."
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Rain on window, wet floor, closed umbrella, and plants all match Mumbai's monsoon accurately."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic balcony setting with no foreign landmarks, scripts, or festivals contradicting Indian context."
+    },
+    "no_cliche": {
+      "verdict": "fail",
+      "reason": "Chai-like drink and flip-flops placed beside moisturiser act as token props signaling 'India' stereotypically."
+    }
+  },
+  "cost_usd": 0.03002
+}

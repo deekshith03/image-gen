@@ -1,0 +1,33 @@
+# Natural outputs from earlier (unlocked) generation strategies, kept because they show
+# a known failure type. `suspected` is my observation, NOT a label — the human label decides.
+
+earlier:
+  # v1 "show this place": landmark as the location signal
+  - {strategy: v1, brief: b02, checks: [no_cliche], suspected: "context: Opera House as location shorthand"}
+  - {strategy: v1, brief: b28, checks: [no_cliche], suspected: "context: Hagia Sophia as location shorthand"}
+  - {strategy: v1, brief: b41, checks: [no_cliche], suspected: "context: Louvre pyramid (fits travel? borderline)"}
+  - {strategy: v1, brief: b45, checks: [no_cliche], suspected: "context: TV Tower as location shorthand"}
+  - {strategy: v1, brief: b16, checks: [no_cliche], suspected: "context: orange dusty haze filter (stereotype risk)"}
+  - {strategy: v1, brief: b17, checks: [season_fit], suspected: "context: autumn leaves in a summer ad"}
+  - {strategy: v1, brief: b40, checks: [product], suspected: "product: flannel recoloured tan"}
+  # v2 "target market": placeless / faint text / product errors
+  - {strategy: v2, brief: b02, checks: [text], suspected: "text: '25% OFF' faint, near illegible"}
+  - {strategy: v2, brief: b22, checks: [product], suspected: "product: charm hung on a necklace chain"}
+  - {strategy: v2, brief: b44, checks: [text], suspected: "text: extra 'PANDORA' sign text"}
+  - {strategy: v2, brief: b26, checks: [market_fit], suspected: "context: placeless, no winter or Brazil signal"}
+  # v3 local-cue checklist: token props + text errors
+  - {strategy: v3, brief: b03, checks: [no_cliche], suspected: "context: token props (chai + flip-flops) in a moisturiser ad"}
+  - {strategy: v3, brief: b15, checks: [text], suspected: "text: headline printed twice"}
+  - {strategy: v3, brief: b22, checks: [text], suspected: "text: word dropped ('€79 EDITION')"}
+  - {strategy: v3, brief: b36, checks: [text], suspected: "text: duplicated 'RESIST 200M'"}
+  - {strategy: v3, brief: b17, checks: [text], suspected: "text: garbled kanji stencil on the path"}
+  - {strategy: v3, brief: b33, checks: [text], suspected: "text: trailing full stop added"}
+  # v4.1 people + local moment
+  - {strategy: v4.1, brief: b45, checks: [no_cliche], suspected: "context: token prop (Club-Mate) claimed as motivated"}
+  # D (planner + Flash, colour picked blind)
+  - {strategy: d, brief: b05, checks: [text], suspected: "text: garbled extra line 'FUOROOST'"}
+  - {strategy: d, brief: b07, checks: [product], suspected: "product: box missing, only the pictured mug cake rendered"}
+  - {strategy: d, brief: b08, checks: [product], suspected: "product: box missing, only the pictured mug cake rendered"}
+  - {strategy: d, brief: b31, checks: [text], suspected: "text: double ampersand '& &'"}
+  - {strategy: d, brief: b10, checks: [text, no_cliche], suspected: "text: headline ghosted twice; context: Burj Al Arab"}
+  - {strategy: d, brief: b17, checks: [text], suspected: "text: Japanese headline repeated"}

@@ -1,0 +1,52 @@
+{
+  "item_id": "p13",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"FOR DRY WINTER SKIN\"",
+      "details": {
+        "transcription": "FOR DRY WINTER SKIN",
+        "legibility": "clear",
+        "judge_reason": "Headline text is sharply rendered, high contrast, and fully legible against the plain wall background."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Pump and accent color changed from blue to green, and label text is garbled/blurry, altering product identity.",
+      "details": {
+        "observations": {
+          "shape": "Bottle shape and pump proportions match the reference image correctly.",
+          "colour": "Pump cap and accent color changed from blue to green, inconsistent with reference product.",
+          "logo": "CeraVe logo present but lacks proper bold styling and distinct color seen in reference.",
+          "label_text": "Text is blurry and garbled in places, with some words illegible or distorted.",
+          "parts_and_count": "Single bottle shown, correct count, but pump color/material altered from original.",
+          "presence": "Physical product itself is shown, not just packaging imagery, consistent with requirement."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Snow-covered rooftops visible through window, bright winter light, indoor scene consistent with cold Stockholm winter."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic European rooftop view with snow fits Stockholm plausibly; no contradicting landmarks, signage, or foreign cultural cues."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No flags, landmarks, or forced national symbols; snowy rooftop is a natural seasonal backdrop, not a token prop."
+    }
+  },
+  "cost_usd": 0.02636
+}

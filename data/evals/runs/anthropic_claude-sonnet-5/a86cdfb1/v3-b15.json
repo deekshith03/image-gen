@@ -1,0 +1,54 @@
+{
+  "item_id": "v3-b15",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "reads \"STREET CLASSICS STREET CLASSICS\" instead of \"STREET CLASSICS\"",
+      "details": {
+        "transcription": "STREET CLASSICS STREET CLASSICS",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is bold, white, and clearly legible with no distortion; repeated phrase appears intentional for style."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product matches reference in shape, color, stripe count, and branding; only staging (worn on foot, outdoor setting) differs.",
+      "details": {
+        "observations": {
+          "presence": "The product (adidas Grand Court sneaker) is clearly shown in the advertisement, worn on a foot.",
+          "shape": "Shape and proportions match the reference — low-top sneaker silhouette, rounded toe, same sole profile.",
+          "colour": "Grey suede upper with white stripes and white sole, consistent with reference; heel tab also grey.",
+          "logo": "adidas logo visible on tongue label and trefoil/text logo on heel, matching reference placement and style.",
+          "prominent_text": "adidas wordmark visible on tongue tab, legible and correctly spelled.",
+          "counts": "reference: 3 side stripes / ad: 3 side stripes — matches.",
+          "parts": "All parts present — laces, tongue, heel tab, stripes, sole; nothing missing or added."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Budding green leaves, mild sunny light, rolled denim cuffs match typical Parisian spring weather."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Classic café terrace with bistro table and rattan chair fits Parisian outdoor culture, no wrong-country cues."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "Scene reads as authentic café moment, not forced landmark or stereotype props beside the shoe."
+    }
+  },
+  "cost_usd": 0.02919
+}

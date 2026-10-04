@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b35",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"TOUGHER THAN WINTER\"",
+      "details": {
+        "transcription": "TOUGHER THAN WINTER",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp, high-contrast white lettering against dark sky background, easily legible."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "The ad image is horizontally mirrored, causing all dial text and logos to appear backwards, altering legibility/identity of prominent text.",
+      "details": {
+        "observations": {
+          "presence": "The watch is present in both images.",
+          "shape": "Same case shape, bezel design, and bracelet structure in both.",
+          "colour": "Matching silver metal case/bracelet and grayish-purple dial face.",
+          "logo": "G-SHOCK logo present but appears mirrored/reversed in ad image.",
+          "prominent_text": "Text labels (TIME MEMO, RECEIVE, MODE, ADJUST) appear horizontally flipped/reversed in the ad, making them read backwards.",
+          "counts": "reference: 1 watch, standard button/dial layout / ad: 1 watch, same layout but mirrored",
+          "parts": "All components (crown, buttons, bracelet links, dial subdials) appear present in both."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Cold, icy rock, dark blue dusk sky and misty waterfront align with Reykjavik's winter conditions; nothing contradicts it."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "No foreign landmarks, scripts, or cultural markers conflicting with Iceland; the coastal night scene is plausible for Reykjavik."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or token souvenirs; icy rock and harbor lights feel like a natural, non-stereotyped setting."
+    }
+  },
+  "cost_usd": 0.02907
+}

@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b21",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"A GIFT OF ROOTS\"",
+      "details": {
+        "transcription": "A GIFT OF ROOTS",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharply rendered in a clean serif font with good contrast against the background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Charm design, shape, and finish match reference exactly; only staging (props, lighting, background) differs.",
+      "details": {
+        "observations": {
+          "presence": "The same tree-of-life charm bead is shown in both images, now resting on a stone surface with a ribbon and bowl as staging props.",
+          "shape": "Round, flat-disc bead shape with openwork tree design matches reference; proportions appear consistent.",
+          "colour": "Same oxidized sterling silver tone with blackened recessed areas and polished raised tree branches.",
+          "logo": "No visible brand logo or stamp in either image at this resolution.",
+          "prominent_text": "Ad includes overlay text 'A GIFT OF ROOTS' which is marketing copy, not product text; does not alter product identity.",
+          "counts": "reference: one charm bead with tree design, single branching pattern / ad: one identical charm bead, same design",
+          "parts": "No parts added or missing; charm appears complete and unaltered, no chain or additional elements added."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Warm golden light, autumn tones suit Delhi's pleasant October-November Diwali weather; no contradicting cues like snow or monsoon present."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "No conflicting cultural, religious, or geographic markers; scene is neutral and could believably belong to Delhi without contradiction."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or token souvenirs; warm light is natural golden-hour ambiance, not a stereotyped filter."
+    }
+  },
+  "cost_usd": 0.02842
+}

@@ -1,0 +1,54 @@
+{
+  "item_id": "p21",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"BUILT FOR FALL WORK\"",
+      "details": {
+        "transcription": "BUILT FOR FALL WORK",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Text is bold, high-contrast, and sharply rendered against the wood background, making it easily legible."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Shirt shape, pocket, and collar match, but the plaid colorway in the ad (brown/tan) differs from the reference's navy/white tone.",
+      "details": {
+        "observations": {
+          "presence": "Product shirt is shown in both images, worn by a model.",
+          "shape": "Same button-down short-sleeve shirt silhouette with chest pocket in both images.",
+          "colour": "Reference shirt is navy/gray/white plaid; ad shirt appears brown/tan/dark plaid — noticeably different colorway.",
+          "logo": "Carhartt pocket label visible in reference; not clearly visible in ad due to cropping/angle, but pocket shape matches.",
+          "prominent_text": "No readable brand text differences; small logo tag present in both.",
+          "counts": "reference: ~7 placket buttons + 1 collar button + 1 pocket flap button / ad: partial view shows ~5 buttons visible, consistent with same count given cropping.",
+          "parts": "Chest pocket, button-down collar, short sleeves all present in both; no added or missing parts."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "season_fit: Blossoming trees and lush green grass indicate spring, not autumn harvest season in Montana."
+    },
+    "season_fit": {
+      "verdict": "fail",
+      "reason": "Blossoming trees and lush green grass indicate spring, not autumn harvest season in Montana."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic farmland and orchard scene with no elements contradicting Montana or US rural culture."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No stereotyped landmarks, color filters, or token props; plaid shirt and gloves fit the product context."
+    }
+  },
+  "cost_usd": 0.02809
+}

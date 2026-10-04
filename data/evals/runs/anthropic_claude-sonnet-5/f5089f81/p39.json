@@ -1,0 +1,54 @@
+{
+  "item_id": "p39",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"FOR MY SISTER, WITH LOVE\"",
+      "details": {
+        "transcription": "FOR MY SISTER, WITH LOVE",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp, well-rendered, and fully legible against the sky background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product design, text, stone, and proportions match reference exactly; only staging context differs.",
+      "details": {
+        "observations": {
+          "presence": "The charm is shown in the advertisement, placed on a table alongside unrelated props (lechon, jeepney toy, gift box).",
+          "shape": "Heart-shaped charm with bail hole matches reference proportions.",
+          "colour": "Silver metal body with pink CZ stone matches reference.",
+          "logo": "No separate brand logo visible on charm itself in either image; 'S925' hallmark present in both.",
+          "prominent_text": "'Sister' script text is correctly spelled and styled the same as reference.",
+          "counts": "reference: 1 heart charm, 1 pink CZ stone / ad: 1 heart charm, 1 pink CZ stone",
+          "parts": "No added or missing parts; charm appears unthreaded/standalone in both images."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "no_cliche: Jeepney toy and lechon pig are token souvenir props placed beside unrelated jewelry purely to signal 'Philippines.'"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Warm dusk lighting and skyline fit Manila's tropical evening; no weather or seasonal contradiction present."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Jeepney and lechon are authentically Filipino, consistent with Manila setting; no wrong-country or foreign culture markers."
+    },
+    "no_cliche": {
+      "verdict": "fail",
+      "reason": "Jeepney toy and lechon pig are token souvenir props placed beside unrelated jewelry purely to signal 'Philippines.'"
+    }
+  },
+  "cost_usd": 0.0312
+}

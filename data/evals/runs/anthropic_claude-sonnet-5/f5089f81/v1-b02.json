@@ -1,0 +1,54 @@
+{
+  "item_id": "v1-b02",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"SUMMER GLOW 25% OFF\"",
+      "details": {
+        "transcription": "SUMMER GLOW 25% OFF",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp, bold, and clearly legible against the plain background banner."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Text clarity is reduced in the ad, but overall product identity, shape, and branding remain consistent.",
+      "details": {
+        "observations": {
+          "presence": "The product jar is shown in both images, consistent with the reference.",
+          "shape": "Cylindrical jar with flat lid, matching proportions of the reference.",
+          "colour": "White jar with black and red text, consistent with reference colours and materials.",
+          "logo": "Kiehl's logo present, correctly spelled and placed as in reference.",
+          "prominent_text": "Text is present but blurred/garbled in some areas, making it hard to read clearly compared to reference.",
+          "counts": "reference: 1 jar / ad: 1 jar",
+          "parts": "No missing or added parts; jar appears complete with lid and label."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "no_cliche: Opera House is used as a direct backdrop/location signal rather than integrated into a natural scene, a landmark cliché."
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Clear blue sky, bright sunlight, and calm harbor scene align with typical Sydney summer weather conditions."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Sydney Opera House and harbor setting authentically represent the Australian market without cultural contradictions."
+    },
+    "no_cliche": {
+      "verdict": "fail",
+      "reason": "Opera House is used as a direct backdrop/location signal rather than integrated into a natural scene, a landmark cliché."
+    }
+  },
+  "cost_usd": 0.02589
+}

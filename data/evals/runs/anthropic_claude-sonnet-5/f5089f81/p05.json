@@ -1,0 +1,54 @@
+{
+  "item_id": "p05",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "reads \"24-HOUR HYDRATION\" instead of \"48-HOUR HYDRATION\"",
+      "details": {
+        "transcription": "24-HOUR HYDRATION",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is large, white, and clearly rendered against the sky background with no distortion."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product appearance, text, and branding are consistent with reference; only staging (window, scarf) differs.",
+      "details": {
+        "observations": {
+          "presence": "Product jar is clearly shown in the ad, staged on a marble windowsill.",
+          "shape": "Cylindrical jar with white lid and blue body, matching reference proportions.",
+          "colour": "White lid, black label band, light blue translucent body - consistent with reference.",
+          "logo": "Neutrogena logo present, correct font and placement on black band.",
+          "prominent_text": "Hydro Boost, whipped body balm, Hyaluronic Acid, Dry to Extra Dry Skin all legible and correctly spelled.",
+          "counts": "reference: 1 jar / ad: 1 jar",
+          "parts": "No parts missing or added; label layout and silver trim line intact."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Frosted window, snow-covered lakefront park, and icy haze match Chicago's winter climate accurately."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Skyline silhouette with distinctive spire resembles Chicago's lakefront architecture; no foreign cultural elements present."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "Skyline used as genuine window view, not forced landmark prop; no stereotype filter or token souvenir items."
+    }
+  },
+  "cost_usd": 0.0279
+}

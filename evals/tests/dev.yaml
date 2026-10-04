@@ -1,0 +1,1219 @@
+- description: d2-b01 (d2)
+  vars:
+    item_id: d2-b01
+  metadata:
+    split: dev
+    source: d2
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'fail'
+    metric: product · catch
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'pass'
+    metric: context · pass
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: d2-b02 (d2)
+  vars:
+    item_id: d2-b02
+  metadata:
+    split: dev
+    source: d2
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'pass'
+    metric: product · pass
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'pass'
+    metric: context · pass
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: d2-b03 (d2)
+  vars:
+    item_id: d2-b03
+  metadata:
+    split: dev
+    source: d2
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'fail'
+    metric: product · catch
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'pass'
+    metric: context · pass
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: d2-b04 (d2)
+  vars:
+    item_id: d2-b04
+  metadata:
+    split: dev
+    source: d2
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'pass'
+    metric: context · pass
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: d2-b05 (d2)
+  vars:
+    item_id: d2-b05
+  metadata:
+    split: dev
+    source: d2
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'pass'
+    metric: product · pass
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'pass'
+    metric: context · pass
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: d2-b06 (d2)
+  vars:
+    item_id: d2-b06
+  metadata:
+    split: dev
+    source: d2
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'pass'
+    metric: product · pass
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'pass'
+    metric: context · pass
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: d2-b07 (d2)
+  vars:
+    item_id: d2-b07
+  metadata:
+    split: dev
+    source: d2
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'pass'
+    metric: context · pass
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: d2-b08 (d2)
+  vars:
+    item_id: d2-b08
+  metadata:
+    split: dev
+    source: d2
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'pass'
+    metric: product · pass
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'pass'
+    metric: context · pass
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: d2-b09 (d2)
+  vars:
+    item_id: d2-b09
+  metadata:
+    split: dev
+    source: d2
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'pass'
+    metric: product · pass
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'pass'
+    metric: context · pass
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: d2-b10 (d2)
+  vars:
+    item_id: d2-b10
+  metadata:
+    split: dev
+    source: d2
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'pass'
+    metric: context · pass
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: d2-b11 (d2)
+  vars:
+    item_id: d2-b11
+  metadata:
+    split: dev
+    source: d2
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'pass'
+    metric: product · pass
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'pass'
+    metric: context · pass
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: d2-b12 (d2)
+  vars:
+    item_id: d2-b12
+  metadata:
+    split: dev
+    source: d2
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'pass'
+    metric: product · pass
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'pass'
+    metric: context · pass
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: d2-b13 (d2)
+  vars:
+    item_id: d2-b13
+  metadata:
+    split: dev
+    source: d2
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'fail'
+    metric: product · catch
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'pass'
+    metric: context · pass
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: d2-b14 (d2)
+  vars:
+    item_id: d2-b14
+  metadata:
+    split: dev
+    source: d2
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'pass'
+    metric: context · pass
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: d2-b15 (d2)
+  vars:
+    item_id: d2-b15
+  metadata:
+    split: dev
+    source: d2
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'pass'
+    metric: product · pass
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'pass'
+    metric: context · pass
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: d2-b16 (d2)
+  vars:
+    item_id: d2-b16
+  metadata:
+    split: dev
+    source: d2
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'fail'
+    metric: text · catch
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'pass'
+    metric: product · pass
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'pass'
+    metric: context · pass
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: d2-b17 (d2)
+  vars:
+    item_id: d2-b17
+  metadata:
+    split: dev
+    source: d2
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'pass'
+    metric: product · pass
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'pass'
+    metric: context · pass
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: d2-b18 (d2)
+  vars:
+    item_id: d2-b18
+  metadata:
+    split: dev
+    source: d2
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'pass'
+    metric: context · pass
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: d2-b19 (d2)
+  vars:
+    item_id: d2-b19
+  metadata:
+    split: dev
+    source: d2
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'pass'
+    metric: context · pass
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: d2-b20 (d2)
+  vars:
+    item_id: d2-b20
+  metadata:
+    split: dev
+    source: d2
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'pass'
+    metric: product · pass
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'pass'
+    metric: context · pass
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: d2-b21 (d2)
+  vars:
+    item_id: d2-b21
+  metadata:
+    split: dev
+    source: d2
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'pass'
+    metric: product · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: d2-b22 (d2)
+  vars:
+    item_id: d2-b22
+  metadata:
+    split: dev
+    source: d2
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'pass'
+    metric: product · pass
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'pass'
+    metric: context · pass
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: v1-b02 (v1)
+  vars:
+    item_id: v1-b02
+  metadata:
+    split: dev
+    source: v1
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'fail'
+    metric: context · catch
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'fail'
+    metric: no_cliche · catch
+- description: v1-b16 (v1)
+  vars:
+    item_id: v1-b16
+  metadata:
+    split: dev
+    source: v1
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'fail'
+    metric: context · catch
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'fail'
+    metric: no_cliche · catch
+- description: v1-b17 (v1)
+  vars:
+    item_id: v1-b17
+  metadata:
+    split: dev
+    source: v1
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'fail'
+    metric: context · catch
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'fail'
+    metric: season_fit · catch
+- description: v2-b02 (v2)
+  vars:
+    item_id: v2-b02
+  metadata:
+    split: dev
+    source: v2
+    severity: ''
+  assert: []
+- description: v2-b22 (v2)
+  vars:
+    item_id: v2-b22
+  metadata:
+    split: dev
+    source: v2
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'fail'
+    metric: product · catch
+- description: v3-b03 (v3)
+  vars:
+    item_id: v3-b03
+  metadata:
+    split: dev
+    source: v3
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'fail'
+    metric: context · catch
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'fail'
+    metric: no_cliche · catch
+- description: v3-b15 (v3)
+  vars:
+    item_id: v3-b15
+  metadata:
+    split: dev
+    source: v3
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'fail'
+    metric: text · catch
+- description: v3-b22 (v3)
+  vars:
+    item_id: v3-b22
+  metadata:
+    split: dev
+    source: v3
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'fail'
+    metric: text · catch
+- description: v3-b17 (v3)
+  vars:
+    item_id: v3-b17
+  metadata:
+    split: dev
+    source: v3
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'fail'
+    metric: text · catch
+- description: d-b05 (d)
+  vars:
+    item_id: d-b05
+  metadata:
+    split: dev
+    source: d
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'fail'
+    metric: text · catch
+- description: d-b07 (d)
+  vars:
+    item_id: d-b07
+  metadata:
+    split: dev
+    source: d
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'fail'
+    metric: product · catch
+- description: d-b08 (d)
+  vars:
+    item_id: d-b08
+  metadata:
+    split: dev
+    source: d
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'fail'
+    metric: product · catch
+- description: d-b10 (d)
+  vars:
+    item_id: d-b10
+  metadata:
+    split: dev
+    source: d
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'fail'
+    metric: text · catch
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'fail'
+    metric: context · catch
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'fail'
+    metric: no_cliche · catch
+- description: d-b17 (d)
+  vars:
+    item_id: d-b17
+  metadata:
+    split: dev
+    source: d
+    severity: ''
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'fail'
+    metric: text · catch
+- description: p01 (planted)
+  vars:
+    item_id: p01
+  metadata:
+    split: dev
+    source: planted
+    severity: subtle
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'fail'
+    metric: text · catch
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'fail'
+    metric: product · catch
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'pass'
+    metric: context · pass
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: p02 (planted)
+  vars:
+    item_id: p02
+  metadata:
+    split: dev
+    source: planted
+    severity: subtle
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'fail'
+    metric: text · catch
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'pass'
+    metric: product · pass
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'pass'
+    metric: context · pass
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: p03 (planted)
+  vars:
+    item_id: p03
+  metadata:
+    split: dev
+    source: planted
+    severity: subtle
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'fail'
+    metric: text · catch
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'pass'
+    metric: context · pass
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: p04 (planted)
+  vars:
+    item_id: p04
+  metadata:
+    split: dev
+    source: planted
+    severity: moderate
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'fail'
+    metric: text · catch
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'pass'
+    metric: product · pass
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'pass'
+    metric: context · pass
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: p10 (planted)
+  vars:
+    item_id: p10
+  metadata:
+    split: dev
+    source: planted
+    severity: moderate
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'fail'
+    metric: product · catch
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'pass'
+    metric: context · pass
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: p11 (planted)
+  vars:
+    item_id: p11
+  metadata:
+    split: dev
+    source: planted
+    severity: subtle
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'fail'
+    metric: product · catch
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'pass'
+    metric: context · pass
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: p12 (planted)
+  vars:
+    item_id: p12
+  metadata:
+    split: dev
+    source: planted
+    severity: subtle
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'fail'
+    metric: product · catch
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'pass'
+    metric: context · pass
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: p13 (planted)
+  vars:
+    item_id: p13
+  metadata:
+    split: dev
+    source: planted
+    severity: moderate
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'fail'
+    metric: product · catch
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'pass'
+    metric: context · pass
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: p14 (planted)
+  vars:
+    item_id: p14
+  metadata:
+    split: dev
+    source: planted
+    severity: moderate
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'fail'
+    metric: product · catch
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'pass'
+    metric: context · pass
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: p19 (planted)
+  vars:
+    item_id: p19
+  metadata:
+    split: dev
+    source: planted
+    severity: moderate
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'pass'
+    metric: product · pass
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'fail'
+    metric: context · catch
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'fail'
+    metric: season_fit · catch
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: p20 (planted)
+  vars:
+    item_id: p20
+  metadata:
+    split: dev
+    source: planted
+    severity: blatant
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'fail'
+    metric: context · catch
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'fail'
+    metric: season_fit · catch
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: p21 (planted)
+  vars:
+    item_id: p21
+  metadata:
+    split: dev
+    source: planted
+    severity: moderate
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'fail'
+    metric: context · catch
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'fail'
+    metric: season_fit · catch
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: p22 (planted)
+  vars:
+    item_id: p22
+  metadata:
+    split: dev
+    source: planted
+    severity: blatant
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'pass'
+    metric: product · pass
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'fail'
+    metric: context · catch
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'fail'
+    metric: market_fit · catch
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: p27 (planted)
+  vars:
+    item_id: p27
+  metadata:
+    split: dev
+    source: planted
+    severity: moderate
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'pass'
+    metric: product · pass
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'fail'
+    metric: context · catch
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'fail'
+    metric: market_fit · catch
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: p28 (planted)
+  vars:
+    item_id: p28
+  metadata:
+    split: dev
+    source: planted
+    severity: moderate
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'fail'
+    metric: context · catch
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'fail'
+    metric: season_fit · catch
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: p29 (planted)
+  vars:
+    item_id: p29
+  metadata:
+    split: dev
+    source: planted
+    severity: blatant
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'fail'
+    metric: context · catch
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'fail'
+    metric: market_fit · catch
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: p30 (planted)
+  vars:
+    item_id: p30
+  metadata:
+    split: dev
+    source: planted
+    severity: moderate
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'pass'
+    metric: product · pass
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'fail'
+    metric: context · catch
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'fail'
+    metric: market_fit · catch
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: p31 (planted)
+  vars:
+    item_id: p31
+  metadata:
+    split: dev
+    source: planted
+    severity: moderate
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'pass'
+    metric: product · pass
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'fail'
+    metric: context · catch
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'fail'
+    metric: season_fit · catch
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'pass'
+    metric: no_cliche · pass
+- description: p32 (planted)
+  vars:
+    item_id: p32
+  metadata:
+    split: dev
+    source: planted
+    severity: moderate
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'pass'
+    metric: product · pass
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'fail'
+    metric: context · catch
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'fail'
+    metric: no_cliche · catch
+- description: p33 (planted)
+  vars:
+    item_id: p33
+  metadata:
+    split: dev
+    source: planted
+    severity: blatant
+  assert:
+  - type: javascript
+    value: JSON.parse(output).checks.text.verdict === 'pass'
+    metric: text · pass
+  - type: javascript
+    value: JSON.parse(output).checks.product.verdict === 'pass'
+    metric: product · pass
+  - type: javascript
+    value: JSON.parse(output).checks.context.verdict === 'fail'
+    metric: context · catch
+  - type: javascript
+    value: JSON.parse(output).checks.season_fit.verdict === 'pass'
+    metric: season_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.market_fit.verdict === 'pass'
+    metric: market_fit · pass
+  - type: javascript
+    value: JSON.parse(output).checks.no_cliche.verdict === 'fail'
+    metric: no_cliche · catch

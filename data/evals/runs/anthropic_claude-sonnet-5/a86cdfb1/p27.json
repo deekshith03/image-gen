@@ -1,0 +1,54 @@
+{
+  "item_id": "p27",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"A GIFT OF ROOTS\"",
+      "details": {
+        "transcription": "A GIFT OF ROOTS",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharp, well-lit, and rendered in a clean serif font with no distortion."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Charm design, shape, and color match reference exactly; only staging (table, props) differs.",
+      "details": {
+        "observations": {
+          "presence": "The charm is shown in the ad, placed on a table surface.",
+          "shape": "Same round openwork charm shape with tree of life design, consistent with reference.",
+          "colour": "Same silver-tone metal matching reference.",
+          "logo": "No visible branding in ad image; reference also has no visible logo in frame.",
+          "prominent_text": "No product text on the charm itself; ad includes unrelated text 'A GIFT OF ROOTS'.",
+          "counts": "reference: 1 charm / ad: 1 charm — consistent count.",
+          "parts": "No added or missing parts; design elements (tree, swirls, cut-outs) match reference."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "market_fit: Christmas tree and Santa Claus figurine represent a different festival entirely, clashing with the Diwali/Indian target market.; no_cliche: Entire scene is washed in a warm sepia/golden-orange haze, a stereotyped color-grading cliché often applied to South Asian settings."
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Indoor festive scene with no weather cues; nothing contradicts Delhi's Diwali-season climate or temperature."
+    },
+    "market_fit": {
+      "verdict": "fail",
+      "reason": "Christmas tree and Santa Claus figurine represent a different festival entirely, clashing with the Diwali/Indian target market."
+    },
+    "no_cliche": {
+      "verdict": "fail",
+      "reason": "Entire scene is washed in a warm sepia/golden-orange haze, a stereotyped color-grading cliché often applied to South Asian settings."
+    }
+  },
+  "cost_usd": 0.0336
+}

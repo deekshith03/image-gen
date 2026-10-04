@@ -1,0 +1,54 @@
+{
+  "item_id": "p01",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "reads \"WINTER-PROOF YOUR SKN\" instead of \"WINTER-PROOF YOUR SKIN\"",
+      "details": {
+        "transcription": "WINTER-PROOF YOUR SKN",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline is sharply rendered but 'SKN' is missing the letter 'I', appearing as a typo for 'SKIN'."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Product jar is correct in shape/color, but label text is garbled and brand founding date altered (1851→1691).",
+      "details": {
+        "observations": {
+          "presence": "Product jar is shown, matching the reference packaging shape.",
+          "shape": "Cylindrical jar with flat lid matches reference.",
+          "colour": "White jar, black text, red accent line — consistent with reference.",
+          "logo": "Kiehl's logo present but date reads '1691' instead of correct '1851'.",
+          "prominent_text": "Label text is garbled/misspelled throughout: 'Oreotlond Pirst Aseeat' instead of 'Greenland First Ascent', 'Detracis' instead of 'Extracts', 'Glyeaproistns' instead of 'Glycoproteins'. Headline also misspells 'SKIN' as 'SKN'.",
+          "counts": "reference: 1 jar / ad: 1 jar — count matches.",
+          "parts": "No missing or added parts; jar and lid intact."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Snow visible on windowsill outside, overcast sky, cozy knit fabric all align with authentic NYC winter weather."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Brick building with fire escape is a believable, subtle NYC architectural cue, no foreign landmarks or culture shown."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "Fire escape and brick facade are natural NYC architecture, not forced props; no flags, filters, or stereotypes used."
+    }
+  },
+  "cost_usd": 0.03014
+}

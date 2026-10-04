@@ -1,0 +1,54 @@
+{
+  "item_id": "d-b07",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"COSY MUG CAKE IN 1 MINUTE\"",
+      "details": {
+        "transcription": "COSY MUG CAKE IN 1 MINUTE",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp, bold, and clearly legible with no distortion or garbling present."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product identity (mug design, cake appearance, chocolate chips) matches reference; background box too blurred to verify text but overall fidelity maintained.",
+      "details": {
+        "observations": {
+          "presence": "The mug cake itself is shown in the mug; the product box is also visible in the background, though small and partly blurred.",
+          "shape": "Mug shape and cake dome shape match the reference (same rounded mug with handle, cake mounded above rim).",
+          "colour": "Mug color/pattern (white with teal/blue floral dot pattern) matches reference; cake color golden with chocolate chips matches.",
+          "logo": "Duncan Hines logo visible on the box in background, but text is too small/blurred to confirm exact rendering.",
+          "prominent_text": "Box text is illegible due to small size and blur, cannot confirm 'Mug Cakes' or 'Chocolate Chip Cookie Cake' wording.",
+          "counts": "reference: 1 mug cake shown / ad: 1 mug cake shown - counts match.",
+          "parts": "No extra or missing parts; mug, cake, and chocolate chips all present as in reference."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Rainy window, warm sweater, steaming hot mug cake all align with cold, wet London winter weather."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "No landmarks, festivals, or foreign cultural markers present; generic cosy indoor scene fits London setting."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No stereotyped filters or token cultural props; sweater and mug cake relate naturally to the product moment."
+    }
+  },
+  "cost_usd": 0.02868
+}

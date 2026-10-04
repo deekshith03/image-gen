@@ -1,0 +1,54 @@
+{
+  "item_id": "p23",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"SEE THE SUMMER\"",
+      "details": {
+        "transcription": "SEE THE SUMMER",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharply rendered in solid dark blue, bold sans-serif font against a plain light background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Sunglasses in the ad match the reference in shape, color, materials, and branding; only staging (water, angle) differs.",
+      "details": {
+        "observations": {
+          "presence": "The product (Ray-Ban RB3447 Round sunglasses) is clearly shown in the advertisement, sitting on a wet surface.",
+          "shape": "Round lens shape, thin metal frame, and double-bridge design match the reference photo.",
+          "colour": "Gold metal frame with green mirror lenses matches the reference; water droplets are staging and acceptable.",
+          "logo": "Ray-Ban logo appears on the lens in both images, consistent in placement and style.",
+          "prominent_text": "No additional product text beyond the brand logo; matches reference.",
+          "counts": "reference: 2 lenses, 2 temple arms / ad: 2 lenses, 2 temple arms - counts match.",
+          "parts": "All parts present: frame, both temples, nose pads, lenses - nothing missing or added."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "season_fit: Heavy rain, wet surfaces and overcast sky contradict Santorini's dry, sunny summer climate."
+    },
+    "season_fit": {
+      "verdict": "fail",
+      "reason": "Heavy rain, wet surfaces and overcast sky contradict Santorini's dry, sunny summer climate."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic coastal/hill backdrop is ambiguous but doesn't invoke another country's culture or landmarks."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmark, stereotype, color filter, or token souvenir props used to signal location."
+    }
+  },
+  "cost_usd": 0.02721
+}

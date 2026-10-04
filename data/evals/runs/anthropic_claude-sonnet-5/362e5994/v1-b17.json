@@ -1,0 +1,52 @@
+{
+  "item_id": "v1-b17",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"ランニングセール\"",
+      "details": {
+        "transcription": "ランニングセール",
+        "legibility": "clear",
+        "judge_reason": "Text is sharply rendered in bold black Japanese characters against a light background, easily readable."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Shoe design, colorway, logo, and proportions match reference; staging (outdoor setting, props) does not alter identity.",
+      "details": {
+        "observations": {
+          "shape": "Same low-top Flyknit silhouette, swoosh placement, lace structure, and sole unit profile match reference.",
+          "colour": "Consistent white/platinum knit upper, black swoosh, white Lunarlon midsole with gray ribbing.",
+          "logo": "Nike swoosh correctly shaped and placed; 'NIKE' text tab on heel present and legible.",
+          "label_text": "Heel tongue text appears consistent with 'LunarEpic Flyknit 2' styling, no garbled characters.",
+          "parts_and_count": "Single shoe shown, matching reference single-shoe presentation, no extra or missing components.",
+          "presence": "Actual product shown staged outdoors, not just packaging."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Bright sunlight, short sleeves, light clothing, and green foliage all suggest warm summer weather typical of Tokyo."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Japanese text, Aquarius water bottle (popular in Japan), urban concrete setting, and attire all feel authentic to Tokyo."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or stereotypical props; Japanese branded beverage and script integrate naturally into the scene."
+    }
+  },
+  "cost_usd": 0.02457
+}

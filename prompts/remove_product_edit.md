@@ -1,0 +1,1 @@
+Edit the attached advertisement: remove the product and all headline or slogan text, filling those areas naturally so the scene looks complete and empty, with a clear surface in the lower right where an object could stand. Keep the setting, light and composition identical.

@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b26",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"TREINO DE INVERNO\"",
+      "details": {
+        "transcription": "TREINO DE INVERNO",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is bold, well-rendered, and clearly legible with no distortions."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product container design, logo, text, and colors consistent with reference; only staged with background/lighting changes.",
+      "details": {
+        "observations": {
+          "presence": "The product container is shown in the advertisement, matching the reference photo.",
+          "shape": "Cylindrical tub with black lid and label, consistent with reference proportions.",
+          "colour": "Black container with black/grey label, blue 'PRE WORKOUT' text, red banner - matches reference.",
+          "logo": "OWN PWR logo present, same font and placement as reference.",
+          "prominent_text": "ELITE SERIES and PRE WORKOUT text visible and correctly spelled, matching reference.",
+          "counts": "reference: 1 container / ad: 1 container - matches.",
+          "parts": "Supplement facts panel, nutrient callouts (300mg caffeine, etc.) appear present though small/blurry; no missing or added parts observed."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Overcast, hazy skyline matches São Paulo's mild, cloudy winter; no snow or summer cues shown, consistent with local climate."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic modern skyline plausibly resembles São Paulo; no foreign landmarks, scripts, or festivals contradicting the market."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or token cultural props; cool grey tone is mood lighting, not a stereotyped filter."
+    }
+  },
+  "cost_usd": 0.02929
+}

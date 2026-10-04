@@ -1,0 +1,52 @@
+{
+  "item_id": "d2-b22",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"€79 LIMITED EDITION\"",
+      "details": {
+        "transcription": "€79 LIMITED EDITION",
+        "legibility": "clear",
+        "judge_reason": "Text is sharply rendered in a clean font with good contrast against the dark wood background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Charm design, proportions, and silver finish match reference; staged on table with props, no identity change detected.",
+      "details": {
+        "observations": {
+          "shape": "Round openwork charm with tree of life motif, consistent with reference image proportions and bead hole",
+          "colour": "Sterling silver tone matches reference, same oxidized detailing in crevices",
+          "logo": "No visible logo in either image to compare",
+          "label_text": "Ad text reads '€79 LIMITED EDITION' - promotional text, not product label text; no garbled text present",
+          "parts_and_count": "Single charm shown, same tree design with swirling branches and roots, matches reference count and design",
+          "presence": "Actual physical product charm is shown on display, not just packaging imagery"
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Dusk sky, lit windows, warm scarf, indoor chandelier ambiance all suggest cold winter evening appropriately."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "European architecture, streetlamp, and cozy café interior plausibly evoke Vienna without contradicting the setting."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmark or national symbol; scene relies on mood and architecture rather than stereotype props."
+    }
+  },
+  "cost_usd": 0.02599
+}

@@ -1,0 +1,54 @@
+{
+  "item_id": "p33",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"DULCE OTOÑO\"",
+      "details": {
+        "transcription": "DULCE OTOÑO",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is large, bold, and clearly legible with no distortion or garbling."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "All key identity elements—logo, text, color scheme, and product shape—are preserved accurately in the advertisement.",
+      "details": {
+        "observations": {
+          "presence": "The product box is shown in the ad, along with a mug cake matching the product styling, consistent with the reference image.",
+          "shape": "Box shape and proportions match the reference; mug shape is consistent with the one depicted on the box.",
+          "colour": "Colours match: red box with blue accent band, white mug with blue floral pattern, chocolate chip cookie cake coloring consistent.",
+          "logo": "Duncan Hines logo appears correctly spelled and placed consistently with the reference image.",
+          "prominent_text": "'Mug Cakes' and 'chocolate chip cookie cake' text is legible and matches reference; no garbling observed.",
+          "counts": "reference: 1 box, 1 mug shown / ad: 1 box, 1 mug shown — consistent count.",
+          "parts": "No missing or added components; box and mug are both present as in reference, no extra items altering product identity."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "no_cliche: Mini sombrero and maracas are token stereotypical props placed beside the mug cake solely to signal 'Mexico'."
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Lush green trees visible outside window match Mexico City's autumn, which stays green post-rainy season."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "No wrong-country landmarks, scripts, or festivals present; generic balcony/street scene is plausible for Mexico City."
+    },
+    "no_cliche": {
+      "verdict": "fail",
+      "reason": "Mini sombrero and maracas are token stereotypical props placed beside the mug cake solely to signal 'Mexico'."
+    }
+  },
+  "cost_usd": 0.03006
+}

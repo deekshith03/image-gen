@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b36",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"WATER RESIST 200M\"",
+      "details": {
+        "transcription": "WATER RESIST 200M",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is bold, white, sharply rendered against dark background with no distortion or overlap."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "All design elements, text, logo, and proportions match reference; only staging (rain, angle) differs, which is allowed.",
+      "details": {
+        "observations": {
+          "presence": "The watch is present in the ad, shown worn/held at an angle with rain effects added.",
+          "shape": "Case shape, bezel, bracelet links, and button placements match the reference.",
+          "colour": "Matches reference: stainless steel bracelet/case, black resin bezel, grayish-blue dial.",
+          "logo": "G-SHOCK logo visible on bezel in correct placement and font, matches reference.",
+          "prominent_text": "CASIO, MT-G, WATER 200M RESIST, ADJUST, MODE, RECEIVE, TIME MEMO all legible and correctly spelled, matching reference. Time display shows FRI 8:29 02, 4-26, matching reference exactly.",
+          "counts": "reference: 1 watch, single dial, standard button/crown count / ad: 1 watch, same dial and button layout",
+          "parts": "No missing or added components; all text labels, sub-displays, and bracelet links consistent with reference."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Visible rain, wet pavement and droplets on watch match Jakarta's rainy season conditions accurately."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic blurred city skyline with bokeh lights; no conflicting foreign landmarks, scripts or cultural markers present."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmark, flag, or token props; rain and reflections genuinely fit the product's water-resistance message."
+    }
+  },
+  "cost_usd": 0.02576
+}

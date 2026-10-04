@@ -1,0 +1,54 @@
+{
+  "item_id": "v1-b28",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"SHARE THE WARMTH\"",
+      "details": {
+        "transcription": "SHARE THE WARMTH",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp, well-rendered serif font with no distortion or nonsense characters."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Package design, logo, text, and product depiction remain consistent with reference; only background staging differs.",
+      "details": {
+        "observations": {
+          "presence": "Product package (Nutella Biscuits x22) is shown in both images, consistent with reference.",
+          "shape": "Pouch shape, biscuit shape, and heart-stamped design match reference.",
+          "colour": "Packaging colours (white, red, black, brown) and biscuit tones match reference.",
+          "logo": "Nutella logo and heart icon with 'n' match reference in style and placement.",
+          "prominent_text": "'nutella biscuits' and 'x22' text match reference exactly in font and placement.",
+          "counts": "reference: 22 biscuits per pack label, biscuits shown as stack of ~6 / ad: same x22 label, similar stack of biscuits shown.",
+          "parts": "No added or missing elements; packaging design elements (wheat, hazelnut, fruit icons) consistent."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "no_cliche: Hagia Sophia forced as location signal plus Turkish tea glass placed as token prop beside biscuits."
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Snow on rooftops, bundled pedestrians, and steaming tea match Istanbul's cold, snowy winter accurately."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Hagia Sophia, tram, and Turkish tea glass are authentic to Istanbul with no contradicting cultural elements."
+    },
+    "no_cliche": {
+      "verdict": "fail",
+      "reason": "Hagia Sophia forced as location signal plus Turkish tea glass placed as token prop beside biscuits."
+    }
+  },
+  "cost_usd": 0.02966
+}

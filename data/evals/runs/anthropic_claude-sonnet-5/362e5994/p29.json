@@ -1,0 +1,52 @@
+{
+  "item_id": "p29",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"ONLY AED 299\"",
+      "details": {
+        "transcription": "ONLY AED 299",
+        "legibility": "clear",
+        "judge_reason": "Text is sharply rendered in a clean serif font with good contrast against the background."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Brand name placement altered (merged onto plate) and text color changed from silver to gold, altering logo fidelity.",
+      "details": {
+        "observations": {
+          "shape": "Bottle shape, cap, and proportions match the reference accurately.",
+          "colour": "Blue glass matches, but 'EAU FRAÎCHE' text is gold/bronze instead of silver.",
+          "logo": "Metal plate now reads 'VERSACE MAN' together; reference has separate 'VERSACE' engraved above plate reading only 'MAN'.",
+          "label_text": "Text color altered and brand layout compressed onto single plate, differing from reference arrangement.",
+          "parts_and_count": "Single bottle shown, correct count, no added/missing parts.",
+          "presence": "Actual product bottle is shown, not just packaging imagery."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "season_fit: Bright sunny poolside sky could suit Dubai winter, but scene is Sydney (Southern Hemisphere summer), not UAE winter.; market_fit: Sydney Harbour Bridge clearly signals Australia, not Dubai/UAE, contradicting the target market entirely.; no_cliche: A famous landmark is forced in as a location cue, and it's even the wrong country's landmark."
+    },
+    "season_fit": {
+      "verdict": "fail",
+      "reason": "Bright sunny poolside sky could suit Dubai winter, but scene is Sydney (Southern Hemisphere summer), not UAE winter."
+    },
+    "market_fit": {
+      "verdict": "fail",
+      "reason": "Sydney Harbour Bridge clearly signals Australia, not Dubai/UAE, contradicting the target market entirely."
+    },
+    "no_cliche": {
+      "verdict": "fail",
+      "reason": "A famous landmark is forced in as a location cue, and it's even the wrong country's landmark."
+    }
+  },
+  "cost_usd": 0.03187
+}

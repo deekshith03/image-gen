@@ -1,0 +1,54 @@
+{
+  "item_id": "d-b17",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "reads \"ランニングセール ランニングセール\" instead of \"ランニングセール\"",
+      "details": {
+        "transcription": "ランニングセール ランニングセール",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Both headline lines are crisp, high-contrast Japanese text, clearly legible against the plain background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Shoe design, color, logo, and text all match reference; only staging (angle, background, ad text) differs.",
+      "details": {
+        "observations": {
+          "presence": "Product (Nike LunarEpic Low Flyknit 2 shoe) is shown in the advertisement.",
+          "shape": "Shoe shape, silhouette, sole design, and proportions match the reference image.",
+          "colour": "White/grey Flyknit upper with black Nike swoosh and white Lunarlon sole match the reference.",
+          "logo": "Nike swoosh logo present on side, correctly shaped and placed; 'NIKE' text tag on heel pull-tab matches.",
+          "prominent_text": "'NIKE' on heel tab is legible and correctly spelled; Japanese ad text is separate marketing copy, not product text.",
+          "counts": "reference: 1 shoe shown / ad: 1 shoe shown — matches.",
+          "parts": "No added or missing components; laces, heel tab, sole pattern all consistent with reference."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Bright sunny outdoor scene with no cold-weather cues, consistent with Tokyo summer; no contradiction present."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Japanese text used correctly; no foreign landmarks, festivals, or conflicting cultural elements present."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No stereotyped filters, forced landmarks, or token cultural props; just product and text on plain background."
+    }
+  },
+  "cost_usd": 0.02608
+}

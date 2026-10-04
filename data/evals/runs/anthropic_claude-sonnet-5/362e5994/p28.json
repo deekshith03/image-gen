@@ -1,0 +1,52 @@
+{
+  "item_id": "p28",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"COSY MUG CAKE IN 1 MINUTE\"",
+      "details": {
+        "transcription": "COSY MUG CAKE IN 1 MINUTE",
+        "legibility": "clear",
+        "judge_reason": "Text is sharp, well-contrasted against the sky background, and fully legible."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Fine print on box is garbled ('INDIVIOUAL POUEHES') compared to correct 'INDIVIDUAL POUCHES' in reference, indicating identity distortion.",
+      "details": {
+        "observations": {
+          "shape": "Box shape and mug shape match reference, slightly smaller scale in ad but proportionate.",
+          "colour": "Red box, blue label band, white mug with blue floral pattern all consistent with reference.",
+          "logo": "Duncan Hines logo correctly spelled and positioned as in reference.",
+          "label_text": "Text appears garbled: reads 'INDIVIOUAL POUEHES' instead of 'INDIVIDUAL POUCHES'.",
+          "parts_and_count": "Two mugs shown instead of one box with one mug view; consistent with staging of holding product.",
+          "presence": "Product (box and mug cake) is clearly displayed, not just packaging."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "season_fit: Bright blue sky, lush green trees in full leaf, and sunny lighting indicate summer, not winter in London.; market_fit: Chimney pots and brick rooftops suggest UK architecture, fitting London, but the warm summery scene contradicts winter marketing."
+    },
+    "season_fit": {
+      "verdict": "fail",
+      "reason": "Bright blue sky, lush green trees in full leaf, and sunny lighting indicate summer, not winter in London."
+    },
+    "market_fit": {
+      "verdict": "fail",
+      "reason": "Chimney pots and brick rooftops suggest UK architecture, fitting London, but the warm summery scene contradicts winter marketing."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No landmark or flag used; chimney pots feel like a natural rooftop view rather than a forced nationality cue."
+    }
+  },
+  "cost_usd": 0.02972
+}

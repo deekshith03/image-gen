@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b42",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"PACK FOR PARADISE\"",
+      "details": {
+        "transcription": "PACK FOR PARADISE",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharp, well-spaced, and rendered in clear serif font against a plain background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product design, color, logo, and parts are consistent between reference and ad image; only staging/background differs.",
+      "details": {
+        "observations": {
+          "presence": "The suitcase is shown in both images, matching the reference product.",
+          "shape": "Same boxy upright carry-on shape with telescoping handle, top/side handles, and spinner wheels.",
+          "colour": "Same black and white houndstooth pattern with black trim throughout.",
+          "logo": "London Fog logo badge present on front pocket in both images, consistent placement and form.",
+          "prominent_text": "Handle text 'LONDON FOG' visible in reference; in ad image handle text is too small to confirm but shape matches.",
+          "counts": "reference: 8 spinner wheels (4 dual wheels), 2 front zip pockets / ad: 8 spinner wheels visible, 2 front zip pockets - consistent.",
+          "parts": "All parts present: telescoping handle, top handle, side handle, front pockets, zippers, wheels - nothing missing or added."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Bright sunny weather with strong shadows and clear sky matches Bali's dry season conditions well."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Neutral architecture, plant, and suitcase don't contradict Indonesian or Balinese culture or geography."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, stereotypes, token souvenirs, or drab color-washed filters; scene is generic sunny patio."
+    }
+  },
+  "cost_usd": 0.0257
+}

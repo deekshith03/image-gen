@@ -1,0 +1,69 @@
+{
+  "run_id": "20261004-174745-demo-3b37",
+  "brief": {
+    "id": "demo",
+    "product": "timex_expedition_chrono",
+    "geo": "Paris, France",
+    "season": "Summer",
+    "text": "GET GOING"
+  },
+  "outcome": "passed",
+  "final": "00_generate.png",
+  "cost_usd": 0.1045,
+  "attempts": [
+    {
+      "label": "generate",
+      "image": "00_generate.png",
+      "failures": [],
+      "cost_usd": 0.02924,
+      "passed": true,
+      "checks": {
+        "size": {
+          "verdict": "pass",
+          "reason": "1024×1024, long edge ≤ 1024px"
+        },
+        "text": {
+          "verdict": "pass",
+          "reason": "reads exactly \"GET GOING\"",
+          "details": {
+            "transcription": "GET GOING",
+            "legibility": "clear",
+            "scene_garble": "",
+            "judge_reason": "Headline text is bold, sharp, and clearly legible against the blurred background scene."
+          }
+        },
+        "product": {
+          "verdict": "pass",
+          "reason": "Watch design, color, dial layout, and components match the reference despite different staging and angle.",
+          "details": {
+            "observations": {
+              "presence": "The product (watch) is clearly shown on a stone ledge in the ad, matching the reference item.",
+              "shape": "Round case, three sub-dials, date window, and crown/pusher configuration match the reference.",
+              "colour": "Black dial, tan/cream numerals, brown leather strap, black case — consistent with reference.",
+              "logo": "Timex logo position and dial layout appear consistent, though text is small and slightly blurred.",
+              "prominent_text": "Visible dial text (Timex, Expedition, Chronograph) is present but too small to fully verify; no obvious garbling.",
+              "counts": "reference: 3 sub-dials, 2 pushers, 1 crown / ad: 3 sub-dials, 2 pushers, 1 crown — consistent.",
+              "parts": "No missing or added components; strap, case, crown, and pushers all accounted for."
+            }
+          }
+        },
+        "context": {
+          "verdict": "pass",
+          "reason": "all context checks pass"
+        },
+        "season_fit": {
+          "verdict": "pass",
+          "reason": "Bright sunny outdoor scene with warm light, bicycle and map suggest a pleasant warm day, consistent with Parisian summer."
+        },
+        "market_fit": {
+          "verdict": "pass",
+          "reason": "No landmarks, scripts, or cultural elements contradict Paris; generic street, bike, and map scene fits plausibly."
+        },
+        "no_cliche": {
+          "verdict": "pass",
+          "reason": "No forced landmarks, stereotypes, or token souvenirs; bike and map relate naturally to the 'get going' travel theme."
+        }
+      }
+    }
+  ]
+}

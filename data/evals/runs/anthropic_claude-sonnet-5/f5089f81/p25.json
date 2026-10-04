@@ -1,0 +1,54 @@
+{
+  "item_id": "p25",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"MERENDA D'AUTUNNO\"",
+      "details": {
+        "transcription": "MERENDA D'AUTUNNO",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is bold, sharp, and clearly legible against the blurred background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Product packaging, branding, and text are accurately reproduced; only staging (café scene, plate, coffee) differs, which is allowed.",
+      "details": {
+        "observations": {
+          "presence": "The Nutella Biscuits x22 package is clearly shown on the table in the advertisement, matching the reference product.",
+          "shape": "Package shape and proportions (pouch bag with resealable top) are consistent with the reference.",
+          "colour": "Colour scheme matches: white background, red 'nutella' logo, brown accents, biscuit imagery.",
+          "logo": "Nutella logo spelling, font, and heart 'n' emblem are correctly reproduced and placed consistently.",
+          "prominent_text": "'nutella biscuits' and 'x22' text are correctly spelled and positioned as in the reference.",
+          "counts": "reference: x22 label, biscuits pictured on bag and plate / ad: x22 label retained, two biscuits shown on plate (staging variation, acceptable)",
+          "parts": "No missing or added components; packaging design elements (wheat, hazelnut, heart logo) all present."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "market_fit: Red double-decker bus and red phone booth are unmistakable London icons, contradicting the Milan, Italy setting."
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Golden autumn foliage, warm blanket, and light layering match Milan's mild, golden autumn weather accurately."
+    },
+    "market_fit": {
+      "verdict": "fail",
+      "reason": "Red double-decker bus and red phone booth are unmistakable London icons, contradicting the Milan, Italy setting."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced Italian landmarks, flags, or stereotyped color filter; lighting is natural golden-hour autumn tone."
+    }
+  },
+  "cost_usd": 0.03152
+}

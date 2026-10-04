@@ -1,0 +1,54 @@
+{
+  "item_id": "p06",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "reads \"WARM STARST AT 6AM\" instead of \"WARM STARTS AT 6AM\"",
+      "details": {
+        "transcription": "WARM STARST AT 6AM",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp and legible, though 'STARST' appears to be a misspelling of 'START'."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Product packaging is accurate, but headline ad text contains a spelling error ('STARST').",
+      "details": {
+        "observations": {
+          "presence": "Product container is shown on the table in the ad, matching the reference package.",
+          "shape": "Cylindrical container shape matches reference.",
+          "colour": "Red, navy, white, and gold color scheme consistent with reference.",
+          "logo": "Quaker Oats logo and Quaker Man illustration present and correctly placed.",
+          "prominent_text": "Ad text reads 'QUAKER OATS' and 'OLD FASHIONED' correctly, but headline text says 'WARM STARST AT 6AM' which is garbled (should likely be 'START').",
+          "counts": "reference: 1 container / ad: 1 container — consistent.",
+          "parts": "No missing or added parts to the product package itself."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Dark early morning sky, misty hills, and warm oatmeal breakfast align well with Edinburgh winter mornings at 6am."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Scene is a generic kitchen with misty hills visible through window; nothing contradicts Scottish setting."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or token Scottish props; kitchen and kettle scene fits naturally without stereotype."
+    }
+  },
+  "cost_usd": 0.02801
+}

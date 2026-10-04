@@ -1,0 +1,52 @@
+{
+  "item_id": "d2-b16",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "reads \"LAGOS LAGOS MOVES\" instead of \"LAGOS MOVES\"",
+      "details": {
+        "transcription": "LAGOS LAGOS MOVES",
+        "legibility": "clear",
+        "judge_reason": "Text is bold, high-contrast white font, clearly legible despite repeated word 'LAGOS'."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Shoe in ad matches reference in shape, color, stripe pattern, and branding; only staging differs (worn, outdoor setting).",
+      "details": {
+        "observations": {
+          "shape": "Low-top sneaker silhouette, rounded toe, same proportions as reference product.",
+          "colour": "Grey suede upper with white 3-stripes and white midsole, consistent with reference image.",
+          "logo": "Adidas trefoil-style logo tab visible on heel/tongue, consistent placement and form.",
+          "label_text": "No garbled text visible on product itself; overlay text 'LAGOS LAGOS MOVES' is marketing copy, not product label.",
+          "parts_and_count": "Single shoe shown, worn on foot, matches single reference shoe with no added or missing parts.",
+          "presence": "Actual product (shoe) is shown being worn, not just packaging or logo alone."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Bright sunlight, dry pavement, clear skies, and bare skin shown all align with Lagos's hot, dry season conditions."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Generic urban concrete setting with no foreign landmarks, scripts, or climate mismatches; plausible as a Lagos streetscape."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No flags, landmarks, or token souvenirs used; relies on text and authentic urban scene rather than stereotypes."
+    }
+  },
+  "cost_usd": 0.02388
+}

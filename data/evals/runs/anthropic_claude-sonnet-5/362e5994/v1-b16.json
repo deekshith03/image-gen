@@ -1,0 +1,52 @@
+{
+  "item_id": "v1-b16",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"LAGOS MOVES\"",
+      "details": {
+        "transcription": "LAGOS MOVES",
+        "legibility": "clear",
+        "judge_reason": "Text is bold, high-contrast, and clearly legible against the light background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Shoe design, color, stripes, and branding match reference exactly; only staging/background differs.",
+      "details": {
+        "observations": {
+          "shape": "Same low-top sneaker silhouette, rounded toe, consistent panel lines and sole shape as reference.",
+          "colour": "Same grey suede upper with three white stripes and white midsole/outsole; slight lighting variation only.",
+          "logo": "Adidas trefoil-style tab on tongue and heel text consistent with reference; three-stripe logo on side matches.",
+          "label_text": "No garbled text; 'adidas' branding on heel and insole area legible, consistent with reference.",
+          "parts_and_count": "Single shoe shown, same lace count and eyelet pattern, no added or missing components.",
+          "presence": "Actual product shown staged outdoors, not just packaging or icon."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Dusty, hazy light with dry ground and no rain or heavy clouds matches Lagos's dry/harmattan season well."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Lagos BRT bus, danfo-style minibus, Ankara fabric stalls, and street scene authentically reflect local Nigerian urban life."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmark or flag; fabric stalls and buses are organic environmental details, not token nationality props."
+    }
+  },
+  "cost_usd": 0.02348
+}

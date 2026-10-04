@@ -1,0 +1,52 @@
+{
+  "item_id": "v3-b22",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "fail",
+      "reason": "reads \"€79 EDITION\" instead of \"€79 LIMITED EDITION\"",
+      "details": {
+        "transcription": "€79 EDITION",
+        "legibility": "clear",
+        "judge_reason": "Text is sharply rendered in simple sans-serif font with clear contrast against the marble table background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Charm design, shape, and finish match reference closely; only staging (table setting) differs, which is allowed.",
+      "details": {
+        "observations": {
+          "shape": "Round openwork charm with tree of life design, matches reference proportions and spherical bead form",
+          "colour": "Sterling silver tone consistent with reference, antique oxidized finish in recessed areas matches",
+          "logo": "No visible logo in either image, none expected to be shown externally",
+          "label_text": "No garbled text; only 'EDITION' and price marking as ad overlay, not product text",
+          "parts_and_count": "Single charm shown, same tree design with curling branches/roots, consistent hole/core structure visible",
+          "presence": "The actual physical charm is shown on a table, not just packaging or a depiction"
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Wool coat/scarf draped on chair, warm interior lighting, rainy window all suggest cold winter weather in Vienna."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Classic Viennese coffeehouse setting with 'Zeitungshalter' (German newspaper holder) and melange cup authentically evokes Vienna cafe culture."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks or flags; the coffeehouse interior and newspaper holder are authentic cultural elements, not token props."
+    }
+  },
+  "cost_usd": 0.02624
+}

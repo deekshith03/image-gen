@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b03",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"HYDRATION THAT LASTS\"",
+      "details": {
+        "transcription": "HYDRATION THAT LASTS",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline is sharply rendered in bold navy font against the window; no garbled text present in scene or near headline."
+      }
+    },
+    "product": {
+      "verdict": "fail",
+      "reason": "Label text in the ad is misspelled and garbled, deviating from the correct product text, indicating identity distortion.",
+      "details": {
+        "observations": {
+          "presence": "Product bottle is shown in both images, recognizable as CeraVe lotion.",
+          "shape": "Bottle shape, pump, and cap proportions match reasonably well.",
+          "colour": "Colour scheme (white bottle, blue cap, blue diagonal label) matches.",
+          "logo": "CeraVe logo present and correctly styled in both.",
+          "prominent_text": "Ad text is garbled/misspelled ('Moiturises aod helps restore...', 'at coron', 'Protretion de la peau') compared to correct reference text; missing 'NEW/NOUVEAU' tag.",
+          "counts": "reference: 1 bottle / ad: 1 bottle",
+          "parts": "No parts added or missing, but label wording altered/nonsensical."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Rainy window with condensation and overcast sky matches Mumbai's monsoon season accurately."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "No landmarks, scripts, or cultural elements present that contradict or misrepresent the Mumbai setting."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No stereotyped filters, token props, or forced landmarks; rain-streaked window is contextually genuine."
+    }
+  },
+  "cost_usd": 0.03263
+}

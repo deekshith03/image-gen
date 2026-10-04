@@ -1,0 +1,54 @@
+{
+  "item_id": "d2-b09",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "a86cdfb1",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"FRESH LIKE THE OCEAN\"",
+      "details": {
+        "transcription": "FRESH LIKE THE OCEAN",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is sharply rendered with clean, legible typography against a blurred ocean background."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Bottle shape, color, logo, and text match reference exactly; only staging (ocean background) differs.",
+      "details": {
+        "observations": {
+          "presence": "Product bottle is clearly shown in the advertisement, matching the reference item.",
+          "shape": "Same rectangular bottle with scalloped/wave-edged cap and body, consistent proportions.",
+          "colour": "Same blue gradient glass, silver cap and spray nozzle, silver brand plaque.",
+          "logo": "VERSACE MAN logo on silver plaque present and correctly spelled in both images.",
+          "prominent_text": "'EAU FRAÎCHE' text visible in both; correctly spelled, consistent font and placement.",
+          "counts": "reference: 1 bottle / ad: 1 bottle",
+          "parts": "All parts present—cap, nozzle, plaque, label text; nothing missing or added."
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Bright sun, clear blue ocean and warm light are consistent with Rio's summer climate."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Coastal rocky cliff, ocean and pool scene is plausible for Rio's coastline, no conflicting culture shown."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No forced landmarks, flags, or token cultural props; scene relies on generic coastal luxury setting."
+    }
+  },
+  "cost_usd": 0.02532
+}

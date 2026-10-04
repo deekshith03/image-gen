@@ -1,0 +1,54 @@
+{
+  "item_id": "v1-b45",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "f5089f81",
+  "passed": false,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"SHINE ALL SUMMER\"",
+      "details": {
+        "transcription": "SHINE ALL SUMMER",
+        "legibility": "clear",
+        "scene_garble": "",
+        "judge_reason": "Headline text is crisp, well-rendered metallic lettering with no distortion or nonsense characters."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Case design, color pattern, logo placement, and camera cutout details match reference exactly; only staging (background, lighting) differs.",
+      "details": {
+        "observations": {
+          "presence": "Product (Case-Mate Soap Bubble iPhone case) is clearly shown in the ad photo.",
+          "shape": "Same case shape, cutouts, and proportions for triple-camera module and buttons.",
+          "colour": "Same clear case with holographic/iridescent swirl pattern in pink, blue, green tones.",
+          "logo": "Apple logo visible through case in both; Case-Mate 'OM' logo present at bottom in both.",
+          "prominent_text": "No garbled text; ad adds overlay text 'SHINE ALL SUMMER' which is marketing copy, not on product itself.",
+          "counts": "reference: 3 camera lenses, 1 flash, 1 mic hole / ad: 3 camera lenses, 1 flash, 1 mic hole - matches.",
+          "parts": "No missing or added parts; side buttons, camera cutout, and case edges consistent."
+        }
+      }
+    },
+    "context": {
+      "verdict": "fail",
+      "reason": "no_cliche: BVG ticket explicitly printed with 'Berlin' is a token prop forcing location identity, unrelated to the phone case."
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Clear sunny sky, green trees, light haze consistent with a warm Berlin summer day; no contradicting weather cues."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Berlin TV Tower and Reichstag dome are genuine local landmarks; no foreign or mismatched cultural markers appear."
+    },
+    "no_cliche": {
+      "verdict": "fail",
+      "reason": "BVG ticket explicitly printed with 'Berlin' is a token prop forcing location identity, unrelated to the phone case."
+    }
+  },
+  "cost_usd": 0.03168
+}

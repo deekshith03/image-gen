@@ -1,0 +1,52 @@
+{
+  "item_id": "v3-b17",
+  "model": "anthropic/claude-sonnet-5",
+  "prompt_version": "362e5994",
+  "passed": true,
+  "checks": {
+    "size": {
+      "verdict": "pass",
+      "reason": "1024×1024, long edge ≤ 1024px"
+    },
+    "text": {
+      "verdict": "pass",
+      "reason": "reads exactly \"ランニングセール\"",
+      "details": {
+        "transcription": "ランニングセール",
+        "legibility": "clear",
+        "judge_reason": "Bold black Japanese text is sharply rendered against a plain sky background, fully legible."
+      }
+    },
+    "product": {
+      "verdict": "pass",
+      "reason": "Shoe shape, colour, logo, and labeling match the reference product; staging with props does not alter identity.",
+      "details": {
+        "observations": {
+          "shape": "Same low-top Flyknit silhouette with curved heel, consistent proportions matching reference shoe",
+          "colour": "White/platinum knit upper with black Swoosh and white midsole, matches reference colourway",
+          "logo": "Swoosh present and correctly placed on lateral side, consistent shape and orientation",
+          "label_text": "NIKE text visible on heel tab, legible and correctly spelled, 'LUNARLON' text on midsole consistent with reference",
+          "parts_and_count": "Single shoe shown, laces present, consistent with single reference item, no added or missing parts",
+          "presence": "Actual physical shoe is shown in the staged scene, not just packaging or a graphic"
+        }
+      }
+    },
+    "context": {
+      "verdict": "pass",
+      "reason": "all context checks pass"
+    },
+    "season_fit": {
+      "verdict": "pass",
+      "reason": "Lush green grass, bright sunlight, and clear sky align well with summer conditions in Tokyo, Japan."
+    },
+    "market_fit": {
+      "verdict": "pass",
+      "reason": "Japanese text, Pocari Sweat drink, and roadside setting feel authentic and natural for Tokyo without contradictions."
+    },
+    "no_cliche": {
+      "verdict": "pass",
+      "reason": "No landmarks or national symbols; props like the drink and towel serve the running theme naturally."
+    }
+  },
+  "cost_usd": 0.02421
+}
