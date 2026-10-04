@@ -33,10 +33,23 @@ def test_text_problems_empty_for_exact_match():
 
 
 @pytest.mark.parametrize(
-    ("raw", "verdict"), [("fail", Verdict.FAIL), ("FAIL ", Verdict.FAIL), ("pass", Verdict.PASS), ("", Verdict.PASS), ("pass | fail", Verdict.PASS)]
+    ("raw", "verdict"),
+    [
+        ("fail", Verdict.FAIL),
+        ("FAIL ", Verdict.FAIL),
+        ("pass", Verdict.PASS),
+        (" Pass", Verdict.PASS),
+        ("pass | fail", Verdict.PASS),
+        ("", Verdict.FAIL),
+        ("ok", Verdict.FAIL),
+    ],
 )
 def test_parse_verdict(raw, verdict):
     assert parse_verdict({"verdict": raw}) == verdict
+
+
+def test_parse_verdict_fails_closed_when_missing():
+    assert parse_verdict({}) == Verdict.FAIL
 
 
 def test_combine_context_reports_only_failures():

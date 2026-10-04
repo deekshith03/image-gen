@@ -1,6 +1,7 @@
 # Evaluator results
 
 **Judge:** Claude Sonnet 5 (`anthropic/claude-sonnet-5`), prompt version `f5089f81` (v3), frozen before the test run.
+**Note:** verdict parsing was made fail-closed after the test run (a missing or unreadable verdict now counts as fail, not pass). No stored pass has an empty reason, so no reported number changes.
 **Golden set:** 109 items (46 final D2 ads, 24 earlier-strategy failures, 39 planted single-change edits), human-labelled, split by product.
 
 ## Test split (53 held-out items, run once)

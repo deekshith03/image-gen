@@ -170,7 +170,7 @@ On the held-out test:
 - **Catch rate** is the TPR on true failures; **pass rate** is the TNR on true passes. Both are reported per check.
 - **Unsure labels** are not scored.
 - **The "independent" rows** exclude labels where the human kept the panel's pre-fill, which guards against circularity.
-- **Judge results are cached per prompt version.** The test split refuses to run under any prompt version other than the frozen one.
+- **Judge results are cached per prompt version.** The test split refuses to run under any prompt version other than the frozen one. The key covers only the prompts: after changing `src/adgen/evaluation/judge.py`, delete the affected dev items' files under `data/evals/runs/` so they are re-judged.
 
 ### 4.3 Results (held-out test)
 

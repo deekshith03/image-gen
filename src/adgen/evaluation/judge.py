@@ -62,7 +62,7 @@ def normalise_headline(text: str) -> str:
 
 
 def parse_verdict(data: dict) -> Verdict:
-    return Verdict.FAIL if str(data.get("verdict", "")).strip().lower().startswith("fail") else Verdict.PASS
+    return Verdict.PASS if str(data.get("verdict", "")).strip().lower().startswith("pass") else Verdict.FAIL
 
 
 def check_size(ad_path: Path) -> CheckResult:
